@@ -1,0 +1,1987 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "name": "プロローグ",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2200000,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900037,
+                                4294967295,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "待機モーション"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                1
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "イベントスキップ"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                1
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_f_room.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki01",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_m_room.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki01",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                4,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                7,
+                                2,
+                                1,
+                                1,
+                                73
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                7,
+                                3,
+                                1,
+                                1,
+                                81
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                9,
+                                7,
+                                1,
+                                1,
+                                59
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                100
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/match_bell.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "stringArgs": [
+                                "ПОМОГИ..."
+                            ],
+                            "intArgs": [
+                                4128,
+                                50001,
+                                20,
+                                1,
+                                1,
+                                1,
+                                255,
+                                320,
+                                180,
+                                100,
+                                0
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "code": 123,
+                            "codeStr": "InputKey",
+                            "intArgs": [
+                                1100000,
+                                144
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                2,
+                                50001,
+                                50
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                100
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/match_bell.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 25
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "stringArgs": [
+                                "НАЙДИ МЕНЯ..."
+                            ],
+                            "intArgs": [
+                                4128,
+                                50001,
+                                20,
+                                1,
+                                1,
+                                1,
+                                255,
+                                320,
+                                180,
+                                100,
+                                0
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "code": 123,
+                            "codeStr": "InputKey",
+                            "intArgs": [
+                                1100000,
+                                144
+                            ],
+                            "index": 27
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                2,
+                                50001,
+                                50
+                            ],
+                            "index": 28
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                150
+                            ],
+                            "index": 29
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 30
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 31
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 32
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@1\nУх-х... Мисао?\nЭто ты, Мисао?"
+                            ],
+                            "index": 33
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 35
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@1\nА... Мисао?\nЭто была Мисао?"
+                            ],
+                            "index": 36
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967295,
+                                15,
+                                8,
+                                4294967295,
+                                1
+                            ],
+                            "index": 39
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Мисао!!"
+                            ],
+                            "index": 40
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 41
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "画面色調変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                0,
+                                0,
+                                100
+                            ],
+                            "index": 42
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/lab_kinusure.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 43
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 44
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 45
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                128,
+                                3,
+                                1,
+                                1,
+                                1,
+                                3,
+                                0
+                            ],
+                            "index": 46
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 47
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_f_room.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967295,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 48
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 49
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                8,
+                                3,
+                                1,
+                                1,
+                                85
+                            ],
+                            "index": 50
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                8,
+                                4,
+                                1,
+                                1,
+                                93
+                            ],
+                            "index": 51
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                8,
+                                5,
+                                1,
+                                1,
+                                101
+                            ],
+                            "index": 52
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 54
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                128,
+                                3,
+                                1,
+                                1,
+                                4,
+                                6,
+                                0
+                            ],
+                            "index": 55
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 56
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_f_room.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967295,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 57
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 58
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                8,
+                                3,
+                                1,
+                                1,
+                                85
+                            ],
+                            "index": 59
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                8,
+                                4,
+                                1,
+                                1,
+                                93
+                            ],
+                            "index": 60
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                8,
+                                5,
+                                1,
+                                1,
+                                101
+                            ],
+                            "index": 61
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967294,
+                                12,
+                                0,
+                                0
+                            ],
+                            "index": 64
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@1\nЭ... Мне это приснилось...?"
+                            ],
+                            "index": 65
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                100
+                            ],
+                            "index": 66
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 67
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Мисао...\nЯ... надеюсь это был сон."
+                            ],
+                            "index": 68
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Прошло уже три месяца...?"
+                            ],
+                            "index": 69
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 70
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "x",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 71
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 72
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 73
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 74
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki01",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                7,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 75
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "О нет! Уже поздно!\nЯ же опоздаю в школу!"
+                            ],
+                            "index": 76
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 78
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki01",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                8,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 79
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Ой! Уже поздно!\nЯ же опоздаю в школу!"
+                            ],
+                            "index": 80
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "x",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 83
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 84
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/lab_locker_open1.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 85
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                11,
+                                3,
+                                1,
+                                1,
+                                87
+                            ],
+                            "index": 86
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                11,
+                                4,
+                                1,
+                                1,
+                                95
+                            ],
+                            "index": 87
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                11,
+                                5,
+                                1,
+                                1,
+                                103
+                            ],
+                            "index": 88
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 89
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                11,
+                                3,
+                                1,
+                                1,
+                                0
+                            ],
+                            "index": 90
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                11,
+                                4,
+                                1,
+                                1,
+                                86
+                            ],
+                            "index": 91
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                11,
+                                5,
+                                1,
+                                1,
+                                94
+                            ],
+                            "index": 92
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                30
+                            ],
+                            "index": 93
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 94
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                3,
+                                4294967295,
+                                0
+                            ],
+                            "index": 95
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@2\nМисао никогда не выделялась в нашем классе...\nОна была самой обычной девушкой."
+                            ],
+                            "index": 96
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 97
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 98
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Я не была близка с ней, но я волновалась за Мисао.\nВедь она всегда была одна."
+                            ],
+                            "index": 99
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 101
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Я не был близок с ней, но мне всегда была интересна Мисао.\nПотому что она всегда была одна."
+                            ],
+                            "index": 102
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 105
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 106
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 107
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_f_socks.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 108
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 110
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_m_socks.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 111
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                30
+                            ],
+                            "index": 114
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                11,
+                                3,
+                                1,
+                                1,
+                                87
+                            ],
+                            "index": 115
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                11,
+                                4,
+                                1,
+                                1,
+                                95
+                            ],
+                            "index": 116
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                11,
+                                5,
+                                1,
+                                1,
+                                103
+                            ],
+                            "index": 117
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 118
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                11,
+                                3,
+                                1,
+                                3,
+                                0
+                            ],
+                            "index": 119
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/lab_locker_close1.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 120
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 121
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 122
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Я надеялась стать её другом.\nНо... Этого не произошло..."
+                            ],
+                            "index": 124
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 126
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Я думал, было бы хорошо стать её другом.\nНо... Этого не произошло..."
+                            ],
+                            "index": 128
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 131
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                11,
+                                14,
+                                1,
+                                1,
+                                0
+                            ],
+                            "index": 132
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 133
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 134
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki01",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                9,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 135
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000010,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 136
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Три месяца назад Мисао пропала."
+                            ],
+                            "index": 137
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Она не приходила в школу\nи не возвращалась домой."
+                            ],
+                            "index": 138
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 140
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki01",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                12,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 141
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000010,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 142
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Три месяца назад Мисао пропала."
+                            ],
+                            "index": 143
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Она не приходила в школу\nи не возвращалась домой."
+                            ],
+                            "index": 144
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Она не казалась таким человеком, который может\nсбежать из дома. Наши родители говорили,\nчто она могла во что-то ввязаться."
+                            ],
+                            "index": 147
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000010,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 148
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 149
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 150
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_f_bag.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 151
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 153
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_m_bag.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 154
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 157
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "x",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 158
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                400,
+                                0,
+                                1,
+                                1,
+                                9,
+                                11,
+                                0
+                            ],
+                            "index": 159
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 160
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラ方向変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                5,
+                                4294967294,
+                                8,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 161
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 162
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967294,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 163
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 164
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 165
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@1\nНу, я ушла!"
+                            ],
+                            "index": 166
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 168
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@1\nОтлично... Я ушёл!"
+                            ],
+                            "index": 169
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラ方向変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                5,
+                                4294967294,
+                                2,
+                                3,
+                                0,
+                                0
+                            ],
+                            "index": 172
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                3
+                            ],
+                            "index": 173
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 174
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/lab_door_open.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 175
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 176
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 177
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/lab_door_genkan_close.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 178
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "画面色調変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                0,
+                                0,
+                                0,
+                                150
+                            ],
+                            "index": 179
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                16777218,
+                                4294967196,
+                                0,
+                                0,
+                                0,
+                                100
+                            ],
+                            "index": 180
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967295,
+                                9,
+                                9,
+                                2,
+                                0
+                            ],
+                            "index": 181
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "靴アニメ",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                160,
+                                3,
+                                1,
+                                1,
+                                9,
+                                11,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                24
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                400,
+                                0,
+                                1,
+                                1,
+                                9,
+                                11,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                30
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                160,
+                                3,
+                                1,
+                                1,
+                                12,
+                                14,
+                                0
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                24
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                400,
+                                0,
+                                1,
+                                1,
+                                9,
+                                11,
+                                0
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                30
+                            ],
+                            "index": 11
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "[並列]マップ効果",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "マップ光影",
+                                "map_prologue"
+                            ],
+                            "intArgs": [
+                                0,
+                                4116,
+                                4294967295,
+                                100,
+                                100,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "マップ光影",
+                                "map_prologue_2"
+                            ],
+                            "intArgs": [
+                                0,
+                                4116,
+                                4294967295,
+                                4294967196,
+                                80,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

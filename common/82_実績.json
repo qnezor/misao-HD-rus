@@ -1,0 +1,175 @@
+{
+    "id": 82,
+    "name": "実績",
+    "description": "",
+    "commands": [
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "クイックセーブをする"
+            ],
+            "index": 0
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "キーアイテムを確認する"
+            ],
+            "index": 1
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "図書室と数回会話をする"
+            ],
+            "index": 2
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "花子さんを撃退する"
+            ],
+            "index": 3
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "図書室で日記を読む"
+            ],
+            "index": 4
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "童話「太目のカイジン」を読む"
+            ],
+            "index": 5
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "屋上から飛び降りる"
+            ],
+            "index": 6
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "食事をとる"
+            ],
+            "index": 7
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "吉野を見捨てる"
+            ],
+            "index": 8
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "工藤を助ける"
+            ],
+            "index": 9
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ダンボールに隠れる"
+            ],
+            "index": 10
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ピアノを弾く"
+            ],
+            "index": 11
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "便器のにおいを嗅ぐ"
+            ],
+            "index": 12
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "研究所の奥でメッセージを見つける"
+            ],
+            "index": 13
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "BADENDを見る"
+            ],
+            "index": 14
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "男主人公で本編をクリアする"
+            ],
+            "index": 15
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "女主人公で本編をクリアする"
+            ],
+            "index": 16
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "操に小銭を渡す"
+            ],
+            "index": 17
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "真EDで倉田を解放する"
+            ],
+            "index": 18
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "男主人公で真EDをクリアする"
+            ],
+            "index": 19
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "女主人公で真EDをクリアする\r"
+            ],
+            "index": 20
+        }
+    ]
+}

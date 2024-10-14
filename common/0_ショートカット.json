@@ -1,0 +1,1074 @@
+{
+    "id": 0,
+    "name": "ショートカット",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                4,
+                1600000,
+                0,
+                2,
+                1600000,
+                1,
+                2,
+                1600000,
+                2,
+                2,
+                1600000,
+                3,
+                2
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "キャラ座標取得"
+            ],
+            "index": 2
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600001,
+                4294967294,
+                2
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 4
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                2800000,
+                4096,
+                4294967294,
+                6
+            ],
+            "index": 5
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                2800001,
+                4096,
+                4294967294,
+                7
+            ],
+            "index": 6
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                2800000,
+                4096,
+                1600001,
+                6
+            ],
+            "index": 9
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                2800001,
+                4096,
+                1600001,
+                7
+            ],
+            "index": 10
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2800000,
+                1600002,
+                0,
+                256
+            ],
+            "index": 13
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2800001,
+                1600003,
+                0,
+                256
+            ],
+            "index": 14
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 16
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "扉開閉"
+            ],
+            "index": 17
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                3,
+                1600001,
+                0,
+                2,
+                1600001,
+                1,
+                2,
+                1600001,
+                2,
+                2
+            ],
+            "index": 18
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 19
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_door_schl_open.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 20
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 21
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 23
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_door_open.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 24
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 25
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 27
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_door_open_w.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 28
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 29
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 32
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 34
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "主人公の状態リセット"
+            ],
+            "index": 35
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 36
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 37
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000007,
+                0,
+                2,
+                2000007,
+                1,
+                2
+            ],
+            "index": 38
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 39
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 40
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 42
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 43
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 47
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000007,
+                0,
+                2,
+                2000007,
+                1,
+                2
+            ],
+            "index": 48
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 49
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 50
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 52
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 53
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900022,
+                0,
+                2,
+                2900022,
+                1,
+                2
+            ],
+            "index": 58
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 59
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 60
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 62
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 63
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 66
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 68
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600001,
+                4096,
+                4294967294,
+                5
+            ],
+            "index": 69
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "主人公物調"
+            ],
+            "index": 70
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                3,
+                1600001,
+                7,
+                2,
+                1600001,
+                8,
+                2,
+                1600001,
+                9,
+                2
+            ],
+            "index": 71
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 72
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 73
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 75
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 76
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 78
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 79
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 85
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                4,
+                1600000,
+                4,
+                2,
+                1600000,
+                5,
+                2,
+                1600000,
+                6,
+                2,
+                1600000,
+                7,
+                2
+            ],
+            "index": 86
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 87
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ライトを消す"
+            ],
+            "index": 88
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200002,
+                0,
+                0,
+                0
+            ],
+            "index": 89
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                3000,
+                1600002
+            ],
+            "index": 90
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                4000,
+                1600002
+            ],
+            "index": 91
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 93
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "画面を黒く"
+            ],
+            "index": 94
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600001,
+                0,
+                2,
+                1600001,
+                4294967295,
+                2
+            ],
+            "index": 95
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 96
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                4656,
+                4001,
+                1600002,
+                700,
+                500,
+                1,
+                100,
+                320,
+                240,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                50,
+                50,
+                0
+            ],
+            "index": 97
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 99
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                4001,
+                1600002
+            ],
+            "index": 100
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 104
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "移動制限"
+            ],
+            "index": 105
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                18,
+                1600001,
+                4294967295,
+                2,
+                1600001,
+                0,
+                2
+            ],
+            "index": 106
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 107
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ダッシュ"
+            ],
+            "intArgs": [
+                0,
+                1,
+                4294967295
+            ],
+            "index": 108
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "待機モーション"
+            ],
+            "intArgs": [
+                0,
+                1,
+                4294967295
+            ],
+            "index": 109
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900037,
+                4294967295,
+                0,
+                0
+            ],
+            "index": 110
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900004,
+                1,
+                0,
+                0
+            ],
+            "index": 111
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900009,
+                1,
+                0,
+                0
+            ],
+            "index": 112
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 114
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ダッシュ"
+            ],
+            "intArgs": [
+                0,
+                1,
+                1
+            ],
+            "index": 115
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "待機モーション"
+            ],
+            "intArgs": [
+                0,
+                1,
+                1
+            ],
+            "index": 116
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900037,
+                0,
+                0,
+                0
+            ],
+            "index": 117
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900004,
+                0,
+                0,
+                0
+            ],
+            "index": 118
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900009,
+                0,
+                0,
+                0
+            ],
+            "index": 119
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 121
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 125
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "1対象キャラ 2消すか表示 3ウェイト"
+            ],
+            "index": 126
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600002,
+                0,
+                2,
+                1600002,
+                1,
+                2
+            ],
+            "index": 127
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 128
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                1600001
+            ],
+            "index": 129
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 131
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                1600001
+            ],
+            "index": 132
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600003,
+                0,
+                2
+            ],
+            "index": 135
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 136
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 142
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600000,
+                8,
+                2
+            ],
+            "index": 143
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 144
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "名前変更確認"
+            ],
+            "index": 145
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600001,
+                0,
+                2,
+                1600001,
+                1,
+                2
+            ],
+            "index": 146
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 147
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "протагониста"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 148
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 150
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Библиотеки"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 151
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Изменить имя \\cself[5]? (Требуется ввод с клавиатуры)"
+            ],
+            "intArgs": [
+                3000010,
+                0,
+                0
+            ],
+            "index": 154
+        }
+    ]
+}

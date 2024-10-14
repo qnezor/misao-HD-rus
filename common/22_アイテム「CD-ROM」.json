@@ -1,0 +1,256 @@
+{
+    "id": 22,
+    "name": "アイテム「CD-ROM」",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2900011,
+                5,
+                2
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                2000002,
+                1,
+                2
+            ],
+            "index": 2
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 3
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967294,
+                3,
+                0,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 5
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 6
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "I have to help Saotome!"
+            ],
+            "index": 7
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 9
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "I gotta save Saotome!"
+            ],
+            "index": 10
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                3,
+                0,
+                1
+            ],
+            "index": 15
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_disk_insert.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 16
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 17
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                3,
+                1,
+                1
+            ],
+            "index": 18
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 19
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SystemFile/lab_point.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 20
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                7
+            ],
+            "index": 21
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム入手"
+            ],
+            "intArgs": [
+                0,
+                2,
+                7,
+                4294967295
+            ],
+            "index": 22
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 23
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                7,
+                1
+            ],
+            "index": 24
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900030,
+                1,
+                0,
+                0
+            ],
+            "index": 25
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム使用不可"
+            ],
+            "intArgs": [
+                0,
+                0
+            ],
+            "index": 31
+        }
+    ]
+}

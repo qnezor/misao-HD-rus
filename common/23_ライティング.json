@@ -1,0 +1,332 @@
+{
+    "id": 23,
+    "name": "ライティング",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                2000,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600011,
+                4096,
+                4294967295,
+                10
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1600011,
+                0,
+                256
+            ],
+            "index": 2
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600012,
+                4096,
+                4294967295,
+                6
+            ],
+            "index": 3
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600013,
+                4096,
+                4294967295,
+                7
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                25,
+                0,
+                512
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                1600002,
+                0,
+                256
+            ],
+            "index": 6
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                3,
+                1600000,
+                4294967295,
+                2,
+                1600000,
+                0,
+                1,
+                1600000,
+                4294967294,
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 8
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                2000,
+                1600001,
+                0,
+                0,
+                2100
+            ],
+            "index": 9
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 11
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                3,
+                1600000,
+                0,
+                2,
+                1600000,
+                1,
+                2,
+                1600000,
+                2,
+                2
+            ],
+            "index": 12
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 13
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "白"
+            ],
+            "index": 14
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                200,
+                0,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600021,
+                200,
+                0,
+                0
+            ],
+            "index": 16
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600022,
+                200,
+                0,
+                0
+            ],
+            "index": 17
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 19
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "橙"
+            ],
+            "index": 20
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                170,
+                0,
+                0
+            ],
+            "index": 21
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600021,
+                150,
+                0,
+                0
+            ],
+            "index": 22
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600022,
+                50,
+                0,
+                0
+            ],
+            "index": 23
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 25
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                170,
+                0,
+                0
+            ],
+            "index": 26
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600021,
+                50,
+                0,
+                0
+            ],
+            "index": 27
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600022,
+                50,
+                0,
+                0
+            ],
+            "index": 28
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Effect/Eff_light.png"
+            ],
+            "intArgs": [
+                33558784,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                50,
+                1600012,
+                1600013,
+                1600001,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                1600020,
+                1600021,
+                1600022
+            ],
+            "index": 31
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 33
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600002,
+                1600001
+            ],
+            "index": 34
+        }
+    ]
+}

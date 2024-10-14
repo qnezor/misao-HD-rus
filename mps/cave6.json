@@ -1,0 +1,337 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "name": "←",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967295,
+                                16,
+                                41,
+                                36,
+                                17
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000021,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "泥まみれの川靴",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "仕草"
+                            ],
+                            "intArgs": [
+                                0,
+                                3,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キーアイテム入手"
+                            ],
+                            "intArgs": [
+                                0,
+                                2,
+                                2,
+                                1
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                30
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 280,
+                            "codeStr": "MapEffect",
+                            "intArgs": [
+                                67,
+                                10
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/lab_rock_break_re.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100,
+                                0
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                9,
+                                3,
+                                1,
+                                2,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000020,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 12
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                20
+                            ],
+                            "index": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "出口",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                1100001,
+                                0,
+                                2
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                9,
+                                3,
+                                1,
+                                1,
+                                33
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                9,
+                                4,
+                                1,
+                                1,
+                                41
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100001,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 4
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/match_step_re.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000032,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28725,
+                                33,
+                                22,
+                                23,
+                                4,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "name": "イベントスキップ処理1",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "イベントスキップ"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                4294967295
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                16777218,
+                                4294967196,
+                                0,
+                                0,
+                                0,
+                                2
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                2,
+                                5000,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                2,
+                                21000,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                2,
+                                40200,
+                                0
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                2,
+                                99999,
+                                0
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "エンディング"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 8
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                2,
+                                21000,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                2,
+                                40200,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "エンディング"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                1
+                            ],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "画面色調変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "スタッフロール"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                1
+                            ],
+                            "index": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "ピクチャ消去",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                2,
+                                99999,
+                                0
+                            ],
+                            "index": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

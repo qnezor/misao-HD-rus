@@ -1,0 +1,201 @@
+{
+    "id": 147,
+    "name": "マップ光影",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                0,
+                1,
+                1600000,
+                4294967295,
+                2
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600011,
+                4096,
+                1600000,
+                6
+            ],
+            "index": 2
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600012,
+                4096,
+                1600000,
+                7
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 5
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600011,
+                4096,
+                4294967295,
+                6
+            ],
+            "index": 6
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600012,
+                4096,
+                4294967295,
+                7
+            ],
+            "index": 7
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                16,
+                0,
+                512
+            ],
+            "index": 10
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                32,
+                0,
+                512
+            ],
+            "index": 11
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Effect/"
+            ],
+            "intArgs": [
+                1600006,
+                0,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\cself[5].png"
+            ],
+            "intArgs": [
+                1600006,
+                256,
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                33554448,
+                1600001,
+                0,
+                1,
+                1,
+                1,
+                0,
+                1600011,
+                1600012,
+                100,
+                0,
+                1600006
+            ],
+            "index": 14
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600003,
+                1,
+                2
+            ],
+            "index": 15
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 16
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                37814545,
+                1600001,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216
+            ],
+            "index": 17
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                224,
+                0,
+                1600001,
+                1600001,
+                1600002,
+                0,
+                0
+            ],
+            "index": 20
+        }
+    ]
+}

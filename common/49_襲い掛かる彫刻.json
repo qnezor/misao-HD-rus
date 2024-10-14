@@ -1,0 +1,248 @@
+{
+    "id": 49,
+    "name": "襲い掛かる彫刻",
+    "description": "",
+    "commands": [
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 0
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                16776960,
+                0,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アニメーション"
+            ],
+            "intArgs": [
+                0,
+                4,
+                7,
+                320,
+                180,
+                4294967196
+            ],
+            "index": 2
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 3
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                3,
+                0,
+                0,
+                100
+            ],
+            "index": 4
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                9,
+                5,
+                32,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                4294967040,
+                0,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 173,
+            "codeStr": "EraseEvent",
+            "intArgs": [
+                6,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 173,
+            "codeStr": "EraseEvent",
+            "intArgs": [
+                1,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 9
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 10
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki04",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                18,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 11
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 13
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki04",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                19,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 17
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                1824,
+                0,
+                0,
+                0
+            ],
+            "index": 18
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                0,
+                0,
+                150
+            ],
+            "index": 19
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "退学リスト更新"
+            ],
+            "intArgs": [
+                0,
+                1,
+                78
+            ],
+            "index": 20
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ゲームオーバー"
+            ],
+            "intArgs": [
+                0,
+                1,
+                0
+            ],
+            "index": 21
+        }
+    ]
+}

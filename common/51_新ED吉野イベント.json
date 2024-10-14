@@ -1,0 +1,590 @@
+{
+    "id": 51,
+    "name": "新ED吉野イベント",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1100000,
+                0,
+                2
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                19,
+                2900008,
+                4,
+                2,
+                2900008,
+                2,
+                2,
+                2900008,
+                6,
+                2
+            ],
+            "index": 2
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 3
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                3360,
+                0,
+                0,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 270,
+            "codeStr": "Party",
+            "stringArgs": [
+                "CharaChip/aki_バット.png"
+            ],
+            "intArgs": [
+                2,
+                1
+            ],
+            "index": 5
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@52\n\\s[1]\n Мисао, хватит!"
+            ],
+            "index": 6
+        },
+        {
+            "code": 151,
+            "codeStr": "ChangeColor",
+            "intArgs": [
+                0,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                4640,
+                0,
+                0,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                3872,
+                0,
+                0,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 10
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 11
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                30
+            ],
+            "index": 12
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967294,
+                24,
+                5,
+                0,
+                4294967280
+            ],
+            "index": 13
+        },
+        {
+            "code": 270,
+            "codeStr": "Party",
+            "stringArgs": [
+                "CharaChip/aki.png"
+            ],
+            "intArgs": [
+                2,
+                1
+            ],
+            "index": 14
+        },
+        {
+            "code": 151,
+            "codeStr": "ChangeColor",
+            "intArgs": [
+                5260870,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 16
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1000190,
+                1,
+                0,
+                256
+            ],
+            "index": 17
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1100000,
+                1,
+                0,
+                0
+            ],
+            "index": 18
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1000051,
+                1,
+                0,
+                256
+            ],
+            "index": 19
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 21
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@50\n\\s[1]\n Смотри, Мисао! Деньги!"
+            ],
+            "index": 22
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 23
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@3\n\\s[1]\n Она даже не посмотрела. Какой позор.\n Думаю, мне придется оставить эти монеты для себя."
+            ],
+            "index": 24
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 26
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@52\n\\s[1]\n Получай!"
+            ],
+            "index": 27
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@54\n\\s[1]\n ...Нет.\n Я не могу сделать что-то настолько ужасное как посыпать её солью!\n Надо придумать что-нибудь ещё!"
+            ],
+            "index": 28
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 30
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nМисао не остановить."
+            ],
+            "index": 31
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 36
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1100000,
+                0,
+                2
+            ],
+            "index": 37
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 38
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                19,
+                2900008,
+                4,
+                2,
+                2900008,
+                2,
+                2,
+                2900008,
+                6,
+                2
+            ],
+            "index": 39
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 40
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                3360,
+                0,
+                0,
+                0
+            ],
+            "index": 41
+        },
+        {
+            "code": 270,
+            "codeStr": "Party",
+            "stringArgs": [
+                "CharaChip/aki2_バット.png"
+            ],
+            "intArgs": [
+                2,
+                1
+            ],
+            "index": 42
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@53\n\\s[1]\n Мисао, прекрати!"
+            ],
+            "index": 43
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 44
+        },
+        {
+            "code": 270,
+            "codeStr": "Party",
+            "stringArgs": [
+                "CharaChip/aki2.png"
+            ],
+            "intArgs": [
+                2,
+                1
+            ],
+            "index": 45
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "\\s[1]\n Гх, у меня в голове ужасные мысли...\n Должен же быть вариант получше!"
+            ],
+            "index": 46
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 48
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@51\n\\s[1]\n Мисао! Нужны деньги?"
+            ],
+            "index": 49
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 50
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@16\n\\s[1]\n Даже не посмотрела на меня.\n Неужели ей этого мало?"
+            ],
+            "index": 51
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "\\s[1]\n Думаю, не в этом дело..."
+            ],
+            "index": 52
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 54
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@16\n\\s[1]\n Знаю!\n Я рассыплю это вокруг Йошино!"
+            ],
+            "index": 55
+        },
+        {
+            "code": 151,
+            "codeStr": "ChangeColor",
+            "intArgs": [
+                0,
+                0
+            ],
+            "index": 56
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/☆足音(草).ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                150,
+                100
+            ],
+            "index": 57
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 58
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                1,
+                25,
+                5,
+                1,
+                1,
+                171
+            ],
+            "index": 59
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 60
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                30
+            ],
+            "index": 61
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967294,
+                24,
+                5,
+                0,
+                4294967280
+            ],
+            "index": 62
+        },
+        {
+            "code": 151,
+            "codeStr": "ChangeColor",
+            "intArgs": [
+                5260870,
+                0
+            ],
+            "index": 63
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 64
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1000190,
+                1,
+                0,
+                256
+            ],
+            "index": 65
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1100000,
+                1,
+                0,
+                0
+            ],
+            "index": 66
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1000051,
+                1,
+                0,
+                256
+            ],
+            "index": 67
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 69
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nМисао не остановить."
+            ],
+            "index": 70
+        }
+    ]
+}

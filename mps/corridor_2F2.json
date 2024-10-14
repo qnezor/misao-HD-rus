@@ -1,0 +1,857 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "name": "<LIGHT>防犯シャッター",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100009,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "文書コモン"
+                            ],
+                            "intArgs": [
+                                0,
+                                3,
+                                2,
+                                0,
+                                1
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100003,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                2800000,
+                                4096,
+                                4294967294,
+                                2
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                2800000,
+                                20,
+                                2
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                3,
+                                16
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100003,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 5
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "list": [
+                        {
+                            "code": 103,
+                            "codeStr": "Comment",
+                            "stringArgs": [
+                                "コモン0=マップ座標"
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "intArgs": [
+                                16776960,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                3,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/match_mecha_shutter.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                5,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 179,
+                            "codeStr": "LoopTimes",
+                            "intArgs": [
+                                7
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                10,
+                                1100000,
+                                1,
+                                1,
+                                397
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                256
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/lab_sword_slash.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                100
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki02",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                4294967295,
+                                10,
+                                10,
+                                32,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki02",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                4294967294,
+                                10,
+                                10,
+                                32,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                3219201,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                0,
+                                4294967196,
+                                4293967296,
+                                0,
+                                16777216,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                100
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki02",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                4294967295,
+                                10,
+                                10,
+                                33,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki02",
+                                "",
+                                "",
+                                "33"
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967294,
+                                4294967294,
+                                10,
+                                10,
+                                33,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                3219201,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                0,
+                                4294967196,
+                                4293967296,
+                                0,
+                                16777216,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                100
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                4294967295,
+                                10,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                4294967269,
+                                30,
+                                4293967296,
+                                4294966396,
+                                0,
+                                16777216
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                4294967294,
+                                10,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                27,
+                                30,
+                                4293967296,
+                                900,
+                                0,
+                                16777216
+                            ],
+                            "index": 25
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/onjin_tentou.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                10,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/onjin_nukarumu.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                10,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 27
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                100
+                            ],
+                            "index": 28
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "退学リスト更新"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                59
+                            ],
+                            "index": 29
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ゲームオーバー"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                0
+                            ],
+                            "index": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "【移動】2-B",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000069,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000079,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28725,
+                                30,
+                                8,
+                                11,
+                                6,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2200004,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "【移動】2-B",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000069,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000079,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28725,
+                                30,
+                                8,
+                                29,
+                                6,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2200004,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "【移動】廊下",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                1100000,
+                                4096,
+                                4294967294,
+                                3
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                2,
+                                0,
+                                512
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967295,
+                                34,
+                                1100000,
+                                16,
+                                17
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "【移動】廊下ロッカー",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                1100000,
+                                4096,
+                                4294967294,
+                                3
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967295,
+                                12,
+                                1100000,
+                                43,
+                                17
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "並列",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                97,
+                                0,
+                                0,
+                                0,
+                                16,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "<HIIRO>\\sdb[0:30:9]",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "<HIIRO>\\sdb[0:30:9]",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        }
+    ]
+}

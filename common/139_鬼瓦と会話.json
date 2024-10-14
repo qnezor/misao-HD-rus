@@ -1,0 +1,1057 @@
+{
+    "id": 139,
+    "name": "鬼瓦と会話",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                0,
+                2,
+                1600000,
+                1,
+                2
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラ方向変更"
+            ],
+            "intArgs": [
+                0,
+                5,
+                4294967294,
+                8,
+                2,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 4
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                20,
+                0,
+                50
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1100009,
+                1,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1100000,
+                1,
+                0,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 8
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                19,
+                10,
+                4294967295,
+                1
+            ],
+            "index": 9
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 10
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                20,
+                0,
+                50
+            ],
+            "index": 11
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                8,
+                1,
+                0,
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nПонятно...\nЗначит, вы преподнесли ключи алтарю."
+            ],
+            "index": 15
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Однако, похоже, проклятие еще не снято.\nПохоже, нам понадобится жертва."
+            ],
+            "index": 16
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967294,
+                1,
+                0,
+                0
+            ],
+            "index": 17
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Жертва?"
+            ],
+            "index": 18
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                8,
+                1,
+                0,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Ты видел красные надгробия снаружи?"
+            ],
+            "index": 20
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Души тех, кто в момент смерти высек\nсвои имена на могилах, должны быть\nпринесены в жертву, чтобы освободить её душу."
+            ],
+            "index": 21
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Есть четыре надгробия.\nЗначит, должно быть четыре имени."
+            ],
+            "index": 22
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "На трёх из них уже высечены имена.\n...Осталась только одна."
+            ],
+            "index": 23
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Кто-то должен стать последней жертвой..."
+            ],
+            "index": 24
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                288,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 25
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                0,
+                2,
+                1600000,
+                1,
+                2
+            ],
+            "index": 26
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 27
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 28
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 29
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki02",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 30
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                1,
+                1,
+                4,
+                5,
+                0
+            ],
+            "index": 31
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 33
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki02",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                8,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 34
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                1,
+                1,
+                8,
+                9,
+                0
+            ],
+            "index": 35
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 39
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 40
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 41
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki05",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                4294967295,
+                10,
+                10,
+                90,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 42
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                4294967295,
+                4294967295,
+                90,
+                91,
+                0
+            ],
+            "index": 43
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 45
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki05",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                4294967295,
+                10,
+                10,
+                92,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 46
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                4294967295,
+                4294967295,
+                92,
+                93,
+                0
+            ],
+            "index": 47
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967294,
+                3,
+                0,
+                0
+            ],
+            "index": 52
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 53
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 54
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Тогда я... Я стану жертвой...!"
+            ],
+            "index": 55
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 57
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Тогда я... Я стану жертвой...!"
+            ],
+            "index": 58
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                8,
+                1,
+                0,
+                0
+            ],
+            "index": 61
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Это невозможно. Эти надгробия - орудия,\nпорождённые её ненавистью..."
+            ],
+            "index": 62
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Навряд ли кто-то, кто не заслужил её ненависть,\nмог бы высечь своё имя на нём."
+            ],
+            "index": 63
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                0,
+                2,
+                1600000,
+                1,
+                2
+            ],
+            "index": 64
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 65
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 66
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 67
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                1,
+                1,
+                5,
+                4,
+                0
+            ],
+            "index": 68
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 70
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                1,
+                1,
+                9,
+                8,
+                0
+            ],
+            "index": 71
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 74
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 75
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 77
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 78
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 79
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                4294967295,
+                4294967295,
+                91,
+                90,
+                0
+            ],
+            "index": 80
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 82
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                4294967295,
+                4294967295,
+                93,
+                92,
+                0
+            ],
+            "index": 83
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 86
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                4294967295,
+                10,
+                10,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 87
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Ты стремишься спасти её.\nПоэтому она не может ненавидеть тебя."
+            ],
+            "index": 90
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Есть и другие выжившие.\nХорошо подумай, кто должен стать жертвой."
+            ],
+            "index": 91
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラ方向変更"
+            ],
+            "intArgs": [
+                0,
+                5,
+                4294967295,
+                2,
+                3,
+                0,
+                1
+            ],
+            "index": 92
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967294,
+                1,
+                0,
+                0
+            ],
+            "index": 93
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 94
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 95
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                6,
+                0,
+                0
+            ],
+            "index": 96
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Тот, кого Мисао ненавидит...\nХмм..."
+            ],
+            "index": 97
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 99
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                1,
+                1,
+                0,
+                0
+            ],
+            "index": 100
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Тот, кого Мисао ненавидит...\nХмм..."
+            ],
+            "index": 101
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                6,
+                0,
+                0
+            ],
+            "index": 102
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                1,
+                4,
+                0,
+                0
+            ],
+            "index": 103
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Но... Мне нужно принести кого-то в жертву,\nчтобы снять проклятие...?\nЯ не могу этого сделать..."
+            ],
+            "index": 104
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                6,
+                1,
+                0
+            ],
+            "index": 107
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600000,
+                1,
+                2
+            ],
+            "index": 108
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 109
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラ方向変更"
+            ],
+            "intArgs": [
+                0,
+                5,
+                4294967295,
+                2,
+                2,
+                0,
+                1
+            ],
+            "index": 110
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 111
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 114
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000006,
+                2,
+                0,
+                0
+            ],
+            "index": 115
+        }
+    ]
+}

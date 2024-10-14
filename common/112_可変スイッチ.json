@@ -1,0 +1,194 @@
+{
+    "id": 112,
+    "name": "可変スイッチ",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                1600001,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600021,
+                1600002,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600022,
+                1600003,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1100000000,
+                0,
+                4
+            ],
+            "index": 3
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600001,
+                1000000,
+                0,
+                772
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1600001,
+                0,
+                256
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600002,
+                100,
+                0,
+                772
+            ],
+            "index": 6
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1600002,
+                0,
+                256
+            ],
+            "index": 7
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1600003,
+                0,
+                256
+            ],
+            "index": 8
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                0,
+                2,
+                1600000,
+                1,
+                2
+            ],
+            "index": 9
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 10
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600011,
+                3000008,
+                1600010,
+                1
+            ],
+            "index": 11
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1600020,
+                1600021,
+                1600022,
+                0,
+                1600011
+            ],
+            "index": 12
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 14
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1600020,
+                1600021,
+                1600022,
+                4096,
+                1600011
+            ],
+            "index": 15
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                1600011,
+                3000008,
+                1600010,
+                1
+            ],
+            "index": 16
+        }
+    ]
+}

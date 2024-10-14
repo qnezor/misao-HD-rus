@@ -1,0 +1,603 @@
+{
+    "id": 95,
+    "name": "パーティクル準備",
+    "description": "",
+    "commands": [
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "各種データをDBに書込"
+            ],
+            "index": 0
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                0,
+                1,
+                1600000,
+                4294967295,
+                2
+            ],
+            "index": 1
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 2
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "通常"
+            ],
+            "index": 3
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "モード"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                0,
+                327680,
+                1600001
+            ],
+            "index": 4
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "使用中(1:Yes,0:No)"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                0,
+                327680,
+                1
+            ],
+            "index": 5
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "発生位置"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                1,
+                327680,
+                1600002
+            ],
+            "index": 6
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "発生間隔"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                3,
+                327680,
+                1600003
+            ],
+            "index": 7
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "発生座標算出"
+            ],
+            "index": 8
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600002,
+                4294967295,
+                2
+            ],
+            "index": 9
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 10
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "数値指定"
+            ],
+            "index": 11
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                1600009,
+                1,
+                1600005
+            ],
+            "index": 12
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                ","
+            ],
+            "intArgs": [
+                1600009,
+                2560
+            ],
+            "index": 13
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                1600009,
+                0,
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "範囲X１"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                7,
+                327680,
+                1600012
+            ],
+            "index": 15
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                1600009,
+                1,
+                1600005
+            ],
+            "index": 16
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                ","
+            ],
+            "intArgs": [
+                1600009,
+                2816
+            ],
+            "index": 17
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                ","
+            ],
+            "intArgs": [
+                1600009,
+                2048
+            ],
+            "index": 18
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                1600009,
+                0,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "範囲X２"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                8,
+                327680,
+                1600012
+            ],
+            "index": 20
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                1600009,
+                1,
+                1600006
+            ],
+            "index": 21
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                ","
+            ],
+            "intArgs": [
+                1600009,
+                2560
+            ],
+            "index": 22
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                1600009,
+                0,
+                0
+            ],
+            "index": 23
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "範囲Y１"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                9,
+                327680,
+                1600012
+            ],
+            "index": 24
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                1600009,
+                1,
+                1600006
+            ],
+            "index": 25
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                ","
+            ],
+            "intArgs": [
+                1600009,
+                2816
+            ],
+            "index": 26
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                ","
+            ],
+            "intArgs": [
+                1600009,
+                2048
+            ],
+            "index": 27
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                1600009,
+                0,
+                0
+            ],
+            "index": 28
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "範囲Y２"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                10,
+                327680,
+                1600012
+            ],
+            "index": 29
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                1600007,
+                0,
+                0
+            ],
+            "index": 32
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "Cself7が-1なら呼び出し元マップイベントのIDに変換"
+            ],
+            "index": 33
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600011,
+                4294967295,
+                2
+            ],
+            "index": 34
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 35
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600011,
+                4096,
+                4294967295,
+                10
+            ],
+            "index": 36
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "イベントID"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                8,
+                327680,
+                1600011
+            ],
+            "index": 39
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "文字パーティクル"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                11,
+                327680,
+                1600008
+            ],
+            "index": 40
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "文字パーティクル編集用"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                16,
+                327680,
+                1600008
+            ],
+            "index": 41
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 43
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "一斉消去"
+            ],
+            "index": 44
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600001,
+                0,
+                4
+            ],
+            "index": 45
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 46
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                0,
+                0,
+                0
+            ],
+            "index": 47
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                11
+            ],
+            "index": 48
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "使用中(1:Yes,0:No)"
+            ],
+            "intArgs": [
+                22,
+                1600013,
+                0,
+                331776,
+                1600010
+            ],
+            "index": 49
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600010,
+                1,
+                2
+            ],
+            "index": 50
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 51
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "モード"
+            ],
+            "intArgs": [
+                22,
+                1600013,
+                0,
+                327680,
+                1600001
+            ],
+            "index": 52
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                1,
+                0,
+                256
+            ],
+            "index": 55
+        }
+    ]
+}

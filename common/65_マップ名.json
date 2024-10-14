@@ -1,0 +1,189 @@
+{
+    "id": 65,
+    "name": "マップ名",
+    "description": "",
+    "commands": [
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 0
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600000,
+                12288,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                1600000,
+                8,
+                4352,
+                1600005
+            ],
+            "index": 2
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600001,
+                12288,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                1600001,
+                9,
+                4352,
+                1600006
+            ],
+            "index": 4
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                9000013,
+                0,
+                2,
+                9000013,
+                1,
+                2
+            ],
+            "index": 5
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 6
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                15,
+                0,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                310,
+                0,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\c[3]\\E\\f[16]\\cself[5]"
+            ],
+            "intArgs": [
+                32,
+                7000,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600010,
+                1600011,
+                100,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                18,
+                0,
+                256
+            ],
+            "index": 10
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\E\\f[16]\\cself[6]"
+            ],
+            "intArgs": [
+                32,
+                7001,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600010,
+                1600011,
+                100,
+                0
+            ],
+            "index": 11
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 13
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                7000,
+                0,
+                0,
+                0,
+                7001
+            ],
+            "index": 14
+        }
+    ]
+}

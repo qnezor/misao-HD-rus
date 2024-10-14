@@ -1,0 +1,991 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "name": "[移動]1F廊下",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/match_step.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                12341,
+                                19,
+                                33,
+                                27,
+                                2,
+                                1,
+                                0,
+                                0,
+                                3000000
+                            ],
+                            "index": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "[移動]下階層",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967295,
+                                33,
+                                30,
+                                34,
+                                17
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                1,
+                                9,
+                                2,
+                                3,
+                                1,
+                                33
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                1,
+                                9,
+                                3,
+                                3,
+                                1,
+                                112
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                10,
+                                3,
+                                1,
+                                1,
+                                113
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                11,
+                                3,
+                                1,
+                                1,
+                                114
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                9,
+                                4,
+                                1,
+                                1,
+                                120
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                10,
+                                4,
+                                1,
+                                1,
+                                121
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                11,
+                                4,
+                                1,
+                                1,
+                                122
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "飛び降りる",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                2800000,
+                                4096,
+                                4294967294,
+                                2
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                2800000,
+                                19,
+                                2
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2000007,
+                                0,
+                                2,
+                                2000007,
+                                1,
+                                2
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_f_jump.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_f_jump_b.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2000007,
+                                0,
+                                2,
+                                2000007,
+                                1,
+                                2
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_m_jump.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_aki_m_jump_b.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                48,
+                                0
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                49,
+                                0
+                            ],
+                            "index": 27
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                50,
+                                0
+                            ],
+                            "index": 28
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 29
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                2900015,
+                                0,
+                                2,
+                                2900015,
+                                1,
+                                2
+                            ],
+                            "index": 30
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 31
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki04",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28741,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                83,
+                                0,
+                                0,
+                                0,
+                                3000000
+                            ],
+                            "index": 32
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                128,
+                                5,
+                                1,
+                                1,
+                                83,
+                                84,
+                                0
+                            ],
+                            "index": 33
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 35
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_aki04",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28741,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                86,
+                                0,
+                                0,
+                                0,
+                                3000000
+                            ],
+                            "index": 36
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                1,
+                                0,
+                                0,
+                                0,
+                                87,
+                                4293967296,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216,
+                                5
+                            ],
+                            "index": 37
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                1,
+                                0,
+                                0,
+                                0,
+                                86,
+                                4293967296,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216,
+                                10
+                            ],
+                            "index": 38
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/onjin_fumishime_re.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100,
+                                0
+                            ],
+                            "index": 41
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                15
+                            ],
+                            "index": 42
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                2,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 43
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 44
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "x",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28741,
+                                4294967294,
+                                1,
+                                10,
+                                10,
+                                83,
+                                0,
+                                0,
+                                0,
+                                3000000
+                            ],
+                            "index": 45
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                4293967296,
+                                0
+                            ],
+                            "index": 46
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                30
+                            ],
+                            "index": 47
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                2000048,
+                                0,
+                                2
+                            ],
+                            "index": 48
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 49
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000048,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "操の霊",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                10
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                2800000,
+                                4096,
+                                4294967294,
+                                2
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                17,
+                                2800000,
+                                17,
+                                3
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 420,
+                            "codeStr": "ElseCase",
+                            "intArgs": [
+                                0
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "[移動]",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/match_step_re.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28725,
+                                56,
+                                18,
+                                9,
+                                2,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "<MASK>ひとでなしくん",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "list": [
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラ方向変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                5,
+                                4294967294,
+                                2,
+                                2,
+                                0,
+                                3
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ひとでなしくん発見"
+                            ],
+                            "intArgs": [
+                                0,
+                                2,
+                                12,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "[並列]",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                1102000200,
+                                1,
+                                2
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000032,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 6
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

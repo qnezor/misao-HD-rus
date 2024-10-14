@@ -1,0 +1,1057 @@
+{
+    "id": 128,
+    "name": "文書コモン",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                40000,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                40010,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600014,
+                14,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                16,
+                1600000,
+                0,
+                4608,
+                1600020
+            ],
+            "index": 3
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600021,
+                1,
+                0,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                30,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600016,
+                100,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600020,
+                2,
+                1
+            ],
+            "index": 7
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 8
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                100,
+                0,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                320,
+                0,
+                0
+            ],
+            "index": 10
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\E\\f[\\cself[14]]\\i[515]Prev. Page"
+            ],
+            "intArgs": [
+                32,
+                40002,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                1600015,
+                1600015,
+                1600015
+            ],
+            "index": 11
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                270,
+                0,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\E\\f[\\cself[14]]\\i[516]Next Page"
+            ],
+            "intArgs": [
+                32,
+                40003,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                1600016,
+                1600016,
+                1600016
+            ],
+            "index": 13
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                816,
+                1600010,
+                10,
+                848,
+                480,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                30,
+                30,
+                60
+            ],
+            "index": 16
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                4,
+                1600001,
+                0,
+                2,
+                1600001,
+                1,
+                2,
+                1600001,
+                2,
+                2,
+                1600001,
+                3,
+                2
+            ],
+            "index": 17
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 18
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_book_page.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                10,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 21
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_mecha_data.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 22
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 24
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_kokuban.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 25
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 27
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_keyboard.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 28
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 31
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600020,
+                2,
+                1
+            ],
+            "index": 33
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 34
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263713,
+                40002,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                33554432,
+                0,
+                0,
+                1600015,
+                1600015,
+                1600015
+            ],
+            "index": 35
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                40003,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                33554432,
+                0,
+                0,
+                1600016,
+                1600016,
+                1600016
+            ],
+            "index": 36
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                16,
+                1600000,
+                1600021,
+                4608,
+                1600005
+            ],
+            "index": 39
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600002,
+                0,
+                2,
+                1600002,
+                1,
+                2
+            ],
+            "index": 40
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 41
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\E\\f[\\cself[14]]\\cself[5]"
+            ],
+            "intArgs": [
+                32,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                100,
+                30,
+                100,
+                0
+            ],
+            "index": 42
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 44
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\E\\f[\\cself[14]]\\cself[5]"
+            ],
+            "intArgs": [
+                4128,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                320,
+                180,
+                100,
+                0
+            ],
+            "index": 45
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ページ数表示"
+            ],
+            "index": 48
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600020,
+                2,
+                1
+            ],
+            "index": 49
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 50
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                218,
+                0,
+                0
+            ],
+            "index": 51
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\cself[21]/\\cself[20]"
+            ],
+            "intArgs": [
+                32,
+                1600013,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 52
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "入力"
+            ],
+            "index": 55
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600022,
+                184
+            ],
+            "index": 56
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600020,
+                2,
+                1
+            ],
+            "index": 57
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 58
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600022,
+                4,
+                2,
+                1600022,
+                6,
+                2
+            ],
+            "index": 59
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 60
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600021,
+                1,
+                5
+            ],
+            "index": 61
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 62
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                4,
+                1600001,
+                0,
+                2,
+                1600001,
+                1,
+                2,
+                1600001,
+                2,
+                2,
+                1600001,
+                3,
+                2
+            ],
+            "index": 63
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 64
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_book_page.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                10,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 65
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 67
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_mecha_data.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 68
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 70
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_kokuban.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 71
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 73
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_keyboard.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 74
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600021,
+                1,
+                0,
+                512
+            ],
+            "index": 77
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                100,
+                0,
+                0
+            ],
+            "index": 78
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600016,
+                100,
+                0,
+                0
+            ],
+            "index": 79
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600021,
+                1,
+                2
+            ],
+            "index": 80
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 81
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                30,
+                0,
+                0
+            ],
+            "index": 82
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 88
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600021,
+                1600020,
+                5
+            ],
+            "index": 89
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 90
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600001,
+                0,
+                2,
+                1600001,
+                1,
+                2
+            ],
+            "index": 91
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 92
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_book_page.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                10,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 93
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 95
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_mecha_data.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 96
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600021,
+                1,
+                0,
+                256
+            ],
+            "index": 99
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                100,
+                0,
+                0
+            ],
+            "index": 100
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600016,
+                100,
+                0,
+                0
+            ],
+            "index": 101
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600021,
+                1600020,
+                2
+            ],
+            "index": 102
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 103
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600016,
+                30,
+                0,
+                0
+            ],
+            "index": 104
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600022,
+                10,
+                2,
+                1600022,
+                11,
+                2
+            ],
+            "index": 113
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 114
+        },
+        {
+            "code": 212,
+            "codeStr": "SetLabel",
+            "stringArgs": [
+                "end"
+            ],
+            "index": 115
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                40000,
+                10,
+                0,
+                0,
+                40010
+            ],
+            "index": 116
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 117
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 120
+        },
+        {
+            "code": 213,
+            "codeStr": "JumpLabel",
+            "stringArgs": [
+                "end"
+            ],
+            "index": 121
+        }
+    ]
+}

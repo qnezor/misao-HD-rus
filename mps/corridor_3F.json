@@ -1,0 +1,2801 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "name": "【移動】3-C左",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "intArgs": [
+                                800,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000059,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 210,
+                            "codeStr": "CommonEvent",
+                            "intArgs": [
+                                16,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28725,
+                                15,
+                                7,
+                                28,
+                                8,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2200004,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "←4F",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 210,
+                            "codeStr": "CommonEvent",
+                            "intArgs": [
+                                16,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/match_step.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28725,
+                                10,
+                                27,
+                                17,
+                                2,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "【移動】2F",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/match_step.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 210,
+                            "codeStr": "CommonEvent",
+                            "intArgs": [
+                                16,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28725,
+                                16,
+                                13,
+                                11,
+                                2,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "【移動】コンピュータールーム",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                10
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラ方向変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                5,
+                                4294967294,
+                                8,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "intArgs": [
+                                16776960,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                5,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/lab_horror4.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                274,
+                                0,
+                                0,
+                                0,
+                                4294967146,
+                                20,
+                                4294967196
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                2800000,
+                                4096,
+                                4294967294,
+                                2
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                2800001,
+                                4096,
+                                4294967294,
+                                3
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                21,
+                                2800000,
+                                2800001,
+                                0,
+                                1
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "chara_misao_ghost2",
+                                "-32",
+                                "0",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                21,
+                                1,
+                                10,
+                                4,
+                                23,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "chara_misao_ghost2",
+                                "",
+                                "24",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                21,
+                                2,
+                                10,
+                                4,
+                                33,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "chara_misao_ghost2",
+                                "32",
+                                "0",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                21,
+                                3,
+                                10,
+                                4,
+                                13,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                1,
+                                150,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                15,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216,
+                                1
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                2,
+                                150,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                4294967281,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216,
+                                1
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                3,
+                                150,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                4294967281,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216,
+                                1
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                150
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                21,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                16777218,
+                                1,
+                                0,
+                                0,
+                                0,
+                                3
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "x",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                4294967295,
+                                10,
+                                4,
+                                4,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                162,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "code": 151,
+                            "codeStr": "ChangeColor",
+                            "intArgs": [
+                                16777216,
+                                10
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                5,
+                                4294967295,
+                                0,
+                                0
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "intArgs": [
+                                768,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 24
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000149,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 210,
+                            "codeStr": "CommonEvent",
+                            "intArgs": [
+                                16,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967295,
+                                29,
+                                28,
+                                41,
+                                33
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                1100001,
+                                1,
+                                18
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "画面色調変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                10,
+                                1,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100001,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                2,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "<LIGHT>消火器",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100009,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000050,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                1100000,
+                                4096,
+                                4294967294,
+                                5
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                1100000,
+                                8,
+                                2
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@1\nОгнетушитель."
+                            ],
+                            "index": 6
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100009,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                3,
+                                9,
+                                7,
+                                1,
+                                2,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "<HIIRO>\\sdb[0:15:9]",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "<HIIRO>4F",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100009,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": []
+                },
+                {
+                    "id": 2,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "<HIIRO>2F",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100009,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": []
+                },
+                {
+                    "id": 2,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "彫刻起動",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                10,
+                                11,
+                                32,
+                                0,
+                                1
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "intArgs": [
+                                800,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                10
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 280,
+                            "codeStr": "MapEffect",
+                            "intArgs": [
+                                80,
+                                2
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900004,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900009,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 7
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                10
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 280,
+                            "codeStr": "MapEffect",
+                            "intArgs": [
+                                80,
+                                2
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                10
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000100,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "【移動】美術室",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000159,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "intArgs": [
+                                800,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 210,
+                            "codeStr": "CommonEvent",
+                            "intArgs": [
+                                16,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28725,
+                                32,
+                                30,
+                                15,
+                                4,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                1100000,
+                                4096,
+                                4294967294,
+                                2
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                10,
+                                1100000,
+                                34,
+                                0,
+                                1
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "intArgs": [
+                                800,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                10
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "襲い掛かる彫刻"
+                            ],
+                            "intArgs": [
+                                0,
+                                0
+                            ],
+                            "index": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "彫刻",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                8,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "襲い掛かる彫刻"
+                            ],
+                            "intArgs": [
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "<LIGHT>千切れたゴム",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                12,
+                                24,
+                                10,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "工藤魂",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                2000030,
+                                1,
+                                2
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                8,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                10,
+                                20
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000030,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@2\nМисао... Я нашёл тебя..."
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                11
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                13,
+                                24,
+                                10,
+                                0,
+                                0
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                13
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000119,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000110,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000139,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 18
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "<LIGHT>千切れたゴム",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "仕草"
+                            ],
+                            "intArgs": [
+                                0,
+                                3,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                11
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キーアイテム入手"
+                            ],
+                            "intArgs": [
+                                0,
+                                2,
+                                4,
+                                1
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "イベントスキップ"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                5
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@2\nЭто моя вина.\nЯ заставил Мисао страдать..."
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/match_sonic.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "画面色調変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                1,
+                                100,
+                                0,
+                                50
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000023,
+                                21,
+                                0,
+                                0
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                2000030,
+                                1,
+                                2
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000030,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900004,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900009,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967295,
+                                13,
+                                4,
+                                47,
+                                0
+                            ],
+                            "index": 19
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                2,
+                                4294967196,
+                                0,
+                                15
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2200002,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000110,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000027,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "画面色調変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                100,
+                                0,
+                                100
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                2000024,
+                                0,
+                                2
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "操記憶"
+                            ],
+                            "intArgs": [
+                                0,
+                                0
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@2\nМисао... Я иду к тебе..."
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                5,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                12
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                5,
+                                4294967295,
+                                0,
+                                0
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "code": 281,
+                            "codeStr": "ScrollScreen",
+                            "intArgs": [
+                                385,
+                                0,
+                                4294967291
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                2800000,
+                                4096,
+                                4294967294,
+                                2
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                2800001,
+                                4096,
+                                4294967294,
+                                3
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "墓_魂宿る"
+                            ],
+                            "intArgs": [
+                                0,
+                                3,
+                                14,
+                                2800000,
+                                2800001
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "イベントスキップ"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                4294967295
+                            ],
+                            "index": 25
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2100004,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000023,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 27
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100009,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 28
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                10,
+                                0,
+                                0
+                            ],
+                            "index": 29
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "<HIIRO>\\sdb[0:41:9]",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "<HIIRO>\\sdb[0:32:9]",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "彫刻処理",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                2000030,
+                                1,
+                                2
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "画面色調変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                0,
+                                10,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000031,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000030,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900004,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900009,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000080,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000100,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "イベントスキップ処理",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                5,
+                                4294967295,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ライティング"
+                            ],
+                            "intArgs": [
+                                0,
+                                3,
+                                4294967295,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                2,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                100
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000023,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                2000030,
+                                1,
+                                2
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000030,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900004,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900009,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 103,
+                            "codeStr": "Comment",
+                            "stringArgs": [
+                                " "
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000023,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000024,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000110,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2200002,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000110,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000120,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000027,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                13,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                12,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "code": 281,
+                            "codeStr": "ScrollScreen",
+                            "intArgs": [
+                                385,
+                                0,
+                                4294967291
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2100004,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000139,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000130,
+                                10,
+                                0,
+                                0
+                            ],
+                            "index": 25
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                16777218,
+                                4294967194,
+                                0,
+                                0,
+                                0,
+                                2
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "intArgs": [
+                                768,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 27
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "遺品インタラクト",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "感情表現アイコン"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967294,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 281,
+                            "codeStr": "ScrollScreen",
+                            "intArgs": [
+                                288,
+                                2,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 281,
+                            "codeStr": "ScrollScreen",
+                            "intArgs": [
+                                288,
+                                4294967294,
+                                0
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967294,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000119,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 9
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "<MASK>ひとでなしくん",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "list": [
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                97,
+                                0,
+                                4294967295,
+                                0,
+                                10,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ひとでなしくん発見"
+                            ],
+                            "intArgs": [
+                                0,
+                                2,
+                                4,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "伸びる手",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                1100001,
+                                4096,
+                                4294967294,
+                                2
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                1100002,
+                                4096,
+                                4294967294,
+                                3
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100001,
+                                1000,
+                                0,
+                                768
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100001,
+                                1100002,
+                                0,
+                                256
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                1100001,
+                                18017,
+                                2
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                10
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "位置",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        }
+    ]
+}

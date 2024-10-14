@@ -1,0 +1,477 @@
+{
+    "id": 34,
+    "name": "洞窟ゾンビ",
+    "description": "",
+    "commands": [
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 0
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_ghost01",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                3,
+                10,
+                10,
+                83,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 2
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 4
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki04",
+                "12",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                2,
+                10,
+                10,
+                77,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki04",
+                "12",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                2,
+                10,
+                10,
+                78,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                144,
+                5,
+                3,
+                3,
+                83,
+                84,
+                0
+            ],
+            "index": 11
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                48,
+                2,
+                1,
+                2,
+                1,
+                0,
+                10
+            ],
+            "index": 12
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 13
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_eat_kiba_re.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_eat_kiba_re.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                10,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_eat_kiba_re.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                20,
+                0,
+                0,
+                100,
+                150,
+                0
+            ],
+            "index": 16
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                70
+            ],
+            "index": 17
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                48,
+                2,
+                1,
+                2,
+                0,
+                3,
+                1
+            ],
+            "index": 18
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                144,
+                0,
+                3,
+                3,
+                83,
+                84,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_hit_re.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 20
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                816,
+                5000,
+                0,
+                640,
+                480,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            "index": 21
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 22
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 23
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 24
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                2,
+                0,
+                0,
+                0,
+                79,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216
+            ],
+            "index": 25
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 27
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                2,
+                0,
+                0,
+                0,
+                80,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216
+            ],
+            "index": 28
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                818,
+                5000,
+                0
+            ],
+            "index": 31
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                2,
+                10,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                15,
+                25,
+                4293967296,
+                900,
+                0,
+                16777216
+            ],
+            "index": 32
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_tentou_re.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                10,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 33
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 34
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                48,
+                2,
+                1,
+                1,
+                1,
+                4294967295,
+                1
+            ],
+            "index": 35
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 36
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "退学リスト更新"
+            ],
+            "intArgs": [
+                0,
+                1,
+                80
+            ],
+            "index": 37
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ゲームオーバー"
+            ],
+            "intArgs": [
+                0,
+                1,
+                0
+            ],
+            "index": 38
+        }
+    ]
+}

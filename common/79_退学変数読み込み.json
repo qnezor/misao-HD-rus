@@ -1,0 +1,100 @@
+{
+    "id": 79,
+    "name": "退学変数読み込み",
+    "description": "",
+    "commands": [
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/System.sav"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                2900041,
+                0,
+                4
+            ],
+            "index": 2
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                42
+            ],
+            "index": 3
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600012,
+                1600005,
+                1600011,
+                1
+            ],
+            "index": 4
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                3,
+                1600010,
+                0,
+                0,
+                1600012
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 6
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                1,
+                0,
+                256
+            ],
+            "index": 7
+        }
+    ]
+}

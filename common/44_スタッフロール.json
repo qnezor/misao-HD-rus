@@ -1,0 +1,1014 @@
+{
+    "id": 44,
+    "name": "スタッフロール",
+    "description": "",
+    "commands": [
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 0
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4,
+                0,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 126,
+            "codeStr": "BanInput",
+            "intArgs": [
+                496
+            ],
+            "index": 2
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                4,
+                6,
+                0,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                50100,
+                0,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                50101,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 151,
+            "codeStr": "ChangeColor",
+            "intArgs": [
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                0,
+                2,
+                1600000,
+                1,
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 8
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "イベントスキップ"
+            ],
+            "intArgs": [
+                0,
+                1,
+                20
+            ],
+            "index": 9
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                512,
+                0,
+                0,
+                0
+            ],
+            "index": 10
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 11
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                50,
+                0,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                370,
+                0,
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600014,
+                400,
+                0,
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\E\\c[3]Движок\n\\c[0]WOLF RPG EDITOR\n\n\\c[3]\\c[3]Графика карт\n\\c[0]Nekura Fantasy Map Chips\nDot E Sekai\n\n\\c[3]\\c[3]Графика персонажей/Иконки\n\\c[0]\\c[0]Nekura pochi Character Chips\nPipoya\nICOOON MONO\n\n\\c[3]Музыка\n\\c[0]H/MIX GALLERY\nRengoku Teien\nVita-chi Sozaikan\n\n\\c[3]Звуковые эффекты\n\\c[0]Vita-chi Sozaikan\nThe Matchmakers\nMaou Damashii\nFree Sound Effects On-Jin\nSound Effect Lab\n\n\\c[3]Задние фоны/Эффекты\n\\c[0]Pipoya\n\n\\c[3]Common Events\n\\c[0]Foolish Kingdom\n\n\\c[3]Шрифт\n\\c[0]source-han-serif\nfub Koubou(Minamoji)\n\n\\c[3]Дистрибуция\n\\c[0]PLAYISM\n\n\\f[10]Исполнительный продюсер\n\\f[15]Shunji Mizutani\n\n\\f[10]Продюсер\n\\f[15]Yasuyuki Ohara\n\n\\f[10]Помощник продюсера\n\\f[15]Syunichi Sakai\n\n\\f[10]Международные операции и маркетинг\n\\f[15]Elaine Wong\n\n\\f[10]Английская локализация\n\\f[15]vgperson（Partner）\n\n\\f[10]Китайская локализация\n\\f[15]Zheng Zhang\n\n\\f[10]Русская локализация\n\\f[15]qnezor\nMetadodic\n\n\\f[10]Издательский дизайн\n\\f[15]Takahiro Nogita\nAsuka Bailey\n\n\\f[10]Издательская поддержка\n\\f[15]Sayuri Murabayashi\nChiaki Shida\nHideyuki Nagakura\nWesley Tsen \nMichael Kobayashi\nTiffany Zhang\nHanwen Yin\nShuma\nNana Iba\nHana Kawamoto\nChiaki Hirota\nManami Maebayashi\nSaki Yamada\nYoshio Tsujimoto\nMario Maqueo\nChristopher William Horton\n\n\\f[10]Исполнительный директор\n\\f[15]JJ Shinji Futami\n\n\\f[10]Президент/Генеральный директор\n\\f[15]Ibai Vinas Ameztoy\n\n\\c[3]Представлено\n\\c[0]Hitodenashi no kuukan"
+            ],
+            "intArgs": [
+                1600009,
+                0,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\cself[9]"
+            ],
+            "intArgs": [
+                32,
+                1600011,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600012,
+                1600013,
+                100,
+                0
+            ],
+            "index": 16
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "スタッフロール移動値取得"
+            ],
+            "index": 17
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600040,
+                16384,
+                1600011,
+                3
+            ],
+            "index": 18
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600040,
+                470,
+                0,
+                256
+            ],
+            "index": 19
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600041,
+                1600040,
+                0,
+                512
+            ],
+            "index": 20
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600042,
+                2900,
+                0,
+                0
+            ],
+            "index": 21
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 22
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                65537,
+                1600011,
+                1600042,
+                0,
+                0,
+                1,
+                255,
+                0,
+                1600041,
+                100,
+                0
+            ],
+            "index": 23
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/still_ed1.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                50,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                50,
+                0
+            ],
+            "index": 24
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1600014
+            ],
+            "index": 25
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                50
+            ],
+            "index": 26
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 27
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/still_ed2.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                50,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                50,
+                0
+            ],
+            "index": 28
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1600014
+            ],
+            "index": 29
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                50
+            ],
+            "index": 30
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 31
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/still_ed3.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                50,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                50,
+                0
+            ],
+            "index": 32
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1600014
+            ],
+            "index": 33
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                50
+            ],
+            "index": 34
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 35
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/still_ed4.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                50,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                50,
+                0
+            ],
+            "index": 36
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1600014
+            ],
+            "index": 37
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                50
+            ],
+            "index": 38
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 39
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/still_ed5.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                50,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                50,
+                0
+            ],
+            "index": 40
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1600014
+            ],
+            "index": 41
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                50
+            ],
+            "index": 42
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 43
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 44
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 45
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/still_ed6.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                50,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                50,
+                0
+            ],
+            "index": 46
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 48
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/still_ed6_2.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                50,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                50,
+                0
+            ],
+            "index": 49
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1600014
+            ],
+            "index": 52
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                50
+            ],
+            "index": 53
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 54
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "イベントスキップ"
+            ],
+            "intArgs": [
+                0,
+                1,
+                4294967295
+            ],
+            "index": 55
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                300
+            ],
+            "index": 56
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 58
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777219,
+                1600010,
+                1600011
+            ],
+            "index": 59
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                1600010,
+                0,
+                0,
+                0,
+                1600011
+            ],
+            "index": 60
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                50100,
+                0,
+                0
+            ],
+            "index": 61
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 62
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/System.sav"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 65
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                2,
+                1600005,
+                2900017,
+                0
+            ],
+            "index": 66
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 67
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 68
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                1,
+                1600005,
+                2900025,
+                0
+            ],
+            "index": 69
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/still_end_f.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                200,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                50,
+                0
+            ],
+            "index": 70
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 72
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                1,
+                1600005,
+                2900026,
+                0
+            ],
+            "index": 73
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/still_end_m.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                200,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                50,
+                0
+            ],
+            "index": 74
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 77
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600020,
+                240
+            ],
+            "index": 78
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                100
+            ],
+            "index": 79
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600011,
+                0
+            ],
+            "index": 80
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 81
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 82
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                1
+            ],
+            "index": 83
+        },
+        {
+            "code": 10001,
+            "codeStr": "Command",
+            "stringArgs": [
+                "20"
+            ],
+            "intArgs": [
+                19
+            ],
+            "index": 84
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "大切な友達"
+            ],
+            "index": 85
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 87
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                1
+            ],
+            "index": 88
+        },
+        {
+            "code": 10001,
+            "codeStr": "Command",
+            "stringArgs": [
+                "19"
+            ],
+            "intArgs": [
+                19
+            ],
+            "index": 89
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "特別な友達"
+            ],
+            "index": 90
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2900018,
+                1,
+                2
+            ],
+            "index": 93
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 94
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                150
+            ],
+            "index": 95
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SystemFile/maou_itemget2.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 96
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                1,
+                0,
+                0
+            ],
+            "index": 97
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@0\nГалерея разблокирована."
+            ],
+            "index": 98
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                4294967040,
+                100,
+                0,
+                0
+            ],
+            "index": 101
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                200
+            ],
+            "index": 102
+        }
+    ]
+}

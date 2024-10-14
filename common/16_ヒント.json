@@ -1,0 +1,742 @@
+{
+    "id": 16,
+    "name": "ヒント",
+    "description": "",
+    "commands": [
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nЧтобы снять проклятие, тебе нужно найти\nшесть \\c[2]вещей\\c[0], и предоставить эти «ключи» алтарю.\nПожалуйста, ради Мисао!"
+            ],
+            "index": 0
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 1
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2100000,
+                1,
+                2,
+                2100000,
+                2,
+                2
+            ],
+            "index": 2
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 3
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Я видела, как какой-то парень\nбежал с третьего этажа на первый.\nОн бежал от злого духа?"
+            ],
+            "index": 4
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 5
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Тома весь пересох после того,\nкак этот дух напал на него.\nОн должен прийти в себя, если его напоить..."
+            ],
+            "index": 8
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 9
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2100001,
+                1,
+                2
+            ],
+            "index": 12
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 13
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Попробуй осматривать шкафчики после их открытия.\nТы обязательно там что-нибудь найдёшь!"
+            ],
+            "index": 14
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 15
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2100009,
+                1,
+                2
+            ],
+            "index": 18
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 19
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Системой безопасности лаборатории\nможно управлять из компьютерной комнаты.\nОй, я не должна была говорить это..."
+            ],
+            "index": 20
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 21
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2100002,
+                1,
+                2
+            ],
+            "index": 24
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 25
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2000004,
+                7,
+                3
+            ],
+            "index": 26
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 27
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Ты видел заметку на доске объявлений первого этажа?\nЧто из себя представляет этот код?\nЯ думаю, этот код показывает место в школе... или места?"
+            ],
+            "index": 28
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 29
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1100000300,
+                1,
+                2
+            ],
+            "index": 34
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 35
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "О, это семена!\nТебе нужно посадить их куда-нибудь в безопасное место.\nЭй, разве здесь не было цветочного горшка где-то рядом?"
+            ],
+            "index": 36
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 37
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2000004,
+                1,
+                2
+            ],
+            "index": 40
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 41
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 42
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Итак, ты посадил семена в мой цветочный горшок!\nИм нужны питательные вещества и время,\nчтобы вырасти большими."
+            ],
+            "index": 43
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 44
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2100010,
+                1,
+                2
+            ],
+            "index": 47
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 48
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 49
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Cемена выросли в лилии!\nХм, но они фиолетовые... Я предпочитаю белые.\nМне хочется покрасить их!"
+            ],
+            "index": 50
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 51
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2100003,
+                2,
+                2
+            ],
+            "index": 54
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 55
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Был какой-то шум на первом этаже.\nЯ слышала крик девушки!\nТы знаешь, что случилось?"
+            ],
+            "index": 56
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 57
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2100008,
+                1,
+                2,
+                2100008,
+                2,
+                2
+            ],
+            "index": 60
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 61
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Одна известная легенда в нашей школе гласит:\n\"Если трижды постучать по двери\nв туалете для девочек, ответит Ханако\"."
+            ],
+            "index": 62
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 63
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 65
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Если когда-нибудь столкнёшься с Ханако из туалета,\nто держись на безопасном расстоянии\nи внимательно наблюдай за ней."
+            ],
+            "index": 66
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 67
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2100004,
+                1,
+                2,
+                2100004,
+                2,
+                2
+            ],
+            "index": 70
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 71
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Нельзя идти против злых духов с битой!\nФизические удары им ничего не сделают!\nНо она может быть полезна для уничтожения предметов."
+            ],
+            "index": 72
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 73
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 75
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Я видела кое-что светящееся на третьем этаже!\nМожет быть, это призрак... *дрожь...*"
+            ],
+            "index": 76
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 77
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2100005,
+                1,
+                2
+            ],
+            "index": 80
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 81
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Эффект этого оберега, кажется, слаб...\nЯ не думаю, что он тебе поможет.\nХотя, если его использовать против слабых духов..."
+            ],
+            "index": 82
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 83
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                3,
+                2100006,
+                1,
+                2,
+                2100006,
+                2,
+                2,
+                2100006,
+                3,
+                2
+            ],
+            "index": 86
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 87
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Соляные Мандрагоры - робкие существа.\nОсобенно боятся громких звуков - если издать резкий громкий звук,\nони буквально падают в обморок от страха!"
+            ],
+            "index": 88
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 89
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 91
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Зачем ты ходишь с Соляной Мандрагорой?\nЕсли бы она была у меня, я бы взяла её\nна кухню и почистила!"
+            ],
+            "index": 92
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 93
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 95
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Соль из соляных мандрагор предназначена для готовки,\nтак что она не имеет защитного эффекта. Но кто знает?\nМожет быть, слабые духи, увидев эту соль, испугаются и убегут!"
+            ],
+            "index": 96
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 97
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2100006,
+                4,
+                2
+            ],
+            "index": 100
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 101
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Раньше здесь училась девушка, которая любила играть на пианино.\nНо её никто не слушал, и она умерла от болезни...\nБедная девушка. Я бы точно послушала её выступление!"
+            ],
+            "index": 102
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 103
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2000007,
+                1,
+                2
+            ],
+            "index": 106
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 107
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 108
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                10
+            ],
+            "index": 109
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "И-ик! \\s[1], это ты?! Ты весь в крови!\nТебе нужно найти место,\nгде можно смыть кровь!"
+            ],
+            "index": 110
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 111
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2000006,
+                1,
+                2
+            ],
+            "index": 114
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 115
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                9,
+                1,
+                0,
+                0
+            ],
+            "index": 116
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "А? Ты уже всё преподнес?\nСтранно... Почему проклятие не развеялось?\nМожет быть, мистер Онигавара что-то знает..."
+            ],
+            "index": 117
+        }
+    ]
+}

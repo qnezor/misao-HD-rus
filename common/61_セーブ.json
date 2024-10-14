@@ -1,0 +1,1969 @@
+{
+    "id": 61,
+    "name": "セーブ",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                80100,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                80101,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                30,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                48,
+                1600010,
+                0,
+                700,
+                480,
+                1,
+                240,
+                4294967295,
+                4294967295,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                320,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                20,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                0,
+                2,
+                1600000,
+                1,
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 8
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Сохранить"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 11
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Загрузить"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\cself[5]"
+            ],
+            "intArgs": [
+                4128,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 16
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                20,
+                0,
+                256
+            ],
+            "index": 17
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600030,
+                0,
+                0,
+                0
+            ],
+            "index": 18
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "SystemFile/menu_line.png"
+            ],
+            "intArgs": [
+                4096,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                50,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                130,
+                0,
+                512
+            ],
+            "index": 20
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                20,
+                0,
+                256
+            ],
+            "index": 21
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "データ描写"
+            ],
+            "index": 22
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                10
+            ],
+            "index": 23
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 24
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600030,
+                1,
+                0,
+                256
+            ],
+            "index": 25
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600030,
+                10,
+                1,
+                1600030,
+                10,
+                4
+            ],
+            "index": 26
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 27
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "DATA\\cself[30]"
+            ],
+            "intArgs": [
+                1600008,
+                0
+            ],
+            "index": 28
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 30
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "DATA0\\cself[30]"
+            ],
+            "intArgs": [
+                1600008,
+                0
+            ],
+            "index": 31
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600031,
+                1600030,
+                9000024,
+                0
+            ],
+            "index": 34
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600031,
+                0,
+                2,
+                1600031,
+                1,
+                2
+            ],
+            "index": 35
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 36
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600014,
+                50,
+                0,
+                0
+            ],
+            "index": 37
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\cself[8]\\mx[\\cself[13]]NO DATA"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 38
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 40
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600022,
+                1600030,
+                2000014,
+                0
+            ],
+            "index": 41
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600022,
+                0,
+                2,
+                1600022,
+                1,
+                2
+            ],
+            "index": 42
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 43
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Основаня история"
+            ],
+            "intArgs": [
+                1600006,
+                0
+            ],
+            "index": 44
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 46
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "«Правда»"
+            ],
+            "intArgs": [
+                1600006,
+                0
+            ],
+            "index": 47
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600014,
+                100,
+                0,
+                0
+            ],
+            "index": 50
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600045,
+                1600030,
+                2200006,
+                0
+            ],
+            "index": 51
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600045,
+                0,
+                2,
+                1600045,
+                1,
+                2
+            ],
+            "index": 52
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 53
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600040,
+                1600030,
+                9000029,
+                0
+            ],
+            "index": 54
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 56
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600040,
+                1600030,
+                2200005,
+                0
+            ],
+            "index": 57
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600041,
+                1600040,
+                3600,
+                12288
+            ],
+            "index": 60
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600044,
+                1600040,
+                3600,
+                16384
+            ],
+            "index": 61
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600042,
+                1600044,
+                60,
+                12288
+            ],
+            "index": 62
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600043,
+                1600044,
+                60,
+                16384
+            ],
+            "index": 63
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600041,
+                10,
+                4,
+                1600041,
+                10,
+                1
+            ],
+            "index": 64
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 65
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "0\\cself[41] : "
+            ],
+            "intArgs": [
+                1600007,
+                0
+            ],
+            "index": 66
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 68
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\cself[41] : "
+            ],
+            "intArgs": [
+                1600007,
+                0
+            ],
+            "index": 69
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600042,
+                10,
+                4,
+                1600042,
+                10,
+                1
+            ],
+            "index": 72
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 73
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "0\\cself[42] : "
+            ],
+            "intArgs": [
+                1600007,
+                256
+            ],
+            "index": 74
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 76
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\cself[42] : "
+            ],
+            "intArgs": [
+                1600007,
+                256
+            ],
+            "index": 77
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600043,
+                10,
+                4,
+                1600043,
+                10,
+                1
+            ],
+            "index": 80
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 81
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "0\\cself[43]"
+            ],
+            "intArgs": [
+                1600007,
+                256
+            ],
+            "index": 82
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 84
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\cself[43]"
+            ],
+            "intArgs": [
+                1600007,
+                256
+            ],
+            "index": 85
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\cself[8]\\mx[\\cself[13]]\\cself[6]\\mx[\\cself[13]]\\mx[\\cself[13]]\\cself[7]"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 88
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\cself[5]"
+            ],
+            "intArgs": [
+                32,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                1600014,
+                1600014,
+                1600014
+            ],
+            "index": 91
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                27,
+                0,
+                256
+            ],
+            "index": 92
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 95
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                9,
+                0,
+                512
+            ],
+            "index": 96
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600030,
+                1,
+                0,
+                0
+            ],
+            "index": 97
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                0,
+                0,
+                0
+            ],
+            "index": 98
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                70,
+                0,
+                0
+            ],
+            "index": 99
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/System.sav"
+            ],
+            "intArgs": [
+                3000003,
+                0
+            ],
+            "index": 100
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600032,
+                3000003,
+                2700000,
+                0
+            ],
+            "index": 101
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600032,
+                2,
+                1
+            ],
+            "index": 102
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 103
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600033,
+                1600032,
+                0,
+                0
+            ],
+            "index": 104
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600033,
+                1,
+                0,
+                512
+            ],
+            "index": 105
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                1600033
+            ],
+            "index": 106
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600030,
+                1,
+                0,
+                256
+            ],
+            "index": 107
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                37,
+                0,
+                256
+            ],
+            "index": 108
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 109
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 114
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "キー入力"
+            ],
+            "index": 115
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600031,
+                1600030,
+                9000024,
+                0
+            ],
+            "index": 117
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1600010,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                33554432,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            "index": 118
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4198145,
+                1600015,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                1600011,
+                1600012,
+                4293967296,
+                4293967296
+            ],
+            "index": 119
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600020,
+                183
+            ],
+            "index": 120
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                18,
+                1600020,
+                2,
+                2,
+                1600020,
+                8,
+                2
+            ],
+            "index": 121
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 122
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                5664,
+                0,
+                0,
+                0
+            ],
+            "index": 123
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600031,
+                0,
+                2,
+                1600031,
+                1,
+                2
+            ],
+            "index": 124
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 125
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1600010,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                33554432,
+                0,
+                0,
+                50,
+                50,
+                50
+            ],
+            "index": 126
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 128
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1600010,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296
+            ],
+            "index": 129
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600030,
+                10,
+                2
+            ],
+            "index": 132
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 133
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                37,
+                9,
+                8704
+            ],
+            "index": 134
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                9,
+                0,
+                512
+            ],
+            "index": 135
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600030,
+                9,
+                0,
+                512
+            ],
+            "index": 136
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 138
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                37,
+                0,
+                256
+            ],
+            "index": 139
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 140
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600030,
+                1,
+                0,
+                256
+            ],
+            "index": 141
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 145
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                5664,
+                0,
+                0,
+                0
+            ],
+            "index": 146
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600031,
+                0,
+                2,
+                1600031,
+                1,
+                2
+            ],
+            "index": 147
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 148
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1600010,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                33554432,
+                0,
+                0,
+                50,
+                50,
+                50
+            ],
+            "index": 149
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 151
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1600010,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296
+            ],
+            "index": 152
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600030,
+                1,
+                2
+            ],
+            "index": 155
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 156
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                37,
+                9,
+                8448
+            ],
+            "index": 157
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                9,
+                0,
+                256
+            ],
+            "index": 158
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600030,
+                9,
+                0,
+                256
+            ],
+            "index": 159
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 161
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                37,
+                0,
+                512
+            ],
+            "index": 162
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                512
+            ],
+            "index": 163
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600030,
+                1,
+                0,
+                512
+            ],
+            "index": 164
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 168
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 169
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 172
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600020,
+                10,
+                2,
+                1600020,
+                11,
+                2
+            ],
+            "index": 173
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 174
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                0,
+                2,
+                1600000,
+                1,
+                2
+            ],
+            "index": 175
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 176
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "セーブする"
+            ],
+            "index": 177
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                5152,
+                0,
+                0,
+                0
+            ],
+            "index": 178
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "セーブ確認"
+            ],
+            "intArgs": [
+                0,
+                16777219,
+                0,
+                0,
+                0,
+                1600050
+            ],
+            "index": 179
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600050,
+                1,
+                2
+            ],
+            "index": 180
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 181
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                5920,
+                0,
+                0,
+                0
+            ],
+            "index": 182
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 183
+        },
+        {
+            "code": 126,
+            "codeStr": "BanInput",
+            "intArgs": [
+                759
+            ],
+            "index": 184
+        },
+        {
+            "code": 220,
+            "codeStr": "SaveLoad",
+            "intArgs": [
+                0,
+                1600030
+            ],
+            "index": 185
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                1,
+                1600030,
+                2900028,
+                0
+            ],
+            "index": 186
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 187
+        },
+        {
+            "code": 220,
+            "codeStr": "SaveLoad",
+            "intArgs": [
+                0,
+                3000006
+            ],
+            "index": 188
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                1,
+                3000006,
+                2900028,
+                0
+            ],
+            "index": 189
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 190
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/System.sav"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 191
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                1600030,
+                1600005,
+                2700000,
+                0
+            ],
+            "index": 192
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900028,
+                0,
+                0,
+                0
+            ],
+            "index": 193
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                89000,
+                0,
+                0,
+                0,
+                89010
+            ],
+            "index": 194
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                80000,
+                0,
+                0,
+                0,
+                4293967296,
+                150,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216
+            ],
+            "index": 195
+        },
+        {
+            "code": 126,
+            "codeStr": "BanInput",
+            "intArgs": [
+                247
+            ],
+            "index": 196
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "セーブ"
+            ],
+            "intArgs": [
+                0,
+                1,
+                0
+            ],
+            "index": 197
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 200
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 204
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ロードする"
+            ],
+            "index": 205
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 206
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "セーブ確認"
+            ],
+            "intArgs": [
+                0,
+                16777219,
+                0,
+                0,
+                1,
+                1600050
+            ],
+            "index": 207
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600050,
+                1,
+                2
+            ],
+            "index": 208
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 209
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600023,
+                1600030,
+                9000024,
+                0
+            ],
+            "index": 210
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600023,
+                0,
+                2,
+                1600023,
+                1,
+                2
+            ],
+            "index": 211
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 212
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                6944,
+                0,
+                0,
+                0
+            ],
+            "index": 213
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 215
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "カーソル点滅"
+            ],
+            "intArgs": [
+                0,
+                2,
+                1600015,
+                0
+            ],
+            "index": 216
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                80100,
+                0,
+                0,
+                0,
+                80200
+            ],
+            "index": 217
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                4294967040,
+                20,
+                0,
+                0
+            ],
+            "index": 218
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                4294967056,
+                20,
+                0,
+                0
+            ],
+            "index": 219
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                4294967072,
+                20,
+                0,
+                0
+            ],
+            "index": 220
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                20,
+                0,
+                0
+            ],
+            "index": 221
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                1
+            ],
+            "index": 222
+        },
+        {
+            "code": 220,
+            "codeStr": "SaveLoad",
+            "intArgs": [
+                1,
+                1600030
+            ],
+            "index": 223
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 231
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                5408,
+                0,
+                0,
+                0
+            ],
+            "index": 232
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                80100,
+                0,
+                0,
+                0,
+                80200
+            ],
+            "index": 233
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 239
+        }
+    ]
+}

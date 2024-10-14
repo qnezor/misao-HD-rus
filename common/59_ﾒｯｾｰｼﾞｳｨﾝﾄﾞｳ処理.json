@@ -1,0 +1,1248 @@
+{
+    "id": 59,
+    "name": "ﾒｯｾｰｼﾞｳｨﾝﾄﾞｳ処理",
+    "description": "メッセージ枠と顔グラフィックを表示するイベントです",
+    "commands": [
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 0
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "##########################################################"
+            ],
+            "index": 1
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 2
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "このイベントについて"
+            ],
+            "index": 3
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 4
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "メッセージ枠と顔グラフィックを表示するイベントです。"
+            ],
+            "index": 5
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 6
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "「システム変数0：顔グラフィック番号」を読み込んで、"
+            ],
+            "index": 7
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "その番号に応じた顔グラフィックを表示します。\r\r"
+            ],
+            "index": 8
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "Sys0 = 0 の時は、メッセージウィンドウは表示されません。"
+            ],
+            "index": 9
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "Sys0 = 1 の時は、メッセージウィンドウのみ表示されます。"
+            ],
+            "index": 10
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "Sys0が2以上の時は、設定された顔グラフィックを画面右下に表示します。\r\r"
+            ],
+            "index": 11
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 12
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "顔グラフィックは、システムデータベース24番「顔グラフィック名」で設定します。\r\r"
+            ],
+            "index": 13
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 14
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "##########################################################"
+            ],
+            "index": 15
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 16
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                2
+            ],
+            "index": 17
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                90000,
+                0,
+                0
+            ],
+            "index": 18
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                99000,
+                0,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                99001,
+                0,
+                0
+            ],
+            "index": 20
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000001,
+                30,
+                0,
+                0
+            ],
+            "index": 21
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000003,
+                310,
+                0,
+                0
+            ],
+            "index": 22
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000004,
+                376,
+                0,
+                0
+            ],
+            "index": 23
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000005,
+                320,
+                0,
+                0
+            ],
+            "index": 24
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000006,
+                65,
+                0,
+                0
+            ],
+            "index": 25
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1600000,
+                0,
+                0
+            ],
+            "index": 26
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                9000000,
+                4294967295,
+                3
+            ],
+            "index": 28
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 29
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 30
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 34
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                9000012,
+                0,
+                2,
+                9000012,
+                1,
+                2
+            ],
+            "index": 35
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 36
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "メッセージ表示無しの場合　メッセージウィンドウを消去する"
+            ],
+            "index": 37
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "数フレーム経ったら消去するようにする(コモン4に残りフレーム数）"
+            ],
+            "index": 38
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                4,
+                0,
+                1
+            ],
+            "index": 39
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600004,
+                1,
+                1
+            ],
+            "index": 41
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 42
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1,
+                0,
+                513
+            ],
+            "index": 43
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "もしまたメッセージ表示フラグがオンになったらこのループを抜ける"
+            ],
+            "index": 44
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                9000012,
+                1,
+                2
+            ],
+            "index": 45
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 46
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 50
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 52
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1600000,
+                1,
+                0
+            ],
+            "index": 53
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                1600000,
+                6,
+                0,
+                6579300,
+                1600004
+            ],
+            "index": 54
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                90001,
+                0,
+                0,
+                0,
+                90004
+            ],
+            "index": 55
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ｺﾓﾝ2（前ﾌﾚｰﾑに顔ｸﾞﾗを表示していたかどうかのフラグ）を0に"
+            ],
+            "index": 56
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600002,
+                0,
+                0,
+                0
+            ],
+            "index": 57
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ｺﾓﾝ3（前ﾌﾚｰﾑにｳｨﾝﾄﾞｳを表示していたかどうかのフラグ）を0に"
+            ],
+            "index": 58
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600003,
+                0,
+                0,
+                0
+            ],
+            "index": 59
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ウィンドウが消えたので、次メッセージの待ち時間を元に戻す"
+            ],
+            "index": 60
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000010,
+                6,
+                0,
+                1
+            ],
+            "index": 61
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 68
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900001,
+                0,
+                2,
+                2900001,
+                1,
+                2
+            ],
+            "index": 70
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 71
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600050,
+                400,
+                0,
+                0
+            ],
+            "index": 72
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600051,
+                0,
+                0,
+                0
+            ],
+            "index": 73
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000002,
+                275,
+                0,
+                0
+            ],
+            "index": 74
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 76
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600050,
+                30,
+                0,
+                0
+            ],
+            "index": 77
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600051,
+                1800,
+                0,
+                0
+            ],
+            "index": 78
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000002,
+                42,
+                0,
+                0
+            ],
+            "index": 79
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1600000,
+                0,
+                1
+            ],
+            "index": 82
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ｺﾓﾝ3（前ﾌﾚｰﾑにｳｨﾝﾄﾞｳを表示していたかどうかのフラグ）が0ならウィンドウ表示"
+            ],
+            "index": 83
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600003,
+                0,
+                2
+            ],
+            "index": 84
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 85
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                9000000,
+                0,
+                5
+            ],
+            "index": 86
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 87
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ﾌﾗｸﾞを1に"
+            ],
+            "index": 88
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600003,
+                1,
+                0,
+                0
+            ],
+            "index": 89
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                18,
+                9000000,
+                0,
+                2,
+                9000000,
+                1,
+                2
+            ],
+            "index": 95
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 96
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                90000,
+                0,
+                0,
+                0,
+                90004
+            ],
+            "index": 97
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 99
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "顔グラフィック画像呼び出し（顔が出てない場合とすでに出てる場合で分岐）"
+            ],
+            "index": 100
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1,
+                0,
+                256
+            ],
+            "index": 101
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "SystemFile/window_message.png"
+            ],
+            "intArgs": [
+                24576,
+                1600004,
+                0,
+                1,
+                1,
+                1,
+                255,
+                320,
+                365,
+                50,
+                0
+            ],
+            "index": 102
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600002,
+                1,
+                0,
+                0
+            ],
+            "index": 103
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 105
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                9000000,
+                2,
+                2
+            ],
+            "index": 107
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 108
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                90003,
+                0,
+                0,
+                0,
+                90004
+            ],
+            "index": 109
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                1,
+                0,
+                0
+            ],
+            "index": 110
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000002,
+                275,
+                0,
+                0
+            ],
+            "index": 111
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "顔グラフィック画像呼び出し（顔が出てない場合とすでに出てる場合で分岐）"
+            ],
+            "index": 112
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1600000,
+                1,
+                0
+            ],
+            "index": 113
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "SystemFile/window_message.png"
+            ],
+            "intArgs": [
+                24576,
+                1600004,
+                0,
+                1,
+                1,
+                1,
+                255,
+                320,
+                365,
+                50,
+                0
+            ],
+            "index": 114
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000006,
+                100,
+                0,
+                0
+            ],
+            "index": 115
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600002,
+                1,
+                0,
+                0
+            ],
+            "index": 116
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 118
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                1
+            ],
+            "index": 119
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                1
+            ],
+            "index": 124
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2800003,
+                0,
+                1
+            ],
+            "index": 125
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 126
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                2,
+                2800003,
+                0,
+                4608,
+                1600006
+            ],
+            "index": 127
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                2,
+                2800003,
+                2800004,
+                4608,
+                1600007
+            ],
+            "index": 128
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2800006,
+                0,
+                2
+            ],
+            "index": 129
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 130
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1,
+                0,
+                256
+            ],
+            "index": 131
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600050,
+                252,
+                0,
+                0
+            ],
+            "index": 132
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1,
+                0,
+                256
+            ],
+            "index": 133
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\wE[3]\\c[1]\\cself[6]"
+            ],
+            "intArgs": [
+                32,
+                1600004,
+                0,
+                1,
+                1,
+                1,
+                255,
+                20,
+                1600050,
+                100,
+                0
+            ],
+            "index": 134
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2800005,
+                0,
+                2,
+                2800005,
+                4294967295,
+                2
+            ],
+            "index": 137
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 138
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1,
+                0,
+                256
+            ],
+            "index": 139
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16400,
+                1600004,
+                0,
+                1,
+                1,
+                1,
+                255,
+                660,
+                360,
+                50,
+                0,
+                1600007
+            ],
+            "index": 140
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 142
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1,
+                0,
+                256
+            ],
+            "index": 143
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16402,
+                1600004,
+                0
+            ],
+            "index": 144
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "顔グラフィック画像呼び出し（顔が出てない場合とすでに出てる場合で分岐）"
+            ],
+            "index": 147
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1600000,
+                1,
+                0
+            ],
+            "index": 148
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600002,
+                1,
+                0,
+                0
+            ],
+            "index": 149
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                1
+            ],
+            "index": 152
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600001,
+                9000000,
+                5
+            ],
+            "index": 153
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 154
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600001,
+                9000000,
+                0,
+                0
+            ],
+            "index": 155
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "顔番号が変化した場合は6フレーム待つ"
+            ],
+            "index": 156
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                6
+            ],
+            "index": 157
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 160
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ウィンドウが表示されている間は次メッセージへの待ち時間を減らす"
+            ],
+            "index": 161
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000010,
+                3,
+                0,
+                1
+            ],
+            "index": 162
+        }
+    ]
+}

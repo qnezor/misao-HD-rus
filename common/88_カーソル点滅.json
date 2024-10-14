@@ -1,0 +1,182 @@
+{
+    "id": 88,
+    "name": "カーソル点滅",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600001,
+                0,
+                2,
+                1600001,
+                1,
+                2
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                16,
+                5,
+                1600000,
+                1600000,
+                4294967196,
+                4294967196,
+                4294967196
+            ],
+            "index": 2
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 3
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                16,
+                5,
+                1600000,
+                1600000,
+                0,
+                0,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                5152,
+                0,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 6
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 8
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                80102,
+                0,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                16,
+                5,
+                1600000,
+                1600000,
+                4294967196,
+                4294967196,
+                4294967196
+            ],
+            "index": 10
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 11
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                16,
+                5,
+                1600000,
+                1600000,
+                0,
+                0,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                5152,
+                0,
+                0,
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 14
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                80000,
+                0,
+                0,
+                0,
+                80200
+            ],
+            "index": 15
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900004,
+                1,
+                0,
+                0
+            ],
+            "index": 16
+        }
+    ]
+}

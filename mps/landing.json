@@ -1,0 +1,445 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "name": "←屋上",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "イベント当たり判定"
+                            ],
+                            "intArgs": [
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                2200007,
+                                1,
+                                2
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000069,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                1,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967295,
+                                3,
+                                12,
+                                13,
+                                32
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "←屋上踊り場",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/match_step.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                28725,
+                                10,
+                                21,
+                                17,
+                                2,
+                                1,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "歩く人",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                3,
+                                16
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                169,
+                                16
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                177,
+                                16
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000030,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/onjin_miminari.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                4293967296,
+                                0
+                            ],
+                            "index": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "種",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                1100000300,
+                                1,
+                                2
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000020,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "階段",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 123,
+                            "codeStr": "InputKey",
+                            "intArgs": [
+                                1100000,
+                                2
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                1100000,
+                                0,
+                                2
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                1100000,
+                                3,
+                                3,
+                                1100000,
+                                7,
+                                1
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                17,
+                                3,
+                                4294967294,
+                                0,
+                                0,
+                                4,
+                                2
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                17,
+                                3,
+                                4294967294,
+                                0,
+                                0,
+                                4294967292,
+                                2
+                            ],
+                            "index": 11
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "<HIIRO>4F",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100009,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "<HIIRO>\\sdb[0:13:9]",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        }
+    ]
+}

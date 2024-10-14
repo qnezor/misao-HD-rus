@@ -1,0 +1,564 @@
+{
+    "id": 96,
+    "name": "┣パーティクル座標",
+    "description": "",
+    "commands": [
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "発生位置"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                1,
+                331776,
+                1600002
+            ],
+            "index": 0
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "発生範囲が追従型"
+            ],
+            "index": 1
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                19,
+                1600002,
+                0,
+                1,
+                1600002,
+                4294967294,
+                2,
+                1600002,
+                4294967293,
+                2
+            ],
+            "index": 2
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 3
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "主人公・仲間座標"
+            ],
+            "index": 4
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                19,
+                1600002,
+                0,
+                2,
+                1600002,
+                1,
+                2,
+                1600002,
+                2,
+                2
+            ],
+            "index": 5
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 6
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600020,
+                4096,
+                4294967294,
+                6
+            ],
+            "index": 7
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                4096,
+                4294967294,
+                7
+            ],
+            "index": 8
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 10
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600020,
+                4096,
+                4294967293,
+                6
+            ],
+            "index": 11
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                4096,
+                4294967293,
+                7
+            ],
+            "index": 12
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 14
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600020,
+                4096,
+                4294967292,
+                6
+            ],
+            "index": 15
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                4096,
+                4294967292,
+                7
+            ],
+            "index": 16
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 18
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                3,
+                1600002,
+                3,
+                2,
+                1600002,
+                4,
+                2,
+                1600002,
+                5,
+                2
+            ],
+            "index": 19
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 20
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600020,
+                4096,
+                4294967291,
+                6
+            ],
+            "index": 21
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                4096,
+                4294967291,
+                7
+            ],
+            "index": 22
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 24
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600020,
+                4096,
+                4294967290,
+                6
+            ],
+            "index": 25
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                4096,
+                4294967290,
+                7
+            ],
+            "index": 26
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 28
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600020,
+                4096,
+                4294967289,
+                6
+            ],
+            "index": 29
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                4096,
+                4294967289,
+                7
+            ],
+            "index": 30
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "Y座標補正"
+            ],
+            "index": 35
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600021,
+                4294967288,
+                0,
+                256
+            ],
+            "index": 36
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 38
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "イベント座標"
+            ],
+            "index": 39
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "イベントID"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                8,
+                331776,
+                1600032
+            ],
+            "index": 40
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600020,
+                4096,
+                1600032,
+                6
+            ],
+            "index": 41
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                4096,
+                1600032,
+                7
+            ],
+            "index": 42
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "Y座標補正"
+            ],
+            "index": 43
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600021,
+                4294967288,
+                0,
+                256
+            ],
+            "index": 44
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 46
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "マウス座標"
+            ],
+            "index": 47
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600020,
+                12288,
+                20
+            ],
+            "index": 48
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                12288,
+                21
+            ],
+            "index": 49
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 51
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "数値指定"
+            ],
+            "index": 52
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "範囲X１"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                9,
+                331776,
+                1600060
+            ],
+            "index": 53
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "範囲X２"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                10,
+                331776,
+                1600061
+            ],
+            "index": 54
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "範囲Y１"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                11,
+                331776,
+                1600062
+            ],
+            "index": 55
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "範囲Y２"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                12,
+                331776,
+                1600063
+            ],
+            "index": 56
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                1600060,
+                1600061,
+                24576
+            ],
+            "index": 57
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600021,
+                1600062,
+                1600063,
+                24576
+            ],
+            "index": 58
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "発生X"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                13,
+                327680,
+                1600020
+            ],
+            "index": 61
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "発生Y"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                14,
+                327680,
+                1600021
+            ],
+            "index": 62
+        }
+    ]
+}

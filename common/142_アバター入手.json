@@ -1,0 +1,406 @@
+{
+    "id": 142,
+    "name": "アバター入手",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                91000,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600030,
+                1600010,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SCREENSHOT>"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                50,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4267777,
+                1600010,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                33554432,
+                0,
+                0,
+                30,
+                30,
+                30
+            ],
+            "index": 3
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                368,
+                0,
+                1600010,
+                1600010,
+                5,
+                0,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                6176,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                4,
+                5,
+                0,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2200008,
+                1,
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 8
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                10,
+                1600000,
+                4294967293,
+                4096,
+                1600005
+            ],
+            "index": 9
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                17,
+                1600000,
+                0,
+                4608,
+                1600006
+            ],
+            "index": 12
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2200008,
+                1,
+                2
+            ],
+            "index": 13
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 14
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                10,
+                1600000,
+                0,
+                0,
+                1
+            ],
+            "index": 15
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 18
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                320,
+                0,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                220,
+                0,
+                0
+            ],
+            "index": 20
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                24592,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                200,
+                0,
+                1600006
+            ],
+            "index": 21
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 22
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                10,
+                0,
+                256
+            ],
+            "index": 23
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Получен аватар \\E\\c[2]\\cself[5]\\N\\c[0]."
+            ],
+            "intArgs": [
+                4128,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 24
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2200008,
+                0,
+                2
+            ],
+            "index": 25
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 26
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 27
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                50,
+                0,
+                256
+            ],
+            "index": 28
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\f[10]This function requires save data from ver. 1.06 or later."
+            ],
+            "intArgs": [
+                4128,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 29
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600020,
+                144
+            ],
+            "index": 32
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                4,
+                5,
+                4294967295,
+                0,
+                0
+            ],
+            "index": 33
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                1600030,
+                0,
+                0,
+                0,
+                1600010
+            ],
+            "index": 34
+        }
+    ]
+}

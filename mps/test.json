@@ -1,0 +1,371 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "name": "戻る",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "デバッグ用"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                1
+                            ],
+                            "index": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "アイテム全取得",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/lab_box.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 179,
+                            "codeStr": "LoopTimes",
+                            "intArgs": [
+                                24
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 250,
+                            "codeStr": "Database",
+                            "stringArgs": [
+                                "",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                1100000,
+                                0,
+                                0,
+                                1
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                256
+                            ],
+                            "index": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "アイテム全取得",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                9000003,
+                                320,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                9000004,
+                                100,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 102,
+                            "codeStr": "Choices",
+                            "stringArgs": [
+                                "Аки Ж",
+                                "Аки М",
+                                "Аки Ж в крови",
+                                "Аки М в крови"
+                            ],
+                            "intArgs": [
+                                4
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000007,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900015,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                3
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000007,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900015,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                4
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000007,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900015,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000007,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900015,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "code": 421,
+                            "codeStr": "CancelCase",
+                            "intArgs": [
+                                0
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                2,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 22
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "CharaChip/chara_kurata_b.png",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2900018,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000001,
+                                5,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000006,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000033,
+                                6,
+                                0,
+                                0
+                            ],
+                            "index": 2
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000006,
+                                11,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

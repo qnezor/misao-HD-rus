@@ -1,0 +1,944 @@
+{
+    "id": 125,
+    "name": "緋色の眼",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                1,
+                2,
+                1600000,
+                4294967295,
+                2
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                0,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600099,
+                1,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ダッシュ"
+            ],
+            "intArgs": [
+                0,
+                1,
+                4294967295
+            ],
+            "index": 4
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 212,
+            "codeStr": "SetLabel",
+            "stringArgs": [
+                "label"
+            ],
+            "index": 8
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                ""
+            ],
+            "intArgs": [
+                817,
+                0,
+                4294967294,
+                0,
+                1,
+                0,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200012,
+                0,
+                0,
+                0
+            ],
+            "index": 10
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "並列ライト処理"
+            ],
+            "intArgs": [
+                0,
+                2,
+                4294967295,
+                1
+            ],
+            "index": 11
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                0,
+                0,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                95000,
+                0,
+                0,
+                0,
+                95100
+            ],
+            "index": 13
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                4500,
+                10,
+                0,
+                0,
+                4501
+            ],
+            "index": 14
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                1600016,
+                10,
+                0,
+                0,
+                1600010
+            ],
+            "index": 15
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600022,
+                0,
+                0,
+                0
+            ],
+            "index": 16
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600099,
+                0,
+                0,
+                0
+            ],
+            "index": 17
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2000051,
+                0,
+                2
+            ],
+            "index": 18
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 19
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ダッシュ"
+            ],
+            "intArgs": [
+                0,
+                1,
+                1
+            ],
+            "index": 20
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                9000013,
+                0,
+                2,
+                9000013,
+                1,
+                2
+            ],
+            "index": 26
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 27
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600020,
+                4352,
+                142
+            ],
+            "index": 28
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600021,
+                4608,
+                312
+            ],
+            "index": 29
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                20,
+                1600020,
+                142,
+                2,
+                1600021,
+                312,
+                2,
+                1600020,
+                144,
+                2,
+                1600021,
+                301,
+                2
+            ],
+            "index": 30
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 31
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600022,
+                1,
+                0,
+                0
+            ],
+            "index": 32
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 34
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600022,
+                1,
+                0,
+                0
+            ],
+            "index": 35
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 37
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 39
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 41
+        },
+        {
+            "code": 213,
+            "codeStr": "JumpLabel",
+            "stringArgs": [
+                "label"
+            ],
+            "index": 42
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600022,
+                1,
+                2
+            ],
+            "index": 45
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 46
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                2900033,
+                1,
+                2
+            ],
+            "index": 47
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 48
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900034,
+                1,
+                2
+            ],
+            "index": 49
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 50
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                "CharaChip/chara_aki_f_taiki_akame.png"
+            ],
+            "intArgs": [
+                817,
+                0,
+                4294967294,
+                0,
+                1,
+                0,
+                0
+            ],
+            "index": 51
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 53
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                "CharaChip/chara_aki_m_taiki_akame.png"
+            ],
+            "intArgs": [
+                817,
+                0,
+                4294967294,
+                0,
+                1,
+                0,
+                0
+            ],
+            "index": 54
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 58
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900034,
+                1,
+                2
+            ],
+            "index": 59
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 60
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                "CharaChip/chara_aki_f_akame.png"
+            ],
+            "intArgs": [
+                817,
+                0,
+                4294967294,
+                0,
+                1,
+                0,
+                0
+            ],
+            "index": 61
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 63
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                "CharaChip/chara_aki_m_akame.png"
+            ],
+            "intArgs": [
+                817,
+                0,
+                4294967294,
+                0,
+                1,
+                0,
+                0
+            ],
+            "index": 64
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                4500,
+                0,
+                0
+            ],
+            "index": 69
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600016,
+                1600010,
+                0,
+                0
+            ],
+            "index": 70
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600013,
+                16384,
+                1600010,
+                9
+            ],
+            "index": 71
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600013,
+                0,
+                2
+            ],
+            "index": 72
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 73
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "並列ライト処理"
+            ],
+            "intArgs": [
+                0,
+                2,
+                1,
+                0
+            ],
+            "index": 74
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200012,
+                1,
+                0,
+                0
+            ],
+            "index": 75
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 76
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Effect/Eff_hiiro.png"
+            ],
+            "intArgs": [
+                4912,
+                1600010,
+                10,
+                700,
+                500,
+                1,
+                255,
+                320,
+                240,
+                100,
+                0
+            ],
+            "index": 77
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                1
+            ],
+            "index": 80
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "緋色の効果"
+            ],
+            "index": 81
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                0,
+                0,
+                0
+            ],
+            "index": 82
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600030,
+                12288,
+                26
+            ],
+            "index": 83
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                1600030
+            ],
+            "index": 84
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                95000,
+                0,
+                4
+            ],
+            "index": 85
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600032,
+                1000009,
+                0,
+                4
+            ],
+            "index": 86
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600032,
+                1600031,
+                10,
+                8448
+            ],
+            "index": 87
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600033,
+                1600032,
+                0,
+                32
+            ],
+            "index": 88
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "<<GET_MAPEVENT_NAME_FROM_ID>>\\cself[31]"
+            ],
+            "intArgs": [
+                1600005,
+                1280,
+                0,
+                1
+            ],
+            "index": 89
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "<HIIRO>",
+                "<HIIROLIGHT>",
+                "<HIIROLIGHT2>",
+                ""
+            ],
+            "intArgs": [
+                3,
+                538470917,
+                538470917,
+                1600005
+            ],
+            "index": 90
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 91
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600033,
+                1,
+                2
+            ],
+            "index": 92
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 93
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                1600031,
+                0,
+                256
+            ],
+            "index": 94
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "<HIIRO>"
+            ],
+            "intArgs": [
+                1600005,
+                2048,
+                0
+            ],
+            "index": 95
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600011,
+                4096,
+                1600031,
+                6
+            ],
+            "index": 96
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600012,
+                4096,
+                1600031,
+                7
+            ],
+            "index": 97
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600013,
+                16384,
+                1600015,
+                9
+            ],
+            "index": 98
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600013,
+                0,
+                2
+            ],
+            "index": 99
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 100
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\f[12]\\wE[3]\\cself[5]"
+            ],
+            "intArgs": [
+                33574944,
+                1600015,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 101
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 107
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 109
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                1,
+                0,
+                256
+            ],
+            "index": 112
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 115
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 119
+        },
+        {
+            "code": 213,
+            "codeStr": "JumpLabel",
+            "stringArgs": [
+                "label"
+            ],
+            "index": 120
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 123
+        }
+    ]
+}

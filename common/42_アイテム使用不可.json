@@ -1,0 +1,31 @@
+{
+    "id": 42,
+    "name": "アイテム使用不可",
+    "description": "",
+    "commands": [
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                1,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nЭтот предмет здесь не поможет."
+            ],
+            "index": 1
+        }
+    ]
+}

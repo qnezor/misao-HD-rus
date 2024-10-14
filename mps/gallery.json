@@ -1,0 +1,27 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "name": "★ギャラリー",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ギャラリー"
+                            ],
+                            "intArgs": [
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

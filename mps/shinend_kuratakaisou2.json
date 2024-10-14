@@ -1,0 +1,3054 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "name": "★倉田(女主人公)",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "chara_isu2",
+                                "",
+                                "-16",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                1,
+                                10,
+                                4,
+                                36,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "画面色調変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                20,
+                                1,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                70
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                1,
+                                0,
+                                0,
+                                0,
+                                37,
+                                4293967296,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "x",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                1,
+                                10,
+                                4,
+                                36,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_kurata_kako.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967295,
+                                0,
+                                5,
+                                0,
+                                0
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "感情表現アイコン"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                12,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@1\n(Она уранила платок...\n Должен ли я отдать его ей...?)"
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_chara05",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                1,
+                                10,
+                                10,
+                                90,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                128,
+                                5,
+                                1,
+                                1,
+                                90,
+                                91,
+                                0
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                3,
+                                9,
+                                1,
+                                1,
+                                0
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                128,
+                                10,
+                                1,
+                                1,
+                                92,
+                                94,
+                                0
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_etc3.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967295,
+                                0,
+                                5,
+                                0,
+                                0
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                1,
+                                0,
+                                0,
+                                0,
+                                95,
+                                4293967296,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                3
+                            ],
+                            "index": 25
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "x",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                1,
+                                10,
+                                10,
+                                33,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 27
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Э-Эм..."
+                            ],
+                            "index": 28
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラ方向変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                5,
+                                2,
+                                2,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 29
+                        },
+                        {
+                            "code": 122,
+                            "codeStr": "SetString",
+                            "stringArgs": [
+                                "Девушка"
+                            ],
+                            "intArgs": [
+                                3000010,
+                                0,
+                                0
+                            ],
+                            "index": 30
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                17,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 31
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Ха? Что? Что это?"
+                            ],
+                            "index": 32
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 33
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_chara05",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                3,
+                                10,
+                                10,
+                                96,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 34
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                12,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 35
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Ты... Уронила свой платок..."
+                            ],
+                            "index": 36
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 37
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_chara05",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                2,
+                                2,
+                                10,
+                                10,
+                                97,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 38
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "mob_006",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                3,
+                                1,
+                                10,
+                                4,
+                                3,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 39
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                2,
+                                5,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                4294967282,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216,
+                                1
+                            ],
+                            "index": 40
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                17,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 41
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Не может быть! Фу-у-у!"
+                            ],
+                            "index": 42
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                48,
+                                2,
+                                2,
+                                2,
+                                1,
+                                0,
+                                4
+                            ],
+                            "index": 43
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                17,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 44
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Курата тронул его...!!"
+                            ],
+                            "index": 45
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "chara_isu2",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4,
+                                4,
+                                10,
+                                4,
+                                7,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 46
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラ方向変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                5,
+                                5,
+                                7,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 47
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                12,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 48
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "А...?"
+                            ],
+                            "index": 49
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                2,
+                                0,
+                                0,
+                                0,
+                                98,
+                                4293967296,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216
+                            ],
+                            "index": 50
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                17,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 51
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Не трогай мои вещи своими грязными руками!"
+                            ],
+                            "index": 52
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                12,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 53
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Прости, я сейчас верну..."
+                            ],
+                            "index": 54
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                2,
+                                0,
+                                0,
+                                0,
+                                99,
+                                4293967296,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216
+                            ],
+                            "index": 55
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                17,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 56
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Я НЕ хочу его!\nТы МЕРЗКИЙ!"
+                            ],
+                            "index": 57
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                3,
+                                0,
+                                0,
+                                0,
+                                100,
+                                4293967296,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216
+                            ],
+                            "index": 58
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 59
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                5
+                            ],
+                            "index": 60
+                        },
+                        {
+                            "code": 122,
+                            "codeStr": "SetString",
+                            "stringArgs": [
+                                "Парень"
+                            ],
+                            "intArgs": [
+                                3000010,
+                                0,
+                                0
+                            ],
+                            "index": 61
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                17,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 62
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Курата, ты придурок!\nТы заставил девушку плакать!"
+                            ],
+                            "index": 63
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_chara06",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                3,
+                                1,
+                                10,
+                                10,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 64
+                        },
+                        {
+                            "code": 122,
+                            "codeStr": "SetString",
+                            "stringArgs": [
+                                "Девушка"
+                            ],
+                            "intArgs": [
+                                3000010,
+                                0,
+                                0
+                            ],
+                            "index": 65
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                17,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 66
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Ты худший!\nДаже не смей приносить свои грязные руки в школу!"
+                            ],
+                            "index": 67
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                100
+                            ],
+                            "index": 68
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_kurata_kako_utsumuku2.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967295,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 69
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "x",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                3,
+                                10,
+                                10,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 70
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 71
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラ方向変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                5,
+                                4294967295,
+                                2,
+                                3,
+                                0,
+                                0
+                            ],
+                            "index": 72
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 73
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 74
+                        },
+                        {
+                            "code": 210,
+                            "codeStr": "CommonEvent",
+                            "intArgs": [
+                                12,
+                                0
+                            ],
+                            "index": 75
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "高野",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "ハンカチ落とした女子",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "mob_006",
+                                "",
+                                "304",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                2,
+                                10,
+                                4,
+                                33,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                160,
+                                6,
+                                2,
+                                2,
+                                31,
+                                35,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                2,
+                                200,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                4294966992,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                120
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                3,
+                                9,
+                                1,
+                                1,
+                                345
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                80
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                3
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                144,
+                                0,
+                                2,
+                                2,
+                                31,
+                                35,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "x",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                2,
+                                10,
+                                4,
+                                33,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 9
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "女子",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "モブ男子",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "モブ男子",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "★倉田(男主人公)",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "mob_006",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                9,
+                                5,
+                                10,
+                                4,
+                                33,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                6,
+                                12,
+                                1,
+                                1,
+                                25
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                7,
+                                12,
+                                1,
+                                1,
+                                26
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                6,
+                                13,
+                                1,
+                                1,
+                                33
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 242,
+                            "codeStr": "Command",
+                            "intArgs": [
+                                2,
+                                7,
+                                13,
+                                1,
+                                1,
+                                34
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                97,
+                                0,
+                                4,
+                                0,
+                                4294967290,
+                                0,
+                                0
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                97,
+                                0,
+                                7,
+                                0,
+                                3,
+                                0,
+                                0
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2800000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "画面色調変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                20,
+                                1,
+                                0
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                7
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                97,
+                                0,
+                                7,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                7
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/mob_004.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                7,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                81,
+                                0,
+                                7,
+                                0,
+                                21,
+                                0,
+                                0
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "code": 122,
+                            "codeStr": "SetString",
+                            "stringArgs": [
+                                "Парень"
+                            ],
+                            "intArgs": [
+                                3000010,
+                                0,
+                                0
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                17,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "@1\nТы! Шевелись!"
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/onjin_panchi.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 21
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                7
+                            ],
+                            "index": 22
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_kurata_kako_etc.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967295,
+                                0,
+                                3,
+                                0,
+                                0
+                            ],
+                            "index": 23
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4
+                            ],
+                            "index": 24
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 25
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "chara_kurata_kako_etc",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                4294967295,
+                                10,
+                                4,
+                                1,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 26
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "chara_kurata_kako_etc",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                1,
+                                10,
+                                4,
+                                2,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 27
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "anime_chara06",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                9,
+                                5,
+                                10,
+                                10,
+                                2,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 28
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                8
+                            ],
+                            "index": 30
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 31
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 32
+                        },
+                        {
+                            "code": 122,
+                            "codeStr": "SetString",
+                            "stringArgs": [
+                                "Девушка"
+                            ],
+                            "intArgs": [
+                                3000010,
+                                0,
+                                0
+                            ],
+                            "index": 33
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "А-а-агх!"
+                            ],
+                            "index": 34
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/mob_005.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                7,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 35
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                81,
+                                0,
+                                7,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 36
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                7
+                            ],
+                            "index": 37
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 38
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_kurata_kako_bag2.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967295,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 39
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 40
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4263681,
+                                4294967295,
+                                0,
+                                0,
+                                0,
+                                4,
+                                4293967296,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216
+                            ],
+                            "index": 41
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                12,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 42
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "П-Прости..."
+                            ],
+                            "index": 43
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                8
+                            ],
+                            "index": 44
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                17,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 45
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "З-Забудь, просто двигайся!"
+                            ],
+                            "index": 46
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "x",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                4294967295,
+                                4294967295,
+                                10,
+                                10,
+                                2,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 47
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                69378,
+                                1,
+                                0
+                            ],
+                            "index": 48
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 49
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "chara_isu2",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                8,
+                                1,
+                                10,
+                                4,
+                                38,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 50
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                10
+                            ],
+                            "index": 51
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1000110,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 52
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Ох, Угх...!"
+                            ],
+                            "index": 53
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 54
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラモーション",
+                                "mob_006",
+                                "",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                61509,
+                                9,
+                                5,
+                                10,
+                                4,
+                                33,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 55
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                10
+                            ],
+                            "index": 56
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                160,
+                                5,
+                                5,
+                                5,
+                                31,
+                                35,
+                                0
+                            ],
+                            "index": 57
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                4259841,
+                                5,
+                                10,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                4294967286,
+                                4294967286,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216
+                            ],
+                            "index": 58
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                10
+                            ],
+                            "index": 59
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                160,
+                                0,
+                                5,
+                                5,
+                                31,
+                                35,
+                                0
+                            ],
+                            "index": 60
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Эй!\nОна плачет!"
+                            ],
+                            "index": 61
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Ты худший, Курата!\nЗаставил девушку плакать!"
+                            ],
+                            "index": 62
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_kurata_kako_etc.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967295,
+                                0,
+                                3,
+                                0,
+                                0
+                            ],
+                            "index": 63
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                12,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 64
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Э-Это было моя вина?"
+                            ],
+                            "index": 65
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "stringArgs": [
+                                "CharaChip/anime_chara06.png"
+                            ],
+                            "intArgs": [
+                                4288256,
+                                5,
+                                0,
+                                10,
+                                10,
+                                3,
+                                4293967296,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216
+                            ],
+                            "index": 66
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                17,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 67
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Ты двигался недостаточно быстро!"
+                            ],
+                            "index": 68
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_kurata_kako_bag2.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967295,
+                                0,
+                                3,
+                                0,
+                                0
+                            ],
+                            "index": 69
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                12,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 70
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Н-Но..."
+                            ],
+                            "index": 71
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/mob_004.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                7,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 72
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                81,
+                                0,
+                                7,
+                                0,
+                                22,
+                                0,
+                                0
+                            ],
+                            "index": 73
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                7
+                            ],
+                            "index": 74
+                        },
+                        {
+                            "code": 122,
+                            "codeStr": "SetString",
+                            "stringArgs": [
+                                "Парень"
+                            ],
+                            "intArgs": [
+                                3000010,
+                                0,
+                                0
+                            ],
+                            "index": 75
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                17,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 76
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Извращенец!"
+                            ],
+                            "index": 77
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラ方向変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                5,
+                                4294967295,
+                                6,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 78
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                81,
+                                0,
+                                7,
+                                0,
+                                24,
+                                0,
+                                0
+                            ],
+                            "index": 79
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                7
+                            ],
+                            "index": 80
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Курата ощупал её!!"
+                            ],
+                            "index": 81
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "stringArgs": [
+                                "CharaChip/mob_006.png"
+                            ],
+                            "intArgs": [
+                                37842688,
+                                5,
+                                0,
+                                10,
+                                4,
+                                33,
+                                4293967296,
+                                0,
+                                0,
+                                4293967296,
+                                4293967296,
+                                0,
+                                16777216
+                            ],
+                            "index": 82
+                        },
+                        {
+                            "code": 122,
+                            "codeStr": "SetString",
+                            "stringArgs": [
+                                "Девушка"
+                            ],
+                            "intArgs": [
+                                3000010,
+                                0,
+                                0
+                            ],
+                            "index": 83
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Ты ужасен..."
+                            ],
+                            "index": 84
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "キャラ方向変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                5,
+                                4294967295,
+                                2,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 85
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                100
+                            ],
+                            "index": 86
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "stringArgs": [
+                                "CharaChip/chara_kurata_kako_bag3.png"
+                            ],
+                            "intArgs": [
+                                801,
+                                0,
+                                4294967295,
+                                0,
+                                3,
+                                0,
+                                0
+                            ],
+                            "index": 87
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 88
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 89
+                        },
+                        {
+                            "code": 281,
+                            "codeStr": "ScrollScreen",
+                            "intArgs": [
+                                288,
+                                0,
+                                4294967293
+                            ],
+                            "index": 90
+                        },
+                        {
+                            "code": 210,
+                            "codeStr": "CommonEvent",
+                            "intArgs": [
+                                12,
+                                0
+                            ],
+                            "index": 91
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "モブ男子",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "女子生徒",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "女子生徒",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "並列",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                125,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                25,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                26,
+                                0
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                33,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                34,
+                                0
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                81,
+                                0
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                73,
+                                0
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                74,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 240,
+                            "codeStr": "Chip",
+                            "intArgs": [
+                                82,
+                                0
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "並列",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                1100001,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                160,
+                                4,
+                                1100001,
+                                1100001,
+                                38,
+                                39,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                8
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                160,
+                                0,
+                                1100001,
+                                1100001,
+                                38,
+                                39,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                150
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                160,
+                                4,
+                                1100001,
+                                1100001,
+                                38,
+                                39,
+                                0
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                8
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                160,
+                                0,
+                                1100001,
+                                1100001,
+                                38,
+                                39,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                25
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                160,
+                                4,
+                                1100001,
+                                1100001,
+                                38,
+                                39,
+                                0
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                8
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 290,
+                            "codeStr": "Effect",
+                            "intArgs": [
+                                160,
+                                0,
+                                1100001,
+                                1100001,
+                                38,
+                                39,
+                                0
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                150
+                            ],
+                            "index": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "男女共通",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                15,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "..."
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "stringArgs": [
+                                "<SQUARE>"
+                            ],
+                            "intArgs": [
+                                4144,
+                                150,
+                                50,
+                                700,
+                                500,
+                                1,
+                                255,
+                                320,
+                                240,
+                                100,
+                                0,
+                                0,
+                                33554432,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                100
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "顔グラフィック"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                4294967295,
+                                1,
+                                4294967295,
+                                0
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 101,
+                            "codeStr": "Message",
+                            "stringArgs": [
+                                "Никто не принимает меня..."
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "intArgs": [
+                                16776960,
+                                100,
+                                0,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                50
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "イベントスキップ"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                4294967295
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/match_sonic.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                0,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "画面色調変更"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                1,
+                                100,
+                                0,
+                                0
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2200000,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 12
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                6,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 13
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ダッシュ"
+                            ],
+                            "intArgs": [
+                                0,
+                                1,
+                                4294967295
+                            ],
+                            "index": 14
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2000001,
+                                2,
+                                0,
+                                0
+                            ],
+                            "index": 15
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2200002,
+                                1,
+                                0,
+                                0
+                            ],
+                            "index": 16
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "ショートカット"
+                            ],
+                            "intArgs": [
+                                0,
+                                4,
+                                2,
+                                0,
+                                0,
+                                0
+                            ],
+                            "index": 17
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 18
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                16777218,
+                                4294967295,
+                                0,
+                                0,
+                                0,
+                                150
+                            ],
+                            "index": 19
+                        },
+                        {
+                            "code": 281,
+                            "codeStr": "ScrollScreen",
+                            "intArgs": [
+                                3,
+                                0,
+                                0
+                            ],
+                            "index": 20
+                        },
+                        {
+                            "code": 130,
+                            "codeStr": "Teleport",
+                            "intArgs": [
+                                4294967295,
+                                15,
+                                10,
+                                72,
+                                1
+                            ],
+                            "index": 21
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "[並列]マップ効果",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "マップ光影",
+                                "map_kyoushitsu"
+                            ],
+                            "intArgs": [
+                                0,
+                                4116,
+                                4294967295,
+                                100,
+                                70,
+                                0,
+                                0
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1619 @@
+{
+    "id": 133,
+    "name": "イベントスキップ実行",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900039,
+                1,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "スキップ処理開始"
+            ],
+            "index": 1
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600000,
+                1,
+                1
+            ],
+            "index": 2
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 3
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                4144,
+                99999,
+                0,
+                700,
+                500,
+                1,
+                255,
+                320,
+                240,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                4,
+                2,
+                0,
+                0,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 8
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600000,
+                9,
+                5
+            ],
+            "index": 11
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 12
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                4294967040,
+                0,
+                0,
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                4294967056,
+                0,
+                0,
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                4294967072,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                20,
+                1600000,
+                1,
+                2,
+                1600000,
+                2,
+                2,
+                1600000,
+                3,
+                2,
+                1600000,
+                4,
+                2
+            ],
+            "index": 18
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 19
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "プロローグ"
+            ],
+            "index": 20
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                0,
+                0,
+                3,
+                0
+            ],
+            "index": 21
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 22
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                27,
+                0,
+                4
+            ],
+            "index": 24
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 25
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                9,
+                8,
+                4,
+                4294967280
+            ],
+            "index": 26
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 27
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                16,
+                0,
+                4
+            ],
+            "index": 29
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 30
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 32
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "回想_乙女"
+            ],
+            "index": 33
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ライティング"
+            ],
+            "intArgs": [
+                0,
+                3,
+                4294967295,
+                0,
+                0
+            ],
+            "index": 34
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 35
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000023,
+                2,
+                0,
+                0
+            ],
+            "index": 36
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                4,
+                2,
+                0,
+                0,
+                0
+            ],
+            "index": 37
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                18,
+                19,
+                41,
+                1
+            ],
+            "index": 38
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                13,
+                0,
+                4
+            ],
+            "index": 40
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 41
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 43
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "墓_乙女"
+            ],
+            "index": 44
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                28,
+                18,
+                41,
+                1
+            ],
+            "index": 45
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                13,
+                0,
+                4
+            ],
+            "index": 47
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                1
+            ],
+            "index": 48
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 50
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "回想_吉野"
+            ],
+            "index": 51
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 52
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                20,
+                20,
+                28,
+                1
+            ],
+            "index": 53
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                13,
+                0,
+                4
+            ],
+            "index": 55
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 56
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 58
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 59
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                20,
+                1600000,
+                5,
+                2,
+                1600000,
+                6,
+                2,
+                1600000,
+                7,
+                2,
+                1600000,
+                8,
+                2
+            ],
+            "index": 60
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 61
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "回想_工藤"
+            ],
+            "index": 62
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4,
+                0,
+                0,
+                0
+            ],
+            "index": 63
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                4294967286,
+                0,
+                0,
+                0,
+                10
+            ],
+            "index": 64
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                23,
+                10,
+                14,
+                0
+            ],
+            "index": 65
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                17,
+                0,
+                4
+            ],
+            "index": 67
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 68
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 70
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "生贄選択"
+            ],
+            "index": 71
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                6,
+                0,
+                4
+            ],
+            "index": 72
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                1
+            ],
+            "index": 73
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 75
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "本編ED"
+            ],
+            "index": 76
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ライティング"
+            ],
+            "intArgs": [
+                0,
+                3,
+                4294967295,
+                0,
+                0
+            ],
+            "index": 77
+        },
+        {
+            "code": 281,
+            "codeStr": "ScrollScreen",
+            "intArgs": [
+                385,
+                1,
+                4294967288
+            ],
+            "index": 78
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                22,
+                17,
+                62,
+                1
+            ],
+            "index": 79
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                1,
+                0,
+                4
+            ],
+            "index": 80
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 81
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 83
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "本編ED_屋上から"
+            ],
+            "index": 84
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 85
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000049,
+                1,
+                0,
+                0
+            ],
+            "index": 86
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                1,
+                1,
+                51,
+                0
+            ],
+            "index": 87
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 90
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 91
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                20,
+                1600000,
+                9,
+                2,
+                1600000,
+                10,
+                2,
+                1600000,
+                11,
+                2,
+                1600000,
+                12,
+                2
+            ],
+            "index": 92
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 93
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "本編ED_スタッフロール"
+            ],
+            "index": 94
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000049,
+                2,
+                0,
+                0
+            ],
+            "index": 95
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                1,
+                1,
+                51,
+                0
+            ],
+            "index": 96
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000008,
+                6,
+                0,
+                0
+            ],
+            "index": 97
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 98
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 99
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 101
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "真ED_オープニング"
+            ],
+            "index": 102
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                13,
+                34,
+                66,
+                0
+            ],
+            "index": 103
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                10,
+                0,
+                4
+            ],
+            "index": 104
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 105
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 107
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "真ED_吉野の墓(男主人公)"
+            ],
+            "index": 108
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                9,
+                6,
+                32,
+                0
+            ],
+            "index": 109
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                14,
+                0,
+                4
+            ],
+            "index": 110
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 111
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 113
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "真ED_工藤の墓"
+            ],
+            "index": 114
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                10,
+                26,
+                69,
+                0
+            ],
+            "index": 115
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                23,
+                0,
+                4
+            ],
+            "index": 116
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 117
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 119
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 120
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                20,
+                1600000,
+                13,
+                2,
+                1600000,
+                14,
+                2,
+                1600000,
+                15,
+                2,
+                1600000,
+                16,
+                2
+            ],
+            "index": 121
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 122
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "真ED_乙女の墓"
+            ],
+            "index": 123
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                10,
+                8,
+                53,
+                0
+            ],
+            "index": 124
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                16,
+                0,
+                4
+            ],
+            "index": 125
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 126
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 128
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "真ED_彩加のヘアピン"
+            ],
+            "index": 129
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000018,
+                1,
+                0,
+                0
+            ],
+            "index": 130
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                4294967286,
+                0,
+                0,
+                0,
+                10
+            ],
+            "index": 131
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                33558530,
+                4294967196,
+                0
+            ],
+            "index": 132
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                41,
+                21,
+                66,
+                0
+            ],
+            "index": 133
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 134
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                10,
+                0,
+                4
+            ],
+            "index": 135
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                1
+            ],
+            "index": 136
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 138
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "真ED_倉田の墓"
+            ],
+            "index": 139
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                11,
+                10,
+                72,
+                0
+            ],
+            "index": 140
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                6,
+                0,
+                4
+            ],
+            "index": 141
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 142
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 144
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "真ED_倉田の墓2 アルバム"
+            ],
+            "index": 145
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                15,
+                10,
+                72,
+                1
+            ],
+            "index": 146
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                6,
+                0,
+                4
+            ],
+            "index": 147
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                1
+            ],
+            "index": 148
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 150
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 151
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                4,
+                1600000,
+                17,
+                2,
+                1600000,
+                18,
+                2,
+                1600000,
+                19,
+                2,
+                1600000,
+                20,
+                2
+            ],
+            "index": 152
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 153
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "真ED_倉田の墓3 猫"
+            ],
+            "index": 154
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                18,
+                19,
+                73,
+                1
+            ],
+            "index": 155
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                2,
+                0,
+                4
+            ],
+            "index": 156
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                0
+            ],
+            "index": 157
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 159
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "真ED_倉田の墓3 高野"
+            ],
+            "index": 160
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                8,
+                7,
+                73,
+                0
+            ],
+            "index": 161
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                2,
+                0,
+                4
+            ],
+            "index": 162
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                1
+            ],
+            "index": 163
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 165
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "真ED_倉田の墓3 高野2"
+            ],
+            "index": 166
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                12,
+                10,
+                73,
+                4294967280
+            ],
+            "index": 167
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                2,
+                0,
+                4
+            ],
+            "index": 168
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                1600031,
+                2
+            ],
+            "index": 169
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 171
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "スタッフロール"
+            ],
+            "index": 172
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 173
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000049,
+                3,
+                0,
+                0
+            ],
+            "index": 174
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                1,
+                1,
+                51,
+                0
+            ],
+            "index": 175
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 186
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                4,
+                5,
+                4294967295,
+                0,
+                0
+            ],
+            "index": 187
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                0,
+                0,
+                0
+            ],
+            "index": 188
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                21000,
+                0
+            ],
+            "index": 189
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                40200,
+                0
+            ],
+            "index": 190
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                99999,
+                0
+            ],
+            "index": 191
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                0,
+                0,
+                0
+            ],
+            "index": 192
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900039,
+                0,
+                0,
+                0
+            ],
+            "index": 193
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "イベントスキップ"
+            ],
+            "intArgs": [
+                0,
+                1,
+                4294967295
+            ],
+            "index": 194
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 195
+        }
+    ]
+}

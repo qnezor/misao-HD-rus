@@ -1,0 +1,417 @@
+{
+    "id": 52,
+    "name": "アイテム「箱と鍵」",
+    "description": "",
+    "commands": [
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラ方向変更"
+            ],
+            "intArgs": [
+                0,
+                5,
+                4294967294,
+                2,
+                2,
+                0,
+                1
+            ],
+            "index": 0
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 1
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_box.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000007,
+                0,
+                2,
+                2000007,
+                1,
+                2
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 4
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                "CharaChip/chara_aki_etc.png"
+            ],
+            "intArgs": [
+                801,
+                0,
+                4294967294,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                "CharaChip/chara_aki_etc_b.png"
+            ],
+            "intArgs": [
+                801,
+                0,
+                4294967294,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 11
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 12
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                81,
+                0,
+                4294967294,
+                0,
+                6,
+                0,
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 15
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                81,
+                0,
+                4294967294,
+                0,
+                7,
+                0,
+                0
+            ],
+            "index": 16
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                1,
+                0,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nМаленький ключ идеально подходит к маленькому замку."
+            ],
+            "index": 20
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 21
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_door_key.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 22
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                0,
+                0,
+                50
+            ],
+            "index": 23
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 24
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 25
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                81,
+                0,
+                4294967294,
+                0,
+                8,
+                0,
+                0
+            ],
+            "index": 26
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 28
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                81,
+                0,
+                4294967294,
+                0,
+                9,
+                0,
+                0
+            ],
+            "index": 29
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 32
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                0,
+                0,
+                50
+            ],
+            "index": 33
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Шкатулка открыта.\nВнутри находится кулон с колокольчиком."
+            ],
+            "index": 34
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2100005,
+                1,
+                0,
+                0
+            ],
+            "index": 35
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム入手"
+            ],
+            "intArgs": [
+                0,
+                2,
+                16,
+                1
+            ],
+            "index": 36
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム入手"
+            ],
+            "intArgs": [
+                0,
+                2,
+                13,
+                4294967295
+            ],
+            "index": 37
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム入手"
+            ],
+            "intArgs": [
+                0,
+                2,
+                15,
+                4294967295
+            ],
+            "index": 38
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                4,
+                2,
+                0,
+                0,
+                0
+            ],
+            "index": 39
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                81,
+                0,
+                4294967294,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 40
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 41
+        }
+    ]
+}

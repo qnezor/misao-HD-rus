@@ -1,0 +1,872 @@
+{
+    "id": 21,
+    "name": "アイテム「植物活力剤」",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                4,
+                2900011,
+                3,
+                2,
+                2900011,
+                4,
+                2,
+                2900011,
+                2,
+                2,
+                2900011,
+                15,
+                2
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                3,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nЗдесь ещё ничего не посажено."
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 6
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 7
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                0,
+                0,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_busu.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 9
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000004,
+                2,
+                0,
+                0
+            ],
+            "index": 10
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 11
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_pa.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967295
+            ],
+            "index": 13
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム入手"
+            ],
+            "intArgs": [
+                0,
+                2,
+                4,
+                4294967295
+            ],
+            "index": 14
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 17
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "叶真"
+            ],
+            "index": 18
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967294,
+                1,
+                0,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 20
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 21
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                0,
+                0,
+                0
+            ],
+            "index": 22
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_busu.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 23
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_chara06",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967295,
+                1,
+                10,
+                10,
+                85,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 24
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 25
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nПохоже, это не оказывает никакого эффекта."
+            ],
+            "index": 26
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                0,
+                0,
+                0
+            ],
+            "index": 27
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967295,
+                1,
+                10,
+                10,
+                85,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 28
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 29
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 32
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラ方向変更"
+            ],
+            "intArgs": [
+                0,
+                5,
+                4294967294,
+                2,
+                2,
+                0,
+                0
+            ],
+            "index": 33
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki05",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                28741,
+                4294967294,
+                1,
+                10,
+                10,
+                89,
+                0,
+                0,
+                0,
+                1600005
+            ],
+            "index": 34
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nЭто для растений..."
+            ],
+            "index": 35
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                28741,
+                4294967294,
+                1,
+                10,
+                10,
+                89,
+                0,
+                0,
+                0,
+                1600005
+            ],
+            "index": 36
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 39
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 42
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "洞窟(ボム)"
+            ],
+            "index": 43
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                3,
+                0,
+                1
+            ],
+            "index": 44
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 45
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_busu.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 46
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "monster_etc",
+                "",
+                "3",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                3,
+                4294967294,
+                10,
+                4,
+                7,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 47
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                48,
+                2,
+                4294967294,
+                4294967294,
+                0,
+                4294967295,
+                1
+            ],
+            "index": 48
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                3,
+                1,
+                1
+            ],
+            "index": 49
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 50
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_obj01",
+                "",
+                "-3",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                3,
+                4294967295,
+                10,
+                10,
+                25,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 51
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                4294967295,
+                10,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                16,
+                50,
+                4293967296,
+                4293967296,
+                0,
+                16777216
+            ],
+            "index": 52
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "monster_mandrakebom",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                3,
+                4294967294,
+                10,
+                4,
+                3,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 53
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                48,
+                2,
+                4294967294,
+                4294967294,
+                0,
+                1,
+                1
+            ],
+            "index": 54
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 55
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_voice_mandrake2.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 56
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_glass_korkoro.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 57
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                144,
+                5,
+                4294967295,
+                4294967295,
+                26,
+                27,
+                0
+            ],
+            "index": 58
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                4294967295,
+                20,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                20,
+                4293967296,
+                4293967296,
+                0,
+                16777216
+            ],
+            "index": 59
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 60
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                400,
+                0,
+                4294967295,
+                4294967295,
+                0,
+                0,
+                0
+            ],
+            "index": 61
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                4294967295,
+                0,
+                0,
+                0,
+                26,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216
+            ],
+            "index": 62
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 63
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                1,
+                0,
+                0
+            ],
+            "index": 64
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nВыглядит не удовлетворенным."
+            ],
+            "index": 65
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "3",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                3,
+                4294967294,
+                10,
+                4,
+                7,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 66
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                15,
+                0,
+                10
+            ],
+            "index": 67
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                4294967294,
+                0,
+                0,
+                0,
+                4294967295
+            ],
+            "index": 68
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                3
+            ],
+            "index": 69
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                15,
+                0,
+                20
+            ],
+            "index": 70
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム使用不可"
+            ],
+            "intArgs": [
+                0,
+                0
+            ],
+            "index": 74
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "id": 45,
+    "name": "ホラー文字",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                9000,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                0,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                1600001
+            ],
+            "index": 2
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\E\\f[\\cself[2]]\\cself[5]"
+            ],
+            "intArgs": [
+                32,
+                1600000,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                200,
+                0,
+                0,
+                33554432,
+                1600013,
+                0,
+                100,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                1,
+                0,
+                256
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                4294966896,
+                500,
+                24576
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                4294966996,
+                500,
+                24576
+            ],
+            "index": 6
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                1,
+                0,
+                256
+            ],
+            "index": 7
+        }
+    ]
+}

@@ -1,0 +1,387 @@
+{
+    "id": 75,
+    "name": "ロード直後に実行",
+    "description": "",
+    "commands": [
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                7100,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                80100,
+                0,
+                0,
+                0,
+                80200
+            ],
+            "index": 1
+        },
+        {
+            "code": 220,
+            "codeStr": "SaveLoad",
+            "intArgs": [
+                0,
+                3000006
+            ],
+            "index": 2
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                1,
+                3000006,
+                2900028,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                8000,
+                0,
+                0,
+                0,
+                10000
+            ],
+            "index": 4
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                11000,
+                0,
+                0,
+                0,
+                11010
+            ],
+            "index": 5
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                12000,
+                0,
+                0,
+                0,
+                12010
+            ],
+            "index": 6
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/System.sav"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "1.04追加点 ここから"
+            ],
+            "index": 8
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/opption.sav"
+            ],
+            "intArgs": [
+                3000008,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600010,
+                3000008,
+                9000024,
+                0
+            ],
+            "index": 10
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600010,
+                1,
+                2
+            ],
+            "index": 11
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 12
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600020,
+                3000008,
+                9000100,
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600021,
+                3000008,
+                9000101,
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600022,
+                3000008,
+                9000102,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000100,
+                1600020,
+                0,
+                0
+            ],
+            "index": 16
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000101,
+                1600021,
+                0,
+                0
+            ],
+            "index": 17
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000102,
+                1600022,
+                0,
+                0
+            ],
+            "index": 18
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "可変スイッチ"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                5,
+                0,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "可変スイッチ"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                5,
+                0,
+                1
+            ],
+            "index": 20
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "可変スイッチ"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                5,
+                0,
+                2
+            ],
+            "index": 21
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000055,
+                1105000000,
+                300,
+                0
+            ],
+            "index": 22
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000056,
+                1105000001,
+                300,
+                0
+            ],
+            "index": 23
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000057,
+                1105000002,
+                300,
+                0
+            ],
+            "index": 24
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ここまで"
+            ],
+            "index": 27
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                2000035,
+                1600005,
+                2000035,
+                0
+            ],
+            "index": 28
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "アプデ要素追加"
+            ],
+            "index": 29
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2200014,
+                0,
+                2
+            ],
+            "index": 30
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 31
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2200008,
+                0,
+                2
+            ],
+            "index": 32
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 33
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アプデ調整"
+            ],
+            "intArgs": [
+                0,
+                1,
+                1
+            ],
+            "index": 34
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900028,
+                0,
+                0,
+                0
+            ],
+            "index": 39
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "id": 114,
+    "name": "イベント当たり判定",
+    "description": "斜めを向いてるときはイベントを起動しないように",
+    "commands": [
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "斜めを向いてるときはイベントを起動しないように"
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200007,
+                0,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600010,
+                4096,
+                4294967294,
+                5
+            ],
+            "index": 2
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                3,
+                1600010,
+                1,
+                2,
+                1600010,
+                3,
+                2,
+                1600010,
+                7,
+                2
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200007,
+                1,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200007,
+                1,
+                0,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 10
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200007,
+                1,
+                0,
+                0
+            ],
+            "index": 11
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600010,
+                9,
+                2
+            ],
+            "index": 14
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 15
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200007,
+                1,
+                0,
+                0
+            ],
+            "index": 16
+        }
+    ]
+}

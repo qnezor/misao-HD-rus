@@ -1,0 +1,233 @@
+{
+    "id": 36,
+    "name": "アイテム「掲示板の張り紙」",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2900011,
+                4294967295,
+                2
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_shinbun_toru.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 2
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                2000004,
+                7,
+                1
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 4
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/still_harigami2.png"
+            ],
+            "intArgs": [
+                4096,
+                5001,
+                0,
+                1,
+                1,
+                1,
+                255,
+                320,
+                180,
+                50,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Приходи на крышу..."
+            ],
+            "intArgs": [
+                4128,
+                5002,
+                0,
+                1,
+                1,
+                1,
+                255,
+                320,
+                80,
+                100,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 7
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600016,
+                241
+            ],
+            "index": 8
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                5001,
+                10,
+                0,
+                0,
+                5002
+            ],
+            "index": 9
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 11
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/still_harigami.png"
+            ],
+            "intArgs": [
+                4096,
+                5001,
+                0,
+                1,
+                1,
+                1,
+                255,
+                320,
+                180,
+                50,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Укрась белыми лилиями..."
+            ],
+            "intArgs": [
+                4128,
+                5002,
+                0,
+                1,
+                1,
+                1,
+                255,
+                320,
+                70,
+                100,
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 14
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600016,
+                176
+            ],
+            "index": 15
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                5001,
+                10,
+                0,
+                0,
+                5002
+            ],
+            "index": 16
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                30
+            ],
+            "index": 19
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム使用不可"
+            ],
+            "intArgs": [
+                0,
+                0
+            ],
+            "index": 23
+        }
+    ]
+}

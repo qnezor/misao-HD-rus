@@ -1,0 +1,641 @@
+{
+    "id": 123,
+    "name": "名前",
+    "description": "",
+    "commands": [
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 1
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                4,
+                8,
+                0,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "選択肢",
+                "",
+                "Да",
+                "Нет",
+                ""
+            ],
+            "intArgs": [
+                0,
+                24643,
+                2,
+                2,
+                0,
+                3000010,
+                0,
+                0,
+                1600005
+            ],
+            "index": 3
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2300000,
+                1,
+                2,
+                2300000,
+                2,
+                2
+            ],
+            "index": 4
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000041,
+                280,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                98000,
+                0,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                620,
+                0,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                360,
+                0,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 10
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 11
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "face/face_aki_emi.png"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 14
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "face/face_aki2_emi.png"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16400,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                50,
+                0,
+                1600005
+            ],
+            "index": 18
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 19
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                25,
+                0,
+                0
+            ],
+            "index": 20
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                180,
+                0,
+                0
+            ],
+            "index": 21
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "С помощью клавиатуры введите\nимя протагониста.\n \\f[15](Нажмите Enter для подтверждения.)"
+            ],
+            "intArgs": [
+                32,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 22
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 23
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                120,
+                0,
+                256
+            ],
+            "index": 24
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                120,
+                0,
+                256
+            ],
+            "index": 25
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<LINE>"
+            ],
+            "intArgs": [
+                48,
+                1600010,
+                0,
+                100,
+                0,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 26
+        },
+        {
+            "code": 212,
+            "codeStr": "SetLabel",
+            "stringArgs": [
+                "ネーム"
+            ],
+            "index": 27
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                1600006,
+                1,
+                3000001
+            ],
+            "index": 28
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                3000001,
+                8195,
+                16
+            ],
+            "index": 29
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                5152,
+                0,
+                0,
+                0
+            ],
+            "index": 30
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                98001,
+                0,
+                0,
+                0,
+                98010
+            ],
+            "index": 31
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "",
+                "Мисао",
+                "Онигавара",
+                ""
+            ],
+            "intArgs": [
+                3,
+                3000001,
+                3000001,
+                3000001
+            ],
+            "index": 32
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 33
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nПожалуйста, введите имя."
+            ],
+            "index": 34
+        },
+        {
+            "code": 213,
+            "codeStr": "JumpLabel",
+            "stringArgs": [
+                "ネーム"
+            ],
+            "index": 35
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 37
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nЭто имя не может быть использовано."
+            ],
+            "index": 38
+        },
+        {
+            "code": 213,
+            "codeStr": "JumpLabel",
+            "stringArgs": [
+                "ネーム"
+            ],
+            "index": 39
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 41
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nЭто имя не может быть использовано."
+            ],
+            "index": 42
+        },
+        {
+            "code": 213,
+            "codeStr": "JumpLabel",
+            "stringArgs": [
+                "ネーム"
+            ],
+            "index": 43
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                1,
+                2,
+                2900015,
+                2,
+                2
+            ],
+            "index": 46
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 47
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "face/face_aki2.png"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 48
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 50
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "face/face_aki.png"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 51
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 54
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "選択肢",
+                "\\c[0]Продолжить с \\c[1]\\s[1]\\c[0]?",
+                "Да",
+                "Нет",
+                ""
+            ],
+            "intArgs": [
+                0,
+                28739,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                1600005
+            ],
+            "index": 55
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2300000,
+                1,
+                2,
+                2300000,
+                2,
+                2
+            ],
+            "index": 56
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 57
+        },
+        {
+            "code": 212,
+            "codeStr": "SetLabel",
+            "stringArgs": [
+                "確定"
+            ],
+            "index": 58
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                0,
+                0,
+                0
+            ],
+            "index": 59
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                98000,
+                0
+            ],
+            "index": 60
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 62
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                3000001,
+                1,
+                1600006
+            ],
+            "index": 63
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                1,
+                0,
+                0
+            ],
+            "index": 64
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                98000,
+                0
+            ],
+            "index": 65
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 70
+        },
+        {
+            "code": 213,
+            "codeStr": "JumpLabel",
+            "stringArgs": [
+                "確定"
+            ],
+            "index": 71
+        }
+    ]
+}

@@ -1,0 +1,471 @@
+{
+    "id": 129,
+    "name": "教室の影",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                4294966296,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                3,
+                1600000,
+                1,
+                2,
+                1600000,
+                4294967295,
+                2,
+                1600000,
+                4294967294,
+                2
+            ],
+            "index": 1
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 2
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600099,
+                1,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                0,
+                0,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600099,
+                0,
+                0,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                0,
+                0,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                4294966296,
+                0
+            ],
+            "index": 10
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 13
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600099,
+                0,
+                0,
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                0,
+                0,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600011,
+                4096,
+                4294967294,
+                2
+            ],
+            "index": 19
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600012,
+                4096,
+                4294967294,
+                3
+            ],
+            "index": 20
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                1000,
+                0,
+                768
+            ],
+            "index": 21
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                1600012,
+                0,
+                256
+            ],
+            "index": 22
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                1600011,
+                0,
+                0
+            ],
+            "index": 23
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "影出現"
+            ],
+            "index": 24
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600011,
+                4096,
+                4294967294,
+                6
+            ],
+            "index": 25
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600012,
+                4096,
+                4294967294,
+                7
+            ],
+            "index": 26
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                7,
+                0,
+                256
+            ],
+            "index": 27
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_mizu_picha.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 28
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "CharaChip/anime_ghost01.png"
+            ],
+            "intArgs": [
+                33579008,
+                1600010,
+                0,
+                10,
+                10,
+                41,
+                255,
+                1600011,
+                1600012,
+                0,
+                0
+            ],
+            "index": 29
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                69377,
+                1600010,
+                10,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                50,
+                4293967296,
+                0,
+                33554432,
+                1,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 30
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 31
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                69377,
+                1600010,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                100,
+                4293967296
+            ],
+            "index": 32
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_nukarumu.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                60
+            ],
+            "index": 33
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600011,
+                4096,
+                4294967294,
+                2
+            ],
+            "index": 34
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600012,
+                4096,
+                4294967294,
+                3
+            ],
+            "index": 35
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                1000,
+                0,
+                768
+            ],
+            "index": 36
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                1600012,
+                0,
+                256
+            ],
+            "index": 37
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600020,
+                1600011,
+                2
+            ],
+            "index": 38
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 39
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                5
+            ],
+            "index": 40
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600099,
+                0,
+                0,
+                0
+            ],
+            "index": 41
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 44
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                25
+            ],
+            "index": 45
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                69377,
+                1600010,
+                10,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                0,
+                4293967296
+            ],
+            "index": 46
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                69378,
+                1600010,
+                0,
+                11
+            ],
+            "index": 47
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                25
+            ],
+            "index": 48
+        }
+    ]
+}

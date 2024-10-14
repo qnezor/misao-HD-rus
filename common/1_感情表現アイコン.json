@@ -1,0 +1,487 @@
+{
+    "id": 1,
+    "name": "感情表現アイコン",
+    "description": "",
+    "commands": [
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ユーザーDBの番号を代入"
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600017,
+                21000,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                3,
+                1600000,
+                4294967294,
+                2,
+                1600000,
+                4294967295,
+                2,
+                1600000,
+                0,
+                1
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600017,
+                21100,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600020,
+                4096,
+                4294967295,
+                10
+            ],
+            "index": 8
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600017,
+                1600020,
+                0,
+                256
+            ],
+            "index": 9
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 11
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600017,
+                1600000,
+                0,
+                256
+            ],
+            "index": 12
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "コモン変数に代入"
+            ],
+            "index": 15
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1600010,
+                1600001,
+                0,
+                4608,
+                1600005
+            ],
+            "index": 16
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1600010,
+                1600001,
+                5,
+                4608,
+                1600006
+            ],
+            "index": 17
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1600010,
+                1600001,
+                1,
+                4608,
+                1600011
+            ],
+            "index": 18
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1600010,
+                1600001,
+                2,
+                4608,
+                1600012
+            ],
+            "index": 19
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1600010,
+                1600001,
+                3,
+                4608,
+                1600013
+            ],
+            "index": 20
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                "1パターンのウェイト(ﾌﾚｰﾑ)"
+            ],
+            "intArgs": [
+                1600010,
+                1600001,
+                4,
+                266752,
+                1600014
+            ],
+            "index": 21
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "キャラの座標取得"
+            ],
+            "index": 22
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                18,
+                1600000,
+                4294967295,
+                2,
+                1600000,
+                4294967294,
+                2
+            ],
+            "index": 23
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 24
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600015,
+                4096,
+                4294967295,
+                6
+            ],
+            "index": 25
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600016,
+                4096,
+                4294967295,
+                7
+            ],
+            "index": 26
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 28
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600015,
+                4096,
+                4294967294,
+                6
+            ],
+            "index": 29
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600016,
+                4096,
+                4294967294,
+                7
+            ],
+            "index": 30
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 32
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600015,
+                4096,
+                1600000,
+                6
+            ],
+            "index": 33
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600016,
+                4096,
+                1600000,
+                7
+            ],
+            "index": 34
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "画像位置調整"
+            ],
+            "index": 37
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                15,
+                0,
+                256
+            ],
+            "index": 38
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600016,
+                60,
+                0,
+                512
+            ],
+            "index": 39
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4112,
+                1600017,
+                0,
+                1600011,
+                1600012,
+                11,
+                255,
+                1600015,
+                1600016,
+                100,
+                0,
+                1600005
+            ],
+            "index": 40
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1600017,
+                0,
+                0,
+                0,
+                12,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                3
+            ],
+            "index": 41
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1600017,
+                0,
+                0,
+                0,
+                1600013,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                6
+            ],
+            "index": 42
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600003,
+                0,
+                2
+            ],
+            "index": 43
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 44
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "\\cself[6]"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 45
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600017,
+                0,
+                1600014
+            ],
+            "index": 48
+        }
+    ]
+}

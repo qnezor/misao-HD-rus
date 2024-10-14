@@ -1,0 +1,46 @@
+{
+    "id": 111,
+    "name": "パ－ティクル消去",
+    "description": "",
+    "commands": [
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                2900036
+            ],
+            "index": 0
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "パーティクル準備"
+            ],
+            "intArgs": [
+                0,
+                68,
+                4294967295,
+                4294967294,
+                4294967295,
+                0,
+                1600005,
+                1600005,
+                1600005,
+                1600005
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900036,
+                0,
+                0,
+                0
+            ],
+            "index": 2
+        }
+    ]
+}

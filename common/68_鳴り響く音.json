@@ -1,0 +1,31 @@
+{
+    "id": 68,
+    "name": "鳴り響く音",
+    "description": "",
+    "commands": [
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_hit.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                2000017,
+                100
+            ],
+            "index": 0
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                150
+            ],
+            "index": 1
+        }
+    ]
+}

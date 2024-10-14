@@ -1,0 +1,127 @@
+{
+    "id": 83,
+    "name": "[実績リセット]",
+    "description": "",
+    "commands": [
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "テストプレイ時（エディタからの起動）のみ、Shift押しながらF2キーを押すと実績リセット確認が出る処理\r\r"
+            ],
+            "index": 0
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 1
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "※この機能を完全に使わなくなった場合は、「起動条件」を「呼び出しのみ」に変更すれば実行されなくなります。"
+            ],
+            "index": 2
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                9000112,
+                1,
+                2
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 4
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 5
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600010,
+                4353,
+                142
+            ],
+            "index": 6
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600011,
+                4353,
+                160
+            ],
+            "index": 7
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600010,
+                0,
+                5
+            ],
+            "index": 8
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 9
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600011,
+                0,
+                5
+            ],
+            "index": 10
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 11
+        },
+        {
+            "code": 10001,
+            "codeStr": "Command",
+            "stringArgs": [
+                "ResetALL"
+            ],
+            "intArgs": [
+                19
+            ],
+            "index": 12
+        }
+    ]
+}

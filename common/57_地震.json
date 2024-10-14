@@ -1,0 +1,24 @@
+{
+    "id": 57,
+    "name": "地震",
+    "description": "",
+    "commands": [
+        {
+            "code": 280,
+            "codeStr": "MapEffect",
+            "intArgs": [
+                48,
+                30
+            ],
+            "index": 0
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 1
+        }
+    ]
+}

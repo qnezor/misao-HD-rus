@@ -1,0 +1,2982 @@
+{
+    "id": 33,
+    "name": "アイテム「バット」",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                20,
+                2900011,
+                9,
+                2,
+                2900011,
+                14,
+                2,
+                2900011,
+                15,
+                2,
+                2900011,
+                2,
+                2
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 2
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_tsukamu.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 3
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 4
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 5
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "anime_aki_f_bat"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 8
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "anime_aki_m_bat"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2000007,
+                1,
+                2
+            ],
+            "index": 12
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 13
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "_b"
+            ],
+            "intArgs": [
+                1600005,
+                256,
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                57413,
+                4294967294,
+                4294967295,
+                5,
+                2,
+                1,
+                1600005,
+                0,
+                0,
+                0
+            ],
+            "index": 17
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 18
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2100004,
+                0,
+                0,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_glass_break.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 20
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                0,
+                0,
+                150
+            ],
+            "index": 21
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4
+            ],
+            "index": 22
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                2,
+                9,
+                8,
+                1,
+                1,
+                462
+            ],
+            "index": 23
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                2,
+                9,
+                9,
+                1,
+                1,
+                470
+            ],
+            "index": 24
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                2,
+                10,
+                8,
+                1,
+                1,
+                463
+            ],
+            "index": 25
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                2,
+                10,
+                9,
+                1,
+                1,
+                471
+            ],
+            "index": 26
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                4294967295,
+                10,
+                4,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 27
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                4,
+                2,
+                0,
+                0,
+                0
+            ],
+            "index": 28
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                5,
+                19,
+                17,
+                0,
+                1
+            ],
+            "index": 29
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                97,
+                0,
+                5,
+                0,
+                4294967291,
+                0,
+                0
+            ],
+            "index": 30
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                5
+            ],
+            "index": 31
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 32
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                0,
+                0,
+                50
+            ],
+            "index": 33
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 34
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                1,
+                0,
+                0
+            ],
+            "index": 35
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nЧто-то выпало из вазы."
+            ],
+            "index": 36
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 37
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                0,
+                0,
+                0
+            ],
+            "index": 38
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                5
+            ],
+            "index": 39
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム入手"
+            ],
+            "intArgs": [
+                0,
+                2,
+                2,
+                1
+            ],
+            "index": 40
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 41
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                1
+            ],
+            "index": 42
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967294,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 43
+        },
+        {
+            "code": 173,
+            "codeStr": "EraseEvent",
+            "intArgs": [
+                4294967294,
+                0
+            ],
+            "index": 44
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 48
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "洞窟"
+            ],
+            "index": 49
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "徒歩移動"
+            ],
+            "intArgs": [
+                0,
+                2,
+                17,
+                13
+            ],
+            "index": 50
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラ方向変更"
+            ],
+            "intArgs": [
+                0,
+                5,
+                4294967294,
+                8,
+                2,
+                0,
+                0
+            ],
+            "index": 51
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 52
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_tsukamu.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 53
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 54
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 55
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "anime_aki_f_bat"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 56
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 58
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "anime_aki_m_bat"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 59
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2000007,
+                1,
+                2
+            ],
+            "index": 62
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 63
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "_b"
+            ],
+            "intArgs": [
+                1600005,
+                256,
+                0
+            ],
+            "index": 64
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                57413,
+                4294967294,
+                1,
+                5,
+                2,
+                6,
+                1600005,
+                0,
+                0,
+                0
+            ],
+            "index": 67
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                1,
+                0,
+                0,
+                0,
+                8,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                3
+            ],
+            "index": 68
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                1,
+                0,
+                0,
+                0,
+                7,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                6
+            ],
+            "index": 69
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 70
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2800000,
+                320,
+                0,
+                0
+            ],
+            "index": 71
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2800001,
+                180,
+                0,
+                0
+            ],
+            "index": 72
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900035,
+                0,
+                2,
+                2900035,
+                1,
+                2
+            ],
+            "index": 73
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 74
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\i[600]"
+            ],
+            "intArgs": [
+                4128,
+                10,
+                0,
+                1,
+                1,
+                1,
+                255,
+                2800000,
+                2800001,
+                200,
+                0
+            ],
+            "index": 75
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 77
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\i[501]"
+            ],
+            "intArgs": [
+                4128,
+                10,
+                0,
+                1,
+                1,
+                1,
+                255,
+                2800000,
+                2800001,
+                200,
+                0
+            ],
+            "index": 78
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                80,
+                20,
+                10,
+                10,
+                4294967246,
+                4294967246,
+                4294967246
+            ],
+            "index": 81
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 82
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600020,
+                144
+            ],
+            "index": 83
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                34,
+                10,
+                0
+            ],
+            "index": 84
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                3,
+                1,
+                1,
+                7,
+                10,
+                0
+            ],
+            "index": 85
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_swing.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 86
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                9
+            ],
+            "index": 87
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_hit2.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 88
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                48,
+                2,
+                1,
+                1,
+                0,
+                4294967293,
+                1
+            ],
+            "index": 89
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 90
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                48,
+                1,
+                1,
+                1,
+                2,
+                0,
+                10
+            ],
+            "index": 91
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 92
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                1,
+                0,
+                0
+            ],
+            "index": 93
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nСтена не сдвигается."
+            ],
+            "index": 94
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 95
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 98
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 99
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "洞窟ボム"
+            ],
+            "index": 100
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "徒歩移動"
+            ],
+            "intArgs": [
+                0,
+                2,
+                17,
+                13
+            ],
+            "index": 101
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラ方向変更"
+            ],
+            "intArgs": [
+                0,
+                5,
+                4294967294,
+                8,
+                2,
+                0,
+                0
+            ],
+            "index": 102
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 103
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_tsukamu.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 104
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 105
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 106
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "anime_aki_f_bat"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 107
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 109
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "anime_aki_m_bat"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 110
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2000007,
+                1,
+                2
+            ],
+            "index": 113
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 114
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "_b"
+            ],
+            "intArgs": [
+                1600005,
+                256,
+                0
+            ],
+            "index": 115
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                57413,
+                4294967294,
+                1,
+                5,
+                2,
+                6,
+                1600005,
+                0,
+                0,
+                0
+            ],
+            "index": 118
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                8,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                3
+            ],
+            "index": 119
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                7,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                6
+            ],
+            "index": 120
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 121
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 122
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2800000,
+                320,
+                0,
+                0
+            ],
+            "index": 123
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2800001,
+                180,
+                0,
+                0
+            ],
+            "index": 124
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900035,
+                0,
+                2,
+                2900035,
+                1,
+                2
+            ],
+            "index": 125
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 126
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\i[600]"
+            ],
+            "intArgs": [
+                4128,
+                10,
+                0,
+                1,
+                1,
+                1,
+                255,
+                2800000,
+                2800001,
+                200,
+                0
+            ],
+            "index": 127
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 129
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\i[501]"
+            ],
+            "intArgs": [
+                4128,
+                10,
+                0,
+                1,
+                1,
+                1,
+                255,
+                2800000,
+                2800001,
+                200,
+                0
+            ],
+            "index": 130
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                80,
+                20,
+                10,
+                10,
+                4294967246,
+                4294967246,
+                4294967246
+            ],
+            "index": 133
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 134
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600020,
+                144
+            ],
+            "index": 135
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                34,
+                10,
+                0
+            ],
+            "index": 136
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                3,
+                1,
+                1,
+                7,
+                10,
+                0
+            ],
+            "index": 137
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_swing.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 138
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                9
+            ],
+            "index": 139
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_voice_mandrake2.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 140
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                3
+            ],
+            "index": 141
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_hit2.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 142
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                48,
+                2,
+                1,
+                1,
+                0,
+                4294967293,
+                1
+            ],
+            "index": 143
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 144
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4
+            ],
+            "index": 145
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                5
+            ],
+            "index": 146
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                5,
+                2,
+                1600022,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 147
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 149
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 150
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                5,
+                2,
+                1600022,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 151
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 152
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                1,
+                1,
+                0,
+                0
+            ],
+            "index": 153
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nХоть это и растение, мне всё равно неприятно..."
+            ],
+            "index": 154
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 155
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Оно действительно взорвётся от простого удара?"
+            ],
+            "index": 156
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki04",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                70,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 157
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                1,
+                0,
+                0,
+                0,
+                71,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                5
+            ],
+            "index": 158
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 159
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_kon.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 160
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_kon.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                20,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 161
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                1,
+                0,
+                0,
+                0,
+                72,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216
+            ],
+            "index": 162
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                1,
+                0,
+                0,
+                0,
+                71,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                10
+            ],
+            "index": 163
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                1,
+                0,
+                0,
+                0,
+                72,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                20
+            ],
+            "index": 164
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                1,
+                0,
+                0,
+                0,
+                71,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                30
+            ],
+            "index": 165
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                17,
+                1,
+                3,
+                0,
+                1,
+                0,
+                1
+            ],
+            "index": 166
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 167
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                17,
+                1,
+                3,
+                0,
+                1,
+                0,
+                1
+            ],
+            "index": 168
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                40
+            ],
+            "index": 169
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                1,
+                1,
+                71,
+                70,
+                0
+            ],
+            "index": 170
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 171
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                70,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 172
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 173
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4
+            ],
+            "index": 174
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                3
+            ],
+            "index": 175
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_voice_mandrake.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 176
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 177
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki02",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                13,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 178
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "感情表現アイコン"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967294,
+                0,
+                0,
+                0
+            ],
+            "index": 179
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 180
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                1,
+                3,
+                0,
+                0
+            ],
+            "index": 181
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "Э-это кажется не очень хорошо...!\nМне лучше уйти..."
+            ],
+            "index": 182
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                70,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 183
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                5
+            ],
+            "index": 184
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                1
+            ],
+            "index": 187
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 188
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900004,
+                1,
+                0,
+                0
+            ],
+            "index": 189
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900009,
+                1,
+                0,
+                0
+            ],
+            "index": 190
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                0
+            ],
+            "index": 191
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 194
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_tsukamu.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 195
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 196
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 197
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "anime_aki_f_bat2"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 198
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 200
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "anime_aki_m_bat2"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 201
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2000007,
+                1,
+                2
+            ],
+            "index": 204
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 205
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "_b"
+            ],
+            "intArgs": [
+                1600005,
+                256,
+                0
+            ],
+            "index": 206
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                57413,
+                4294967294,
+                1,
+                5,
+                2,
+                6,
+                1600005,
+                0,
+                0,
+                0
+            ],
+            "index": 209
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967294,
+                1,
+                0,
+                0
+            ],
+            "index": 210
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nИнтересно, поможет ли один хороший удар\nзаставить Тому изменить своё поведение?"
+            ],
+            "index": 211
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 212
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 213
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "chara_aki_capsule"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 214
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000007,
+                0,
+                2,
+                2000007,
+                1,
+                2
+            ],
+            "index": 215
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 216
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "chara_aki_capsule",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                4,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 217
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 219
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "chara_aki_capsule",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                4,
+                2,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 220
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                3215105,
+                1,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4294967196,
+                4293967296,
+                0,
+                16777216,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100
+            ],
+            "index": 223
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                10,
+                0,
+                0
+            ],
+            "index": 224
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nХи-хи, шутка! ☆"
+            ],
+            "index": 225
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 227
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 228
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 229
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 230
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラ方向変更"
+            ],
+            "intArgs": [
+                0,
+                5,
+                4294967294,
+                2,
+                1,
+                0,
+                1
+            ],
+            "index": 231
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "anime_aki01",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                22,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 232
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                1,
+                1,
+                22,
+                24,
+                0
+            ],
+            "index": 233
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nКакие абсурдные идеи мне приходят в голову...\nМожет быть, это воздух в этом другом мире..."
+            ],
+            "index": 234
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                1,
+                1,
+                24,
+                22,
+                0
+            ],
+            "index": 235
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 236
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "x",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                61509,
+                4294967294,
+                1,
+                10,
+                10,
+                1,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 239
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 242
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 243
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2900011,
+                18,
+                2
+            ],
+            "index": 244
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 245
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ひとでなしくん"
+            ],
+            "index": 246
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                20,
+                0,
+                5
+            ],
+            "index": 247
+        },
+        {
+            "code": 130,
+            "codeStr": "Teleport",
+            "intArgs": [
+                4294967295,
+                16,
+                37,
+                4294967295,
+                1
+            ],
+            "index": 248
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 249
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                20,
+                0,
+                30
+            ],
+            "index": 250
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/onjin_tsukamu.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 251
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 252
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 253
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "anime_aki_f_bat"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 254
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 256
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "anime_aki_m_bat"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 257
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2000007,
+                1,
+                2
+            ],
+            "index": 260
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 261
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "_b"
+            ],
+            "intArgs": [
+                1600005,
+                256,
+                0
+            ],
+            "index": 262
+        },
+        {
+            "code": 240,
+            "codeStr": "Chip",
+            "intArgs": [
+                158,
+                0
+            ],
+            "index": 265
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラモーション",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                0,
+                57413,
+                4294967294,
+                4294967295,
+                5,
+                2,
+                6,
+                1600005,
+                0,
+                0,
+                0
+            ],
+            "index": 266
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                4294967295,
+                0,
+                0,
+                0,
+                8,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                3
+            ],
+            "index": 267
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4259841,
+                4294967295,
+                0,
+                0,
+                0,
+                7,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                6
+            ],
+            "index": 268
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 269
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                3,
+                4294967295,
+                4294967295,
+                7,
+                10,
+                0
+            ],
+            "index": 270
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_swing.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 271
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                9
+            ],
+            "index": 272
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/match_hit2.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 273
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                48,
+                2,
+                4294967295,
+                4294967295,
+                0,
+                4294967293,
+                1
+            ],
+            "index": 274
+        },
+        {
+            "code": 280,
+            "codeStr": "MapEffect",
+            "intArgs": [
+                35,
+                5
+            ],
+            "index": 275
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1100000,
+                1,
+                0,
+                0
+            ],
+            "index": 276
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1000210,
+                1,
+                0,
+                0
+            ],
+            "index": 277
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム使用不可"
+            ],
+            "intArgs": [
+                0,
+                0
+            ],
+            "index": 283
+        }
+    ]
+}

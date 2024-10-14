@@ -1,0 +1,174 @@
+{
+    "id": 41,
+    "name": "アイテム「塩」",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2900011,
+                12,
+                2
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "徒歩移動"
+            ],
+            "intArgs": [
+                0,
+                2,
+                14,
+                14
+            ],
+            "index": 2
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "キャラ方向変更"
+            ],
+            "intArgs": [
+                0,
+                5,
+                4294967294,
+                8,
+                2,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "仕草"
+            ],
+            "intArgs": [
+                0,
+                3,
+                0,
+                0,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                5
+            ],
+            "index": 5
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/lab_oku.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                1
+            ],
+            "index": 7
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                2
+            ],
+            "index": 8
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                1,
+                0,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\n\\s[1] рассыпал соль.\nПохоже, злой дух ушёл..."
+            ],
+            "index": 10
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム入手"
+            ],
+            "intArgs": [
+                0,
+                2,
+                12,
+                4294967295
+            ],
+            "index": 12
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2100006,
+                2,
+                0,
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム使用不可"
+            ],
+            "intArgs": [
+                0,
+                0
+            ],
+            "index": 17
+        }
+    ]
+}

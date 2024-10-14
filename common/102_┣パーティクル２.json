@@ -1,0 +1,403 @@
+{
+    "id": 102,
+    "name": "┣パーティクル２",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                2,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "使用中(1:Yes,0:No)"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                0,
+                331776,
+                1600010
+            ],
+            "index": 1
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600010,
+                1,
+                2
+            ],
+            "index": 2
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 3
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "基準ピクチャ番号"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                5,
+                331776,
+                1600010
+            ],
+            "index": 4
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "上限ピクチャ番号"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                6,
+                331776,
+                1600012
+            ],
+            "index": 5
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "モード"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                2,
+                331776,
+                1600001
+            ],
+            "index": 6
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                18,
+                1600001,
+                4294967295,
+                2,
+                1600001,
+                4294967294,
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 8
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "自然消去"
+            ],
+            "index": 9
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "自然消去時間"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                14,
+                331776,
+                1600031
+            ],
+            "index": 10
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16781058,
+                1600010,
+                0,
+                1600031,
+                0,
+                1600012
+            ],
+            "index": 11
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "使用中(1:Yes,0:No)"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                0,
+                327680,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "初期入力フラグ"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                1,
+                327680,
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ピクチャエフェクト初期化"
+            ],
+            "index": 14
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1600031
+            ],
+            "index": 15
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "┣ピクチャエフェクトALLリセット"
+            ],
+            "intArgs": [
+                0,
+                2,
+                1600010,
+                1600012
+            ],
+            "index": 16
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 18
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "強制消去"
+            ],
+            "index": 19
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16781571,
+                1600010,
+                1600012
+            ],
+            "index": 20
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16781570,
+                1600010,
+                0,
+                0,
+                0,
+                1600012
+            ],
+            "index": 21
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "使用中(1:Yes,0:No)"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                0,
+                327680,
+                0
+            ],
+            "index": 22
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "初期入力フラグ"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                1,
+                327680,
+                0
+            ],
+            "index": 23
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ピクチャエフェクト初期化"
+            ],
+            "index": 24
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "┣ピクチャエフェクトALLリセット"
+            ],
+            "intArgs": [
+                0,
+                2,
+                1600010,
+                1600012
+            ],
+            "index": 25
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 27
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "パーティクル表示"
+            ],
+            "index": 28
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パーティクル設定",
+                "",
+                "発生間隔"
+            ],
+            "intArgs": [
+                22,
+                1600000,
+                4,
+                331776,
+                1600003
+            ],
+            "index": 29
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1600003
+            ],
+            "index": 30
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "┣パーティクル座標"
+            ],
+            "intArgs": [
+                0,
+                3,
+                1600000,
+                0,
+                0
+            ],
+            "index": 31
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "┣パーティクル表示"
+            ],
+            "intArgs": [
+                0,
+                1,
+                1600000
+            ],
+            "index": 32
+        }
+    ]
+}

@@ -1,0 +1,1453 @@
+{
+    "id": 126,
+    "name": "並列ライト処理",
+    "description": "「主人公」と「イベント名に<LIGHT>含んだマップイベント」の周辺だけ明るく。視界制限[あり]だと範囲外のｷｬﾗ表示ﾅｼ",
+    "commands": [
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "Ver1.01　2023/03/13　ライトON時のアニメーションカウントのリセット処理を削除(並列でライトコモンを呼び出し続ける使い方が多そうだったためです）\r"
+            ],
+            "index": 0
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "★ここはユーザのパラメータ設定箇所\r\r。自由に設定して構いません！"
+            ],
+            "index": 2
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 3
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "※このピクチャIDから+3までのIDを使用します\r\r"
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600080,
+                90000,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 6
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "※マスク画像をここで指定します。 [例: SystemFile/[Mask]Draw+_Spray120.png ]"
+            ],
+            "index": 7
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Effect/[Mask]Draw+_Spray250.png"
+            ],
+            "intArgs": [
+                1600008,
+                0,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Effect/[Mask]Draw+_Spray120.png"
+            ],
+            "intArgs": [
+                1600009,
+                0,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 10
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "★パラメータ設定ここまで\r\r。ここから下をいじるのは内容を理解した上でお願いします！"
+            ],
+            "index": 11
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 14
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                1
+            ],
+            "index": 15
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ここは「呼び出し」されたときの処理で、起動条件のオンオフを行う\r\r。並列時は通らない"
+            ],
+            "index": 16
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ON・OFF切り替え機能\r\r"
+            ],
+            "index": 17
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                1,
+                2,
+                1600000,
+                4294967295,
+                2
+            ],
+            "index": 18
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 19
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "並列ライト機能をONにする\r\r"
+            ],
+            "index": 20
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                0,
+                0,
+                0
+            ],
+            "index": 21
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "終了\r\r"
+            ],
+            "index": 22
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600099,
+                1,
+                0,
+                0
+            ],
+            "index": 23
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 26
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 27
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "並列ライト機能をOFFにする\r\r"
+            ],
+            "index": 28
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                0,
+                0,
+                0
+            ],
+            "index": 29
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ピクチャも消去する"
+            ],
+            "index": 30
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                2900084,
+                1,
+                2
+            ],
+            "index": 31
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 32
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                258,
+                0,
+                0,
+                0,
+                4294967246,
+                20,
+                4294967246
+            ],
+            "index": 33
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 35
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                162,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 36
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600029,
+                1600080,
+                0,
+                0
+            ],
+            "index": 39
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600030,
+                1600080,
+                3,
+                0
+            ],
+            "index": 40
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777219,
+                1600029,
+                1600030
+            ],
+            "index": 41
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                1600029,
+                0,
+                0,
+                0,
+                1600030
+            ],
+            "index": 42
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                ""
+            ],
+            "intArgs": [
+                131,
+                0,
+                0,
+                9999,
+                0,
+                0,
+                0
+            ],
+            "index": 43
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                90000,
+                0,
+                0,
+                0,
+                99999
+            ],
+            "index": 44
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "終了\r\r"
+            ],
+            "index": 45
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600099,
+                0,
+                0,
+                0
+            ],
+            "index": 46
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 52
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "※Q. どうして減算・加算の<SQUARE>を2セットに分けて表示しているの？"
+            ],
+            "index": 53
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　A. 細かく処理を分けることで色飛びを防ぎやすくするためです。"
+            ],
+            "index": 54
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " 　 たとえば色25を一度に-40→+40とすると25→0→40になってしまいますが、"
+            ],
+            "index": 55
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "    -20、+20を2回やれば色25のままにできます。"
+            ],
+            "index": 56
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 57
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "暗闇を演出するための「減算ピクチャ」、暗闇を中和するための「加算ピクチャ」をここで表示"
+            ],
+            "index": 58
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 59
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "減算\r\r　1セット目"
+            ],
+            "index": 60
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600029,
+                1600080,
+                0,
+                0
+            ],
+            "index": 61
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                274,
+                0,
+                0,
+                0,
+                0,
+                50,
+                0
+            ],
+            "index": 62
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "加算　1セット目"
+            ],
+            "index": 63
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600029,
+                1600080,
+                1,
+                0
+            ],
+            "index": 64
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                304,
+                1600029,
+                0,
+                9000116,
+                9000117,
+                1,
+                35,
+                0,
+                0,
+                100,
+                0
+            ],
+            "index": 65
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                ""
+            ],
+            "intArgs": [
+                19,
+                0,
+                1600029,
+                1600029,
+                0,
+                0,
+                0
+            ],
+            "index": 66
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "減算　2セット目"
+            ],
+            "index": 67
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600029,
+                1600080,
+                2,
+                0
+            ],
+            "index": 68
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                560,
+                1600029,
+                0,
+                9000116,
+                9000117,
+                1,
+                35,
+                0,
+                0,
+                100,
+                0
+            ],
+            "index": 69
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "加算　2セット目"
+            ],
+            "index": 70
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600029,
+                1600080,
+                3,
+                0
+            ],
+            "index": 71
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                304,
+                1600029,
+                0,
+                9000116,
+                9000117,
+                1,
+                35,
+                0,
+                0,
+                100,
+                0
+            ],
+            "index": 72
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                ""
+            ],
+            "intArgs": [
+                19,
+                0,
+                1600029,
+                1600029,
+                0,
+                0,
+                0
+            ],
+            "index": 73
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 74
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "アニメカウンタを足す"
+            ],
+            "index": 75
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600091,
+                1,
+                0,
+                256
+            ],
+            "index": 76
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600091,
+                180,
+                0,
+                1280
+            ],
+            "index": 77
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 78
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "マスクの拡大量\r\rをアニメから算出"
+            ],
+            "index": 79
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600090,
+                1600091,
+                5,
+                12288
+            ],
+            "index": 80
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600090,
+                18,
+                0,
+                512
+            ],
+            "index": 81
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600090,
+                1600090,
+                0,
+                2048
+            ],
+            "index": 82
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 83
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "マスクを全面「非表示」に塗ったあと、光の部分だけ「表示」させる\r\r"
+            ],
+            "index": 84
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                ""
+            ],
+            "intArgs": [
+                67,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 85
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "キャラを全て表示しない\r\r"
+            ],
+            "index": 86
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600001,
+                1,
+                2,
+                1600001,
+                0,
+                2
+            ],
+            "index": 87
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 88
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "見える場合はキャラにマスク付けない\r\r"
+            ],
+            "index": 89
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                ""
+            ],
+            "intArgs": [
+                131,
+                0,
+                0,
+                9999,
+                0,
+                0,
+                0
+            ],
+            "index": 90
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 92
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "光の外のキャラにマスク付ける\r\r"
+            ],
+            "index": 93
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600016,
+                12288,
+                26
+            ],
+            "index": 94
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600014,
+                0,
+                0,
+                0
+            ],
+            "index": 95
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                1600016
+            ],
+            "index": 96
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "<<GET_MAPEVENT_NAME_FROM_ID>>\\cself[14]"
+            ],
+            "intArgs": [
+                1600005,
+                1280,
+                0,
+                1
+            ],
+            "index": 97
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "<MASK>",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1,
+                538470917
+            ],
+            "index": 98
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 99
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                ""
+            ],
+            "intArgs": [
+                115,
+                0,
+                1600014,
+                1600014,
+                0,
+                0,
+                0
+            ],
+            "index": 100
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600014,
+                1,
+                0,
+                256
+            ],
+            "index": 103
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "処理対象は主人公(-2)とマップイベント。マップイベント番号が抜けてる場合は知らない！"
+            ],
+            "index": 108
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600014,
+                4294967294,
+                4294967295,
+                0
+            ],
+            "index": 109
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600016,
+                12288,
+                26
+            ],
+            "index": 110
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600016,
+                1,
+                0,
+                256
+            ],
+            "index": 111
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                1600016
+            ],
+            "index": 112
+        },
+        {
+            "code": 212,
+            "codeStr": "SetLabel",
+            "stringArgs": [
+                "Evループ処理開始"
+            ],
+            "index": 113
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600014,
+                1,
+                0,
+                256
+            ],
+            "index": 114
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600015,
+                4096,
+                1600014,
+                10
+            ],
+            "index": 115
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600015,
+                4294967295,
+                2
+            ],
+            "index": 116
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 117
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "もしイベントが存在しない（-1）ならループ回数を減らさず最初へ戻る\r\r"
+            ],
+            "index": 118
+        },
+        {
+            "code": 213,
+            "codeStr": "JumpLabel",
+            "stringArgs": [
+                "Evループ処理開始"
+            ],
+            "index": 119
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "各イベントの名前を取得し、「<LIGHT>」を含む場合だけ明るくする\r\r"
+            ],
+            "index": 122
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "<<GET_MAPEVENT_NAME_FROM_ID>>\\cself[14]"
+            ],
+            "intArgs": [
+                1600005,
+                1280,
+                0,
+                1
+            ],
+            "index": 123
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                18,
+                1600014,
+                4294967294,
+                2,
+                1600014,
+                4294967295,
+                2
+            ],
+            "index": 124
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 125
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "主人公（-2）ならライト追加\r\r(名前に<LIGHT>が含まれているという扱いにする）"
+            ],
+            "index": 126
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "<LIGHT><2>"
+            ],
+            "intArgs": [
+                1600005,
+                0,
+                0
+            ],
+            "index": 127
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 129
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 132
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600032,
+                1000009,
+                0,
+                4
+            ],
+            "index": 133
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600032,
+                1600014,
+                10,
+                8448
+            ],
+            "index": 134
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600033,
+                1600032,
+                0,
+                32
+            ],
+            "index": 135
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600033,
+                0,
+                2
+            ],
+            "index": 136
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 137
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "<LIGHT>",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1,
+                538470917
+            ],
+            "index": 143
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 144
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                0,
+                0,
+                0
+            ],
+            "index": 145
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ここで8方向に少しずつずらしてマスク表示範囲を書き込みし、マスク範囲を拡張させます\r\r"
+            ],
+            "index": 146
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                8
+            ],
+            "index": 147
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "45度ずつの各角度に拡張\r\rしてマスク描画可能範囲を配置"
+            ],
+            "index": 148
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600010,
+                4096,
+                1600014,
+                6
+            ],
+            "index": 149
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600011,
+                4096,
+                1600014,
+                7
+            ],
+            "index": 150
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "<2>",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                17,
+                538470917
+            ],
+            "index": 151
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 152
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                32,
+                0,
+                512
+            ],
+            "index": 153
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 155
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                16,
+                0,
+                512
+            ],
+            "index": 156
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600022,
+                1600012,
+                0,
+                2816
+            ],
+            "index": 159
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600023,
+                1600012,
+                0,
+                2560
+            ],
+            "index": 160
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                1600022,
+                1600090,
+                8192
+            ],
+            "index": 161
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600021,
+                1600023,
+                1600090,
+                8192
+            ],
+            "index": 162
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1600020,
+                1000,
+                12544
+            ],
+            "index": 163
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                1600021,
+                1000,
+                12544
+            ],
+            "index": 164
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600014,
+                4294967294,
+                2
+            ],
+            "index": 165
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 166
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                "\\cself[8]"
+            ],
+            "intArgs": [
+                83,
+                0,
+                0,
+                0,
+                1600010,
+                1600011,
+                1
+            ],
+            "index": 167
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 169
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "stringArgs": [
+                "\\cself[9]"
+            ],
+            "intArgs": [
+                83,
+                0,
+                0,
+                0,
+                1600010,
+                1600011,
+                1
+            ],
+            "index": 170
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                450,
+                0,
+                256
+            ],
+            "index": 173
+        }
+    ]
+}

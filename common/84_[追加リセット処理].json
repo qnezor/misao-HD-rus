@@ -1,0 +1,36 @@
+{
+    "id": 84,
+    "name": "[追加リセット処理]",
+    "description": "",
+    "commands": [
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600010,
+                4352,
+                164
+            ],
+            "index": 0
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600010,
+                0,
+                5
+            ],
+            "index": 1
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 2
+        }
+    ]
+}

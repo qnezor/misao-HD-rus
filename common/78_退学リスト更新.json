@@ -1,0 +1,153 @@
+{
+    "id": 78,
+    "name": "退学リスト更新",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                0,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/System.sav"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                2900000,
+                0,
+                4
+            ],
+            "index": 3
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1600000,
+                0,
+                256
+            ],
+            "index": 4
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600011,
+                1600005,
+                1600010,
+                1
+            ],
+            "index": 5
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600011,
+                0,
+                2
+            ],
+            "index": 7
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 8
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600001,
+                1600005,
+                2000035,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                1,
+                1600005,
+                1600010,
+                1
+            ],
+            "index": 10
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600001,
+                1,
+                0,
+                256
+            ],
+            "index": 11
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                1600001,
+                1600005,
+                2000035,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                16
+            ],
+            "index": 13
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "id": 63,
+    "name": "メモ",
+    "description": "",
+    "commands": [
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "キャラが震える"
+            ],
+            "index": 0
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                17,
+                2,
+                2,
+                0,
+                1,
+                0,
+                5
+            ],
+            "index": 1
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "暗い画面"
+            ],
+            "index": 2
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                560,
+                4000,
+                0,
+                640,
+                480,
+                1,
+                50,
+                0,
+                0,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                90,
+                50,
+                10
+            ],
+            "index": 3
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "闇"
+            ],
+            "index": 4
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                48,
+                5000,
+                0,
+                640,
+                480,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "光"
+            ],
+            "index": 6
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                48,
+                5000,
+                0,
+                640,
+                480,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                200,
+                200,
+                200
+            ],
+            "index": 7
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "変数"
+            ],
+            "index": 8
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "回想1～10　＝早乙女の記憶"
+            ],
+            "index": 9
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "回想11～12＝吉野の記憶"
+            ],
+            "index": 10
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "回想21～＝工藤の記憶"
+            ],
+            "index": 11
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "回想31～＝倉田の記憶"
+            ],
+            "index": 12
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "回想41～＝倉田真ED"
+            ],
+            "index": 13
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "壊れた携帯電話＝ロッカー"
+            ],
+            "index": 15
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "汚れたブレザー＝研究室"
+            ],
+            "index": 16
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "血まみれの制服＝研究室"
+            ],
+            "index": 17
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "泥まみれの靴＝工藤"
+            ],
+            "index": 18
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "泥まみれの革靴＝洞窟"
+            ],
+            "index": 19
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "切り裂かれたリボンタイ＝屋上"
+            ],
+            "index": 20
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "謎の包み＝倉田からもらう"
+            ],
+            "index": 21
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 22
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "91000=メニュー画面　91000=アイテム画面"
+            ],
+            "index": 23
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "3000=画面エフェクト"
+            ],
+            "index": 24
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "4000=画面エフェクト"
+            ],
+            "index": 25
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "21000=感情バルーン"
+            ],
+            "index": 26
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "30000=緋色の眼"
+            ],
+            "index": 27
+        }
+    ]
+}

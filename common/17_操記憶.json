@@ -1,0 +1,50 @@
+{
+    "id": 17,
+    "name": "操記憶",
+    "description": "",
+    "commands": [
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967294,
+                1,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                "@1\nЭто были воспоминания Мисао?"
+            ],
+            "index": 1
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 2
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000024,
+                1,
+                0,
+                0
+            ],
+            "index": 3
+        }
+    ]
+}

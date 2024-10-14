@@ -1,0 +1,465 @@
+{
+    "id": 37,
+    "name": "クイックセーブ",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                11000,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                320,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                100,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                1600010,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900009,
+                0,
+                2,
+                2900009,
+                1,
+                2
+            ],
+            "index": 4
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 5
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "実績：初めてのクイックセーブ"
+            ],
+            "index": 6
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                1
+            ],
+            "index": 7
+        },
+        {
+            "code": 10001,
+            "codeStr": "Command",
+            "stringArgs": [
+                "0"
+            ],
+            "intArgs": [
+                19
+            ],
+            "index": 8
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                5920,
+                0,
+                0,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<GRADX-999-000>"
+            ],
+            "intArgs": [
+                4912,
+                1600010,
+                20,
+                200,
+                40,
+                1,
+                230,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 10
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                16384,
+                1600010,
+                2
+            ],
+            "index": 11
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                1600021,
+                0,
+                256
+            ],
+            "index": 12
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 13
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<GRADX-000-999>"
+            ],
+            "intArgs": [
+                4912,
+                1600010,
+                20,
+                200,
+                40,
+                1,
+                230,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                21040897,
+                1600010,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                4294967196,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                0,
+                1600020
+            ],
+            "index": 15
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 16
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Игра сохранена."
+            ],
+            "intArgs": [
+                4128,
+                1600010,
+                20,
+                1,
+                1,
+                1,
+                255,
+                320,
+                100,
+                100,
+                0
+            ],
+            "index": 17
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                1600010,
+                20,
+                50,
+                0,
+                1600020
+            ],
+            "index": 18
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/quicksave.sav"
+            ],
+            "intArgs": [
+                3000006,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 20
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200010,
+                1,
+                0,
+                256
+            ],
+            "index": 21
+        },
+        {
+            "code": 220,
+            "codeStr": "SaveLoad",
+            "intArgs": [
+                0,
+                3000006
+            ],
+            "index": 22
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                1,
+                3000006,
+                2900028,
+                0
+            ],
+            "index": 23
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 25
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                6944,
+                0,
+                0,
+                0
+            ],
+            "index": 26
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<GRADX-999-000>"
+            ],
+            "intArgs": [
+                4912,
+                1600010,
+                20,
+                200,
+                40,
+                1,
+                230,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 27
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                16384,
+                1600010,
+                2
+            ],
+            "index": 28
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                1600021,
+                0,
+                256
+            ],
+            "index": 29
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 30
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<GRADX-000-999>"
+            ],
+            "intArgs": [
+                4912,
+                1600010,
+                20,
+                200,
+                40,
+                1,
+                230,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 31
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                21040897,
+                1600010,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                4294967196,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                0,
+                1600020
+            ],
+            "index": 32
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 33
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Нельзя сохраниться."
+            ],
+            "intArgs": [
+                4128,
+                1600010,
+                20,
+                1,
+                1,
+                1,
+                255,
+                320,
+                100,
+                100,
+                0
+            ],
+            "index": 34
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                1600010,
+                20,
+                50,
+                0,
+                1600020
+            ],
+            "index": 35
+        }
+    ]
+}

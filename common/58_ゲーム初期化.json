@@ -1,0 +1,803 @@
+{
+    "id": 58,
+    "name": "ゲーム初期化",
+    "description": "",
+    "commands": [
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 0
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 1
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                4144,
+                50000,
+                0,
+                700,
+                500,
+                1,
+                255,
+                320,
+                240,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000008,
+                15,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900002,
+                1,
+                9000084,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000017,
+                20,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000019,
+                21,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000018,
+                22,
+                0,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000074,
+                1,
+                0,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000037,
+                2,
+                0,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000009,
+                200,
+                0,
+                0
+            ],
+            "index": 10
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900008,
+                1,
+                0,
+                512
+            ],
+            "index": 11
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Noto Serif CJK JP Black"
+            ],
+            "intArgs": [
+                9900067,
+                0,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 270,
+            "codeStr": "Party",
+            "intArgs": [
+                4
+            ],
+            "index": 13
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Аки"
+            ],
+            "intArgs": [
+                3000001,
+                0
+            ],
+            "index": 14
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Библиотека"
+            ],
+            "intArgs": [
+                3000002,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/System.sav"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 16
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "顔グラフィック"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                0,
+                0,
+                0
+            ],
+            "index": 17
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                2000036,
+                1600005,
+                2000036,
+                0
+            ],
+            "index": 18
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                2900018,
+                1600005,
+                2900017,
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                2900020,
+                1600005,
+                2900020,
+                0
+            ],
+            "index": 20
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                2900021,
+                1600005,
+                2900021,
+                0
+            ],
+            "index": 21
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                2000035,
+                1600005,
+                2000035,
+                0
+            ],
+            "index": 22
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "1.04追加点 ここから"
+            ],
+            "index": 23
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/opption.sav"
+            ],
+            "intArgs": [
+                3000008,
+                0
+            ],
+            "index": 24
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/quicksave.sav"
+            ],
+            "intArgs": [
+                3000006,
+                0,
+                0
+            ],
+            "index": 25
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600020,
+                3000008,
+                9000024,
+                0
+            ],
+            "index": 26
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600020,
+                0,
+                2,
+                1600020,
+                1,
+                2
+            ],
+            "index": 27
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 28
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000100,
+                80,
+                0,
+                0
+            ],
+            "index": 29
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000101,
+                80,
+                0,
+                0
+            ],
+            "index": 30
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000102,
+                100,
+                0,
+                0
+            ],
+            "index": 31
+        },
+        {
+            "code": 220,
+            "codeStr": "SaveLoad",
+            "intArgs": [
+                0,
+                3000008
+            ],
+            "index": 32
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 34
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600040,
+                3000008,
+                9000100,
+                0
+            ],
+            "index": 35
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600041,
+                3000008,
+                9000101,
+                0
+            ],
+            "index": 36
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600042,
+                3000008,
+                9000102,
+                0
+            ],
+            "index": 37
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000100,
+                1600040,
+                0,
+                0
+            ],
+            "index": 38
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000101,
+                1600041,
+                0,
+                0
+            ],
+            "index": 39
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000102,
+                1600042,
+                0,
+                0
+            ],
+            "index": 40
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "可変スイッチ"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                5,
+                0,
+                0
+            ],
+            "index": 41
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "可変スイッチ"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                5,
+                0,
+                1
+            ],
+            "index": 42
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "可変スイッチ"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                5,
+                0,
+                2
+            ],
+            "index": 43
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000055,
+                1105000000,
+                300,
+                0
+            ],
+            "index": 44
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000056,
+                1105000001,
+                300,
+                0
+            ],
+            "index": 45
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000057,
+                1105000002,
+                300,
+                0
+            ],
+            "index": 46
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "アプデ追加点"
+            ],
+            "index": 49
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200008,
+                1,
+                0,
+                0
+            ],
+            "index": 50
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "メニュー(歩行処理)"
+            ],
+            "intArgs": [
+                0,
+                1,
+                1
+            ],
+            "index": 51
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "テストプレイ用"
+            ],
+            "index": 52
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900031,
+                0,
+                0,
+                0
+            ],
+            "index": 53
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                2900031,
+                1,
+                2
+            ],
+            "index": 54
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 55
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                50000,
+                0,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216
+            ],
+            "index": 56
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200002,
+                1,
+                0,
+                0
+            ],
+            "index": 57
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000014,
+                1,
+                0,
+                0
+            ],
+            "index": 58
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200003,
+                1,
+                0,
+                0
+            ],
+            "index": 59
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200000,
+                1,
+                0,
+                0
+            ],
+            "index": 60
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000035,
+                40,
+                0,
+                0
+            ],
+            "index": 61
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900018,
+                2,
+                0,
+                0
+            ],
+            "index": 62
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900015,
+                0,
+                0,
+                0
+            ],
+            "index": 63
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900020,
+                1,
+                0,
+                0
+            ],
+            "index": 64
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 65
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000100,
+                40,
+                0,
+                0
+            ],
+            "index": 66
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2900015,
+                0,
+                2,
+                2900015,
+                1,
+                2
+            ],
+            "index": 67
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 68
+        },
+        {
+            "code": 270,
+            "codeStr": "Party",
+            "stringArgs": [
+                "CharaChip/chara_aki_f.png"
+            ],
+            "intArgs": [
+                1,
+                1
+            ],
+            "index": 69
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 71
+        },
+        {
+            "code": 270,
+            "codeStr": "Party",
+            "stringArgs": [
+                "CharaChip/chara_aki_m.png"
+            ],
+            "intArgs": [
+                1,
+                1
+            ],
+            "index": 72
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900000,
+                1,
+                0,
+                0
+            ],
+            "index": 77
+        }
+    ]
+}

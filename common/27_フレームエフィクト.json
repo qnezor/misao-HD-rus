@@ -1,0 +1,209 @@
+{
+    "id": 27,
+    "name": "フレームエフィクト",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                5700,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                18,
+                1600000,
+                4294967295,
+                2,
+                1600000,
+                4294967294,
+                2
+            ],
+            "index": 1
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 2
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 5
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263697,
+                1600010,
+                1600001,
+                0,
+                0,
+                4293967296,
+                1600002,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216
+            ],
+            "index": 6
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                7,
+                1600000,
+                0,
+                4608,
+                1600005
+            ],
+            "index": 9
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                7,
+                1600000,
+                1,
+                4608,
+                1600011
+            ],
+            "index": 10
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                7,
+                1600000,
+                2,
+                4608,
+                1600012
+            ],
+            "index": 11
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                7,
+                1600000,
+                3,
+                4608,
+                1600013
+            ],
+            "index": 12
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                7,
+                1600000,
+                4,
+                4608,
+                1600014
+            ],
+            "index": 13
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16,
+                1600010,
+                1600001,
+                1600011,
+                1600012,
+                1,
+                1600002,
+                0,
+                0,
+                100,
+                0,
+                1600005
+            ],
+            "index": 14
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                144,
+                1600014,
+                1600010,
+                1600010,
+                1,
+                1600013,
+                0
+            ],
+            "index": 15
+        }
+    ]
+}

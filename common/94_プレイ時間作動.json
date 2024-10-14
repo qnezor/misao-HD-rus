@@ -1,0 +1,37 @@
+{
+    "id": 94,
+    "name": "プレイ時間作動",
+    "description": "",
+    "commands": [
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                60
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200005,
+                1,
+                0,
+                256
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2200005,
+                359999,
+                0,
+                1792
+            ],
+            "index": 2
+        }
+    ]
+}

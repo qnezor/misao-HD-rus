@@ -1,0 +1,133 @@
+{
+    "id": 99,
+    "name": "┣ピクチャエフェクトALLリセット",
+    "description": "",
+    "commands": [
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                0,
+                0,
+                1600000,
+                1600001,
+                0,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                16,
+                0,
+                1600000,
+                1600001,
+                0,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                32,
+                0,
+                1600000,
+                1600001,
+                0,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                48,
+                0,
+                1600000,
+                1600001,
+                0,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                80,
+                0,
+                1600000,
+                1600001,
+                0,
+                0,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                96,
+                0,
+                1600000,
+                1600001,
+                0,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                112,
+                0,
+                1600000,
+                1600001,
+                0,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                144,
+                0,
+                1600000,
+                1600001,
+                0,
+                0,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                160,
+                0,
+                1600000,
+                1600001,
+                0,
+                0,
+                0
+            ],
+            "index": 8
+        }
+    ]
+}
