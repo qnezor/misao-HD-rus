@@ -650,7 +650,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]Дистрибуция\n\\c[0]PLAYISM"
+                "<C>\\c[3]Издатель\n\\c[0]PLAYISM"
             ],
             "intArgs": [
                 4128,
@@ -705,7 +705,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]Представлено\n\\c[0]Hitodenashi no kuukan"
+                "<C>\\c[3]Presented by\n\\c[0]Hitodenashi no kuukan"
             ],
             "intArgs": [
                 4128,
