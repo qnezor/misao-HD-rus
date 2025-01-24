@@ -1218,7 +1218,7 @@
                             "code": 300,
                             "codeStr": "CommonEventByName",
                             "stringArgs": [
-                                   "選択肢",
+                                "選択肢",
                                 "Принести Тому в жертву?",
                                 "Да",
                                 "Нет",
