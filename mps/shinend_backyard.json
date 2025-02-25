@@ -628,7 +628,7 @@
                             "code": 101,
                             "codeStr": "Message",
                             "stringArgs": [
-                                "Иллюзия...?"
+                                "Иллюзия?.."
                             ],
                             "index": 42
                         },
@@ -2582,7 +2582,7 @@
                             "code": 101,
                             "codeStr": "Message",
                             "stringArgs": [
-                                "Ч-Что...?"
+                                "Ч-Что?.."
                             ],
                             "index": 39
                         },

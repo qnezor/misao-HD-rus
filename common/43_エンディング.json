@@ -219,7 +219,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]Движок\n\\c[0]WOLF RPG Editor"
+                "<C>\\c[3]Creation Tool\n\\c[0]WOLF RPG Editor"
             ],
             "intArgs": [
                 4128,
@@ -266,7 +266,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]Графика карт/Графика персонажей\n\\c[0]Nekura Fantasy Map Chips\nDot E Sekai"
+                "<C>\\c[3]Map Graphics/Character Graphics\n\\c[0]Nekura Fantasy Map Chips\nDot E Sekai"
             ],
             "intArgs": [
                 4128,
@@ -313,7 +313,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]Графика персонажей/Иконки\n\\c[0]Nekura pochi Character Chips\nPipoya\nICOOON MONO"
+                "<C>\\c[3]Character Graphics/Icons\n\\c[0]Nekura pochi Character Chips\nPipoya\nICOOON MONO"
             ],
             "intArgs": [
                 4128,
@@ -360,7 +360,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]Музыка\n\\c[0]Free Music H/MIX GALLERY\nRengoku Teien\nVita-chi Sozaikan"
+                "<C>\\c[3]Music\n\\c[0]Free Music H/MIX GALLERY\nRengoku Teien\nVita-chi Sozaikan"
             ],
             "intArgs": [
                 4128,
@@ -407,7 +407,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]Звуковые эффекты\n\\c[0]Vita-chi Sozaikan\nThe Matchmakers\nMaou Damashii\nFree Sound Effects On-Jin\nSound Effect Lab"
+                "<C>\\c[3]Sound Effects\n\\c[0]Vita-chi Sozaikan\nThe Matchmakers\nMaou Damashii\nFree Sound Effects On-Jin\nSound Effect Lab"
             ],
             "intArgs": [
                 4128,
@@ -454,7 +454,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]Задние фоны/Эффекты\n\\c[0]Pipoya"
+                "<C>\\c[3]Backgrounds/Effects\n\\c[0]Pipoya"
             ],
             "intArgs": [
                 4128,
@@ -501,7 +501,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]События\n\\c[0]Foolish Kingdom"
+                "<C>\\c[3]Common Events\n\\c[0]Foolish Kingdom"
             ],
             "intArgs": [
                 4128,
@@ -548,7 +548,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]Шрифт\n\\c[0]Source Han Serif\nfub Koubou (Minamoji)"
+                "<C>\\c[3]Fonts\n\\c[0]Source Han Serif\nfub Koubou (Minamoji)"
             ],
             "intArgs": [
                 4128,
@@ -603,7 +603,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]Английская локализация\n\\c[0]vgperson\n\n\\c[3]Китайская локализация\n\\c[0]Zheng Zhang（PLAYISM）\n\n\\c[3]Русская локализация\n\\c[0]qnezor\nMetadodic"
+                "<C>\\c[3]English Localization\n\\c[0]vgperson\n\n\\c[3]Chinese Localization\n\\c[0]Zheng Zhang（PLAYISM）\n\n\\c[3]Русская локализация\n\\c[0]qnezor\nMetadodic"
             ],
             "intArgs": [
                 4128,
@@ -650,7 +650,7 @@
             "code": 150,
             "codeStr": "Picture",
             "stringArgs": [
-                "<C>\\c[3]Издатель\n\\c[0]PLAYISM"
+                "<C>\\c[3]Distribution\n\\c[0]PLAYISM"
             ],
             "intArgs": [
                 4128,

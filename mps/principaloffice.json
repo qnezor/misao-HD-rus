@@ -491,7 +491,7 @@
                             "code": 101,
                             "codeStr": "Message",
                             "stringArgs": [
-                                "Ай...!"
+                                "Ай!.."
                             ],
                             "index": 42
                         },
@@ -693,7 +693,7 @@
                             "code": 101,
                             "codeStr": "Message",
                             "stringArgs": [
-                                "@1\nО-ох...!"
+                                "@1\nО-ох!.."
                             ],
                             "index": 62
                         },
