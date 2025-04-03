@@ -1,5 +1,5 @@
 # misao-HD-rus
-Руссификатор для Misao - 2024 HD Remaster
+Русификатор для Misao - 2024 HD Remaster
 
 * [Скачать](https://github.com/qnezor/misao-HD-rus/releases/latest/download/misao-HD-rus.zip)
 * [Руководство в Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3340458010)
